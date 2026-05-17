@@ -35,9 +35,15 @@ TOPIC_QUERIES = [
     "dashboard", "data-visualization", "open-data", "scraper",
     "llm", "rag", "ai-agents", "mcp", "vector-database",
     "academic-research", "bibliometrics",
+    "academic-writing", "scientific-writing", "research-writing",
+    "literature-review", "citation-management", "zotero", "latex",
+    "markdown", "qualitative-analysis", "qualitative-research",
+    "text-analysis", "coding", "qda", "discourse-analysis",
 ]
 
 CATEGORY_RULES: list[tuple[str, list[str]]] = [
+    ("Academic writing", ["academic writing", "scientific writing", "research writing", "citation", "zotero", "latex", "literature review", "paper writing", "manuscript", "markdown"]),
+    ("Qualitative analysis", ["qualitative", "qda", "text analysis", "discourse", "coding", "thematic analysis", "interview", "transcription", "annotation"]),
     ("AI agents", ["agent", "agents", "autonomous", "multi-agent", "mcp", "tool-use"]),
     ("LLM / GenAI", ["llm", "gpt", "rag", "embedding", "diffusion", "whisper", "transformer", "prompt"]),
     ("Geospatial", ["geo", "gis", "map", "maps", "satellite", "lidar", "drone", "terrain", "qgis", "leaflet", "deckgl"]),
@@ -46,6 +52,23 @@ CATEGORY_RULES: list[tuple[str, list[str]]] = [
     ("Security", ["security", "forensic", "pentest", "vulnerability", "malware", "audit"]),
     ("Dashboard / UI", ["dashboard", "visualiz", "viewer", "web ui", "interface", "frontend", "chart"]),
     ("Dev tools", ["cli", "editor", "developer", "code", "git", "terminal", "server"]),
+]
+
+SPANISH_PATTERNS: list[tuple[str, str]] = [
+    (r"\bopen[- ]source\b", "herramienta de código abierto"),
+    (r"\bdashboard\b", "panel de control"),
+    (r"\bvisualization\b|\bvisualisation\b", "visualización de datos"),
+    (r"\bdata\b", "datos"),
+    (r"\bscraper\b|\bcrawler\b", "recolección automatizada"),
+    (r"\bllm\b|\bgpt\b|\brag\b", "modelos de lenguaje e IA generativa"),
+    (r"\bagent\b|\bagents\b", "agentes de IA"),
+    (r"\bgeospatial\b|\bgis\b|\bmap\b|\bmaps\b", "información geoespacial y mapas"),
+    (r"\bacademic writing\b|\bscientific writing\b|\bresearch writing\b", "escritura académica"),
+    (r"\bliterature review\b", "revisión bibliográfica"),
+    (r"\bcitation\b|\bzotero\b|\bbibtex\b", "gestión de citas y bibliografía"),
+    (r"\bqualitative\b|\bqda\b|\bthematic analysis\b", "análisis cualitativo"),
+    (r"\btext analysis\b|\bdiscourse\b", "análisis de textos y discurso"),
+    (r"\btranscription\b|\binterview\b", "trabajo con entrevistas y transcripciones"),
 ]
 
 
@@ -94,6 +117,25 @@ def classify(row: dict[str, Any]) -> str:
     return "Other"
 
 
+def spanish_brief(row: dict[str, Any]) -> str:
+    text = " ".join([
+        str(row.get("repo", "")),
+        str(row.get("description", "")),
+        str(row.get("category", "")),
+        " ".join(row.get("topics") or []),
+    ]).casefold()
+    hits: list[str] = []
+    for pattern, phrase in SPANISH_PATTERNS:
+        if re.search(pattern, text) and phrase not in hits:
+            hits.append(phrase)
+    if hits:
+        return "Recurso para " + ", ".join(hits[:3]) + "."
+    category = str(row.get("category") or "repositorios").lower()
+    if category == "other":
+        return "Repositorio potencialmente útil para explorar y clasificar."
+    return f"Repositorio vinculado a {category}."
+
+
 def github_repo(owner: str, repo: str, token: str) -> dict[str, Any]:
     if not owner or not repo:
         return {}
@@ -131,6 +173,7 @@ def row_from_github(gh: dict[str, Any], source: str, discovered_at: str = "", so
         "avatar_url": owner.get("avatar_url") or "",
     }
     row["category"] = classify(row)
+    row["descripcion_es"] = spanish_brief(row)
     row["score"] = int(row["stars"]) + int(row["forks"]) * 3
     return row
 
@@ -181,6 +224,7 @@ def fetch_magi(token: str, limit: int) -> list[dict[str, Any]]:
                 "score": 0,
             }
             row["category"] = classify(row)
+            row["descripcion_es"] = spanish_brief(row)
         rows.append(row)
     return rows
 
@@ -269,6 +313,7 @@ def fetch_hf_spaces(limit: int) -> list[dict[str, Any]]:
             "score": likes,
         }
         row["category"] = classify(row)
+        row["descripcion_es"] = spanish_brief(row)
         rows.append(row)
     return rows
 
@@ -290,6 +335,7 @@ def fetch_paperswithcode(limit: int) -> list[dict[str, Any]]:
             "owner": owner,
             "name": repo,
             "description": item.get("description") or item.get("name") or "",
+            "descripcion_es": "",
             "category": "Research",
             "language": "",
             "stars": int(item.get("stars") or 0),
@@ -306,6 +352,7 @@ def fetch_paperswithcode(limit: int) -> list[dict[str, Any]]:
             "avatar_url": "",
             "score": int(item.get("stars") or 0),
         }
+        row["descripcion_es"] = spanish_brief(row)
         rows.append(row)
     return rows
 
@@ -333,6 +380,7 @@ def merge_rows(groups: list[list[dict[str, Any]]]) -> list[dict[str, Any]]:
             current["topics"] = topics[:16]
             current["source"] = " + ".join(current["sources"])
             current["category"] = classify(current)
+            current["descripcion_es"] = spanish_brief(current)
     rows = list(merged.values())
     rows.sort(key=lambda r: (int(r.get("score") or 0), str(r.get("updated_at") or r.get("discovered_at") or "")), reverse=True)
     return rows
@@ -351,6 +399,7 @@ def write_outputs(rows: list[dict[str, Any]], source_counts: dict[str, int], err
     MAGI_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     fields = [
         "repo", "source", "description", "category", "language", "stars", "forks",
+        "descripcion_es",
         "open_issues", "license", "topics", "created_at", "updated_at", "pushed_at",
         "discovered_at", "source_url", "github_url", "score",
     ]

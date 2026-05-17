@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T22:28:57.462143+00:00",
-  "count": 177,
+  "generated_at": "2026-05-17T22:42:43.520444+00:00",
+  "count": 157,
   "source_counts": {
     "MAGI//ARCHIVE": 80,
-    "GitHub topics": 50,
+    "GitHub topics": 40,
     "GitHub Trending": 0,
-    "Hugging Face Spaces": 50,
+    "Hugging Face Spaces": 40,
     "Papers with Code": 0
   },
   "source_errors": {
@@ -13,75 +13,359 @@
   },
   "rows": [
     {
-      "id": "github:koala73/worldmonitor",
-      "source": "GitHub topic:dashboard",
-      "repo": "koala73/worldmonitor",
-      "owner": "koala73",
-      "name": "worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "category": "Geospatial",
+      "id": "github:immich-app/immich",
+      "source": "MAGI//ARCHIVE",
+      "repo": "immich-app/immich",
+      "owner": "immich-app",
+      "name": "immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "category": "Other",
       "language": "TypeScript",
-      "stars": 54339,
-      "forks": 8742,
-      "open_issues": 218,
-      "license": "NOASSERTION",
+      "stars": 100872,
+      "forks": 5631,
+      "open_issues": 662,
+      "license": "AGPL-3.0",
       "topics": [
-        "ai",
-        "dashboard",
-        "geopolitics",
-        "monitoring",
-        "news",
-        "opensource",
-        "osint",
-        "palantir",
-        "situation"
+        "backup-tool",
+        "flutter",
+        "google-photos",
+        "google-photos-alternative",
+        "javascript",
+        "mobile-app",
+        "nestjs",
+        "nodejs",
+        "photo-gallery",
+        "photos",
+        "photos-management",
+        "self-hosted",
+        "svelte",
+        "sveltekit",
+        "typescript",
+        "videos"
       ],
-      "created_at": "2026-01-08T17:26:06Z",
-      "updated_at": "2026-05-17T21:45:02Z",
-      "pushed_at": "2026-05-17T21:59:26Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/dashboard",
-      "github_url": "https://github.com/koala73/worldmonitor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/996596?v=4",
-      "score": 80565,
+      "created_at": "2022-02-03T15:56:27Z",
+      "updated_at": "2026-05-17T22:29:35Z",
+      "pushed_at": "2026-05-17T19:11:42Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/immich-app-immich.html",
+      "github_url": "https://github.com/immich-app/immich",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109746326?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 117765,
       "sources": [
-        "GitHub topic:dashboard"
+        "MAGI//ARCHIVE"
       ]
     },
     {
-      "id": "github:matplotlib/matplotlib",
-      "source": "GitHub topic:data-visualization",
-      "repo": "matplotlib/matplotlib",
-      "owner": "matplotlib",
-      "name": "matplotlib",
-      "description": "matplotlib: plotting with Python",
-      "category": "Data / ETL",
-      "language": "Python",
-      "stars": 22811,
-      "forks": 8341,
-      "open_issues": 1477,
+      "id": "github:dayanch96/YTLite",
+      "source": "MAGI//ARCHIVE",
+      "repo": "dayanch96/YTLite",
+      "owner": "dayanch96",
+      "name": "YTLite",
+      "description": "A flexible enhancer for YouTube on iOS",
+      "category": "Other",
+      "language": "Logos",
+      "stars": 5047,
+      "forks": 20735,
+      "open_issues": 36,
       "license": "",
       "topics": [
-        "data-science",
-        "data-visualization",
-        "gtk",
-        "matplotlib",
-        "plotting",
-        "python",
-        "qt",
-        "tk",
-        "wx"
+        "downloader",
+        "ios",
+        "jailbreak",
+        "sponsorblock",
+        "tweak",
+        "youtube"
       ],
-      "created_at": "2011-02-19T03:17:12Z",
-      "updated_at": "2026-05-17T21:34:39Z",
-      "pushed_at": "2026-05-17T21:34:27Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/data-visualization",
-      "github_url": "https://github.com/matplotlib/matplotlib",
-      "avatar_url": "https://avatars.githubusercontent.com/u/215947?v=4",
-      "score": 47834,
+      "created_at": "2023-06-18T15:53:56Z",
+      "updated_at": "2026-05-17T22:39:41Z",
+      "pushed_at": "2026-05-17T22:39:25Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dayanch96-YTLite.html",
+      "github_url": "https://github.com/dayanch96/YTLite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38832025?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 67252,
       "sources": [
-        "GitHub topic:data-visualization"
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:docsifyjs/docsify",
+      "source": "MAGI//ARCHIVE",
+      "repo": "docsifyjs/docsify",
+      "owner": "docsifyjs",
+      "name": "docsify",
+      "description": "🃏 A magical documentation site generator.",
+      "category": "Academic writing",
+      "language": "JavaScript",
+      "stars": 31208,
+      "forks": 5818,
+      "open_issues": 103,
+      "license": "MIT",
+      "topics": [
+        "doc",
+        "docs",
+        "docsify",
+        "documentation",
+        "documentation-tool",
+        "github-pages",
+        "markdown",
+        "vue"
+      ],
+      "created_at": "2016-11-20T07:55:43Z",
+      "updated_at": "2026-05-17T17:00:19Z",
+      "pushed_at": "2026-05-15T08:21:50Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/docsifyjs-docsify.html",
+      "github_url": "https://github.com/docsifyjs/docsify",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40133106?v=4",
+      "descripcion_es": "Recurso para escritura académica.",
+      "score": 48662,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:google-ai-edge/gallery",
+      "source": "MAGI//ARCHIVE",
+      "repo": "google-ai-edge/gallery",
+      "owner": "google-ai-edge",
+      "name": "gallery",
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "category": "Other",
+      "language": "Kotlin",
+      "stars": 23052,
+      "forks": 2340,
+      "open_issues": 327,
+      "license": "Apache-2.0",
+      "topics": [],
+      "created_at": "2025-03-31T17:47:28Z",
+      "updated_at": "2026-05-17T22:37:51Z",
+      "pushed_at": "2026-05-16T05:33:46Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/google-ai-edge-gallery.html",
+      "github_url": "https://github.com/google-ai-edge/gallery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150697620?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 30072,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:creativetimofficial/ui",
+      "source": "MAGI//ARCHIVE",
+      "repo": "creativetimofficial/ui",
+      "owner": "creativetimofficial",
+      "name": "ui",
+      "description": "Open-source components, blocks, and AI agents designed to speed up your workflow. Import them seamlessly into your favorite tools through Registry and MCPs.",
+      "category": "AI agents",
+      "language": "TypeScript",
+      "stars": 11883,
+      "forks": 4846,
+      "open_issues": 18,
+      "license": "MIT",
+      "topics": [
+        "admin",
+        "blocks",
+        "creative-tim",
+        "creative-tim-blocks",
+        "creative-tim-ui",
+        "eleven-labs",
+        "shadcn",
+        "shadcn-ui",
+        "ui-blocks",
+        "vercel-deployment"
+      ],
+      "created_at": "2016-09-19T15:36:24Z",
+      "updated_at": "2026-05-17T20:15:36Z",
+      "pushed_at": "2026-03-14T20:41:18Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/creativetimofficial-material-dashboard.html",
+      "github_url": "https://github.com/creativetimofficial/ui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20172349?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, agentes de IA.",
+      "score": 26421,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:livekit/livekit",
+      "source": "MAGI//ARCHIVE",
+      "repo": "livekit/livekit",
+      "owner": "livekit",
+      "name": "livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "category": "Dev tools",
+      "language": "Go",
+      "stars": 18734,
+      "forks": 1989,
+      "open_issues": 182,
+      "license": "Apache-2.0",
+      "topics": [
+        "golang",
+        "media-server",
+        "sfu",
+        "video",
+        "voice",
+        "voice-ai",
+        "webrtc"
+      ],
+      "created_at": "2020-09-30T06:49:46Z",
+      "updated_at": "2026-05-17T21:14:16Z",
+      "pushed_at": "2026-05-16T16:44:58Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/livekit-livekit.html",
+      "github_url": "https://github.com/livekit/livekit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69438833?v=4",
+      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "score": 24701,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:trinodb/trino",
+      "source": "MAGI//ARCHIVE",
+      "repo": "trinodb/trino",
+      "owner": "trinodb",
+      "name": "trino",
+      "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+      "category": "Data / ETL",
+      "language": "Java",
+      "stars": 12825,
+      "forks": 3607,
+      "open_issues": 2619,
+      "license": "Apache-2.0",
+      "topics": [
+        "analytics",
+        "big-data",
+        "data-science",
+        "database",
+        "databases",
+        "datalake",
+        "delta-lake",
+        "distributed-database",
+        "distributed-systems",
+        "hadoop",
+        "hive",
+        "iceberg",
+        "java",
+        "jdbc",
+        "presto",
+        "prestodb",
+        "query-engine",
+        "sql",
+        "trino"
+      ],
+      "created_at": "2019-01-19T06:38:14Z",
+      "updated_at": "2026-05-17T04:09:25Z",
+      "pushed_at": "2026-05-17T03:55:08Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/trinodb-trino.html",
+      "github_url": "https://github.com/trinodb/trino",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34147222?v=4",
+      "descripcion_es": "Recurso para datos.",
+      "score": 23646,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:rshipp/awesome-malware-analysis",
+      "source": "MAGI//ARCHIVE",
+      "repo": "rshipp/awesome-malware-analysis",
+      "owner": "rshipp",
+      "name": "awesome-malware-analysis",
+      "description": "Defund the Police.",
+      "category": "Research",
+      "language": "",
+      "stars": 13773,
+      "forks": 2668,
+      "open_issues": 25,
+      "license": "NOASSERTION",
+      "topics": [
+        "analysis-framework",
+        "automated-analysis",
+        "awesome",
+        "awesome-list",
+        "chinese",
+        "chinese-translation",
+        "domain-analysis",
+        "drop-ice",
+        "dynamic-analysis",
+        "list",
+        "malware-analysis",
+        "malware-collection",
+        "malware-research",
+        "malware-samples",
+        "network-traffic",
+        "static-analysis",
+        "threat-intelligence",
+        "threat-sharing",
+        "threatintel"
+      ],
+      "created_at": "2015-05-09T03:39:28Z",
+      "updated_at": "2026-05-17T19:47:25Z",
+      "pushed_at": "2024-06-07T05:09:47Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/rshipp-awesome-malware-analysis.html",
+      "github_url": "https://github.com/rshipp/awesome-malware-analysis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1382374?v=4",
+      "descripcion_es": "Repositorio vinculado a research.",
+      "score": 21777,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:memvid/memvid",
+      "source": "MAGI//ARCHIVE",
+      "repo": "memvid/memvid",
+      "owner": "memvid",
+      "name": "memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "category": "AI agents",
+      "language": "Rust",
+      "stars": 15523,
+      "forks": 1336,
+      "open_issues": 23,
+      "license": "Apache-2.0",
+      "topics": [
+        "ai",
+        "context",
+        "embedded",
+        "faiss",
+        "knowledge-base",
+        "knowledge-graph",
+        "llm",
+        "machine-learning",
+        "memory",
+        "memvid",
+        "mv2",
+        "nlp",
+        "offline-first",
+        "opencv",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "vector-database",
+        "video-processing"
+      ],
+      "created_at": "2025-05-27T16:01:08Z",
+      "updated_at": "2026-05-17T19:28:42Z",
+      "pushed_at": "2026-05-06T18:37:48Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/memvid-memvid.html",
+      "github_url": "https://github.com/memvid/memvid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/241489775?v=4",
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa, agentes de IA.",
+      "score": 19531,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -106,11 +390,12 @@
       ],
       "created_at": "2018-02-28T21:36:16Z",
       "updated_at": "2026-05-17T22:02:22Z",
-      "pushed_at": "2026-05-17T21:11:00Z",
+      "pushed_at": "2026-05-17T22:40:09Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/keplergl/kepler.gl",
       "avatar_url": "https://avatars.githubusercontent.com/u/49567843?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, visualización de datos, datos.",
       "score": 17644,
       "sources": [
         "GitHub topic:geospatial"
@@ -148,6 +433,7 @@
       "github_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
       "avatar_url": "",
       "score": 13981,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -177,6 +463,7 @@
       "github_url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
       "avatar_url": "",
       "score": 11084,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -206,49 +493,9 @@
       "github_url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
       "avatar_url": "",
       "score": 10076,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "github:Serial-Studio/Serial-Studio",
-      "source": "GitHub topic:dashboard",
-      "repo": "Serial-Studio/Serial-Studio",
-      "owner": "Serial-Studio",
-      "name": "Serial-Studio",
-      "description": "Open-source telemetry dashboard. Supports UART, BLE, MQTT, Modbus, CAN Bus and more. ",
-      "category": "Dashboard / UI",
-      "language": "C++",
-      "stars": 6897,
-      "forks": 1031,
-      "open_issues": 23,
-      "license": "NOASSERTION",
-      "topics": [
-        "arduino",
-        "canbus",
-        "csv",
-        "dashboard",
-        "embedded",
-        "esp32",
-        "ground-station",
-        "iot",
-        "microcontroller",
-        "modbus",
-        "network",
-        "qt",
-        "serial",
-        "serial-studio"
-      ],
-      "created_at": "2020-10-18T11:49:02Z",
-      "updated_at": "2026-05-17T22:04:10Z",
-      "pushed_at": "2026-05-17T22:04:04Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/dashboard",
-      "github_url": "https://github.com/Serial-Studio/Serial-Studio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73061634?v=4",
-      "score": 9990,
-      "sources": [
-        "GitHub topic:dashboard"
       ]
     },
     {
@@ -276,8 +523,76 @@
       "github_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
       "avatar_url": "",
       "score": 9452,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:souzatharsis/podcastfy",
+      "source": "MAGI//ARCHIVE",
+      "repo": "souzatharsis/podcastfy",
+      "owner": "souzatharsis",
+      "name": "podcastfy",
+      "description": "An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI",
+      "category": "Other",
+      "language": "Python",
+      "stars": 6295,
+      "forks": 731,
+      "open_issues": 111,
+      "license": "Apache-2.0",
+      "topics": [
+        "elevenlabs",
+        "gemini",
+        "genai",
+        "notebooklm",
+        "openai",
+        "podcast"
+      ],
+      "created_at": "2024-09-30T22:35:09Z",
+      "updated_at": "2026-05-17T12:56:25Z",
+      "pushed_at": "2026-05-04T14:49:10Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/souzatharsis-podcastfy.html",
+      "github_url": "https://github.com/souzatharsis/podcastfy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15125613?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto.",
+      "score": 8488,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:pomber/didact",
+      "source": "MAGI//ARCHIVE",
+      "repo": "pomber/didact",
+      "owner": "pomber",
+      "name": "didact",
+      "description": "A DIY guide to build your own React",
+      "category": "Other",
+      "language": "JavaScript",
+      "stars": 6747,
+      "forks": 547,
+      "open_issues": 29,
+      "license": "",
+      "topics": [
+        "diy-guide",
+        "javascript",
+        "jsx",
+        "react",
+        "react-internals"
+      ],
+      "created_at": "2017-04-11T17:22:23Z",
+      "updated_at": "2026-05-17T14:48:57Z",
+      "pushed_at": "2026-01-31T14:12:18Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/pomber-didact.html",
+      "github_url": "https://github.com/pomber/didact",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1911623?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 8388,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -306,11 +621,12 @@
       ],
       "created_at": "2016-05-05T13:25:43Z",
       "updated_at": "2026-05-17T16:47:40Z",
-      "pushed_at": "2026-05-17T22:12:07Z",
+      "pushed_at": "2026-05-17T22:38:35Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/gis",
       "github_url": "https://github.com/RediSearch/RediSearch",
       "avatar_url": "https://avatars.githubusercontent.com/u/46899501?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 7901,
       "sources": [
         "GitHub topic:gis"
@@ -342,8 +658,136 @@
       "github_url": "https://huggingface.co/spaces/mteb/leaderboard",
       "avatar_url": "",
       "score": 7382,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:cugu/awesome-forensics",
+      "source": "MAGI//ARCHIVE",
+      "repo": "cugu/awesome-forensics",
+      "owner": "cugu",
+      "name": "awesome-forensics",
+      "description": "⭐️ A curated list of awesome forensic analysis tools and resources",
+      "category": "Security",
+      "language": "",
+      "stars": 5054,
+      "forks": 742,
+      "open_issues": 6,
+      "license": "CC0-1.0",
+      "topics": [
+        "computer-forensics",
+        "dfir",
+        "digital-forensics",
+        "forensic-analysis",
+        "free",
+        "open-source"
+      ],
+      "created_at": "2016-03-29T20:54:47Z",
+      "updated_at": "2026-05-17T16:11:18Z",
+      "pushed_at": "2026-05-14T21:15:16Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/cugu-awesome-forensics.html",
+      "github_url": "https://github.com/cugu/awesome-forensics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/653777?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto.",
+      "score": 7280,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:contribsys/faktory",
+      "source": "MAGI//ARCHIVE",
+      "repo": "contribsys/faktory",
+      "owner": "contribsys",
+      "name": "faktory",
+      "description": "Language-agnostic persistent background job server",
+      "category": "Dev tools",
+      "language": "Go",
+      "stars": 6124,
+      "forks": 236,
+      "open_issues": 21,
+      "license": "NOASSERTION",
+      "topics": [],
+      "created_at": "2017-06-15T17:01:29Z",
+      "updated_at": "2026-05-17T15:19:24Z",
+      "pushed_at": "2026-05-11T22:22:27Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/contribsys-faktory.html",
+      "github_url": "https://github.com/contribsys/faktory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8095822?v=4",
+      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "score": 6832,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:piitaya/lovelace-mushroom",
+      "source": "MAGI//ARCHIVE",
+      "repo": "piitaya/lovelace-mushroom",
+      "owner": "piitaya",
+      "name": "lovelace-mushroom",
+      "description": "Build a beautiful Home Assistant dashboard easily",
+      "category": "Dashboard / UI",
+      "language": "TypeScript",
+      "stars": 4973,
+      "forks": 424,
+      "open_issues": 425,
+      "license": "Apache-2.0",
+      "topics": [
+        "card",
+        "hacktoberfest",
+        "hacs",
+        "home-assistant",
+        "lovelace",
+        "mushroom"
+      ],
+      "created_at": "2022-01-04T08:58:46Z",
+      "updated_at": "2026-05-17T18:26:36Z",
+      "pushed_at": "2026-05-11T15:48:10Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/piitaya-lovelace-mushroom.html",
+      "github_url": "https://github.com/piitaya/lovelace-mushroom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5878303?v=4",
+      "descripcion_es": "Recurso para panel de control.",
+      "score": 6245,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:common-voice/common-voice",
+      "source": "GitHub topic:open-data",
+      "repo": "common-voice/common-voice",
+      "owner": "common-voice",
+      "name": "common-voice",
+      "description": "Common Voice is part of Mozilla's initiative to help teach machines how real people speak.",
+      "category": "Data / ETL",
+      "language": "TypeScript",
+      "stars": 3466,
+      "forks": 873,
+      "open_issues": 205,
+      "license": "MPL-2.0",
+      "topics": [
+        "crowdsourcing",
+        "internet-freedom",
+        "open-data",
+        "voice"
+      ],
+      "created_at": "2017-05-05T15:53:07Z",
+      "updated_at": "2026-05-17T22:40:32Z",
+      "pushed_at": "2026-05-17T22:40:26Z",
+      "discovered_at": "",
+      "source_url": "https://github.com/topics/open-data",
+      "github_url": "https://github.com/common-voice/common-voice",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38791515?v=4",
+      "descripcion_es": "Recurso para datos.",
+      "score": 6085,
+      "sources": [
+        "GitHub topic:open-data"
       ]
     },
     {
@@ -371,8 +815,57 @@
       "github_url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
       "avatar_url": "",
       "score": 5683,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:liam-hq/liam",
+      "source": "MAGI//ARCHIVE",
+      "repo": "liam-hq/liam",
+      "owner": "liam-hq",
+      "name": "liam",
+      "description": "Automatically generates beautiful and easy-to-read ER diagrams from your database.",
+      "category": "Data / ETL",
+      "language": "TypeScript",
+      "stars": 4812,
+      "forks": 207,
+      "open_issues": 34,
+      "license": "Apache-2.0",
+      "topics": [
+        "data-visualization",
+        "database",
+        "database-schema",
+        "documentation",
+        "documentation-tool",
+        "entity-relationship-diagram",
+        "er-diagram",
+        "erd",
+        "nodejs",
+        "orm",
+        "postgresql",
+        "prisma",
+        "react-flow",
+        "reactjs",
+        "ruby-on-rails",
+        "sql",
+        "tbls",
+        "typescript",
+        "visualization",
+        "webassembly"
+      ],
+      "created_at": "2024-08-07T07:11:45Z",
+      "updated_at": "2026-05-17T14:41:39Z",
+      "pushed_at": "2026-05-17T12:53:44Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/liam-hq-liam.html",
+      "github_url": "https://github.com/liam-hq/liam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/187765721?v=4",
+      "descripcion_es": "Recurso para visualización de datos, datos.",
+      "score": 5433,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -400,8 +893,44 @@
       "github_url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
       "avatar_url": "",
       "score": 5402,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:oliverschwendener/ueli",
+      "source": "MAGI//ARCHIVE",
+      "repo": "oliverschwendener/ueli",
+      "owner": "oliverschwendener",
+      "name": "ueli",
+      "description": "Cross-Platform Keystroke Launcher",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 4518,
+      "forks": 275,
+      "open_issues": 74,
+      "license": "MIT",
+      "topics": [
+        "electron",
+        "fluentui",
+        "keystroke",
+        "launcher",
+        "productivity",
+        "react",
+        "typescript"
+      ],
+      "created_at": "2016-10-11T04:59:52Z",
+      "updated_at": "2026-05-17T10:39:32Z",
+      "pushed_at": "2026-05-15T11:15:40Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/oliverschwendener-ueli.html",
+      "github_url": "https://github.com/oliverschwendener/ueli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15727229?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 5343,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -429,6 +958,7 @@
       "github_url": "https://huggingface.co/spaces/Wan-AI/Wan2.2-Animate",
       "avatar_url": "",
       "score": 5118,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -461,6 +991,7 @@
       "github_url": "https://huggingface.co/spaces/facebook/MusicGen",
       "avatar_url": "",
       "score": 5068,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -490,6 +1021,7 @@
       "github_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell",
       "avatar_url": "",
       "score": 5061,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -520,6 +1052,7 @@
       "github_url": "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard",
       "avatar_url": "",
       "score": 4886,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -549,6 +1082,7 @@
       "github_url": "https://huggingface.co/spaces/microsoft/TRELLIS",
       "avatar_url": "",
       "score": 4776,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -587,6 +1121,7 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/opengeos/geoai",
       "avatar_url": "https://avatars.githubusercontent.com/u/129896036?v=4",
+      "descripcion_es": "Recurso para datos, información geoespacial y mapas.",
       "score": 4348,
       "sources": [
         "GitHub topic:geospatial",
@@ -618,8 +1153,38 @@
       "github_url": "https://huggingface.co/spaces/KingNish/OpenGPT-4o",
       "avatar_url": "",
       "score": 4310,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:scrapinghub/dateparser",
+      "source": "MAGI//ARCHIVE",
+      "repo": "scrapinghub/dateparser",
+      "owner": "scrapinghub",
+      "name": "dateparser",
+      "description": "python parser for human readable dates",
+      "category": "Other",
+      "language": "Python",
+      "stars": 2807,
+      "forks": 495,
+      "open_issues": 352,
+      "license": "BSD-3-Clause",
+      "topics": [
+        "hacktoberfest"
+      ],
+      "created_at": "2014-11-24T17:30:12Z",
+      "updated_at": "2026-05-17T05:08:00Z",
+      "pushed_at": "2026-05-08T12:08:56Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/scrapinghub-dateparser.html",
+      "github_url": "https://github.com/scrapinghub/dateparser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/699596?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 4292,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -647,6 +1212,7 @@
       "github_url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
       "avatar_url": "",
       "score": 3845,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -682,6 +1248,7 @@
       "github_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait",
       "avatar_url": "",
       "score": 3741,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -711,8 +1278,81 @@
       "github_url": "https://huggingface.co/spaces/InstantX/InstantID",
       "avatar_url": "",
       "score": 3604,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:maxdorninger/MediaManager",
+      "source": "MAGI//ARCHIVE",
+      "repo": "maxdorninger/MediaManager",
+      "owner": "maxdorninger",
+      "name": "MediaManager",
+      "description": "A modern selfhosted media management system for your media library",
+      "category": "Other",
+      "language": "Python",
+      "stars": 3198,
+      "forks": 77,
+      "open_issues": 83,
+      "license": "AGPL-3.0",
+      "topics": [],
+      "created_at": "2025-02-08T17:30:18Z",
+      "updated_at": "2026-05-17T16:37:49Z",
+      "pushed_at": "2026-05-09T02:15:38Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/maxdorninger-MediaManager.html",
+      "github_url": "https://github.com/maxdorninger/MediaManager",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97409287?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 3429,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:undb-io/undb",
+      "source": "MAGI//ARCHIVE",
+      "repo": "undb-io/undb",
+      "owner": "undb-io",
+      "name": "undb",
+      "description": "🚀 Private first self-hosted no code database & BaaS.",
+      "category": "Data / ETL",
+      "language": "TypeScript",
+      "stars": 2943,
+      "forks": 149,
+      "open_issues": 53,
+      "license": "AGPL-3.0",
+      "topics": [
+        "airtable",
+        "airtable-alternative",
+        "baas",
+        "backend",
+        "backend-as-a-service",
+        "bun",
+        "ddd",
+        "docker",
+        "domain-driven-design",
+        "no-code-database",
+        "nocode",
+        "offline-first",
+        "self-hosted",
+        "sqlite3",
+        "svelte",
+        "sveltekit",
+        "typescript"
+      ],
+      "created_at": "2022-11-18T03:22:51Z",
+      "updated_at": "2026-05-17T09:35:28Z",
+      "pushed_at": "2025-07-13T06:36:16Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/undb-io-undb.html",
+      "github_url": "https://github.com/undb-io/undb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118499163?v=4",
+      "descripcion_es": "Recurso para datos.",
+      "score": 3390,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -740,6 +1380,7 @@
       "github_url": "https://huggingface.co/spaces/hexgrad/Kokoro-TTS",
       "avatar_url": "",
       "score": 3315,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -769,6 +1410,7 @@
       "github_url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2",
       "avatar_url": "",
       "score": 3277,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -798,6 +1440,7 @@
       "github_url": "https://huggingface.co/spaces/akhaliq/anycoder",
       "avatar_url": "",
       "score": 3268,
+      "descripcion_es": "Repositorio vinculado a dev tools.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -831,6 +1474,7 @@
       "github_url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook",
       "avatar_url": "",
       "score": 3176,
+      "descripcion_es": "Recurso para visualización de datos, datos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -861,6 +1505,7 @@
       "github_url": "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo",
       "avatar_url": "",
       "score": 3172,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -876,7 +1521,7 @@
       "language": "Kotlin",
       "stars": 2756,
       "forks": 114,
-      "open_issues": 98,
+      "open_issues": 99,
       "license": "",
       "topics": [
         "android",
@@ -901,6 +1546,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/PranshulGG/WeatherMaster",
       "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, información geoespacial y mapas.",
       "score": 3098,
       "sources": [
         "GitHub topic:leaflet"
@@ -932,6 +1578,7 @@
       "github_url": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster",
       "avatar_url": "",
       "score": 3078,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -961,6 +1608,7 @@
       "github_url": "https://huggingface.co/spaces/mukaist/Midjourney",
       "avatar_url": "",
       "score": 2976,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -990,6 +1638,7 @@
       "github_url": "https://huggingface.co/spaces/pharmapsychotic/CLIP-Interrogator",
       "avatar_url": "",
       "score": 2971,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1019,6 +1668,7 @@
       "github_url": "https://huggingface.co/spaces/mrfakename/E2-F5-TTS",
       "avatar_url": "",
       "score": 2862,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1049,6 +1699,7 @@
       "github_url": "https://huggingface.co/spaces/not-lain/background-removal",
       "avatar_url": "",
       "score": 2835,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1078,8 +1729,36 @@
       "github_url": "https://huggingface.co/spaces/sanchit-gandhi/whisper-jax",
       "avatar_url": "",
       "score": 2830,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:kuglee/TermiWatch",
+      "source": "MAGI//ARCHIVE",
+      "repo": "kuglee/TermiWatch",
+      "owner": "kuglee",
+      "name": "TermiWatch",
+      "description": "Terminal Watch Face for Apple Watch",
+      "category": "Dev tools",
+      "language": "Swift",
+      "stars": 2265,
+      "forks": 186,
+      "open_issues": 51,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2018-12-09T19:21:04Z",
+      "updated_at": "2026-05-17T01:34:50Z",
+      "pushed_at": "2022-08-27T20:57:53Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/kuglee-TermiWatch.html",
+      "github_url": "https://github.com/kuglee/TermiWatch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1316211?v=4",
+      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "score": 2823,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -1107,8 +1786,36 @@
       "github_url": "https://huggingface.co/spaces/HumanAIGC/OutfitAnyone",
       "avatar_url": "",
       "score": 2806,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:theopfr/somo",
+      "source": "MAGI//ARCHIVE",
+      "repo": "theopfr/somo",
+      "owner": "theopfr",
+      "name": "somo",
+      "description": "A human-friendly alternative to netstat for socket and port monitoring on Linux and macOS.",
+      "category": "Other",
+      "language": "Rust",
+      "stars": 2603,
+      "forks": 65,
+      "open_issues": 4,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2023-05-15T21:49:57Z",
+      "updated_at": "2026-05-15T08:16:34Z",
+      "pushed_at": "2026-05-11T04:20:38Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/theopfr-somo.html",
+      "github_url": "https://github.com/theopfr/somo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25230234?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 2798,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -1136,6 +1843,7 @@
       "github_url": "https://huggingface.co/spaces/coqui/xtts",
       "avatar_url": "",
       "score": 2767,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1165,6 +1873,7 @@
       "github_url": "https://huggingface.co/spaces/openai/whisper",
       "avatar_url": "",
       "score": 2757,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1194,6 +1903,7 @@
       "github_url": "https://huggingface.co/spaces/tonyassi/voice-clone",
       "avatar_url": "",
       "score": 2642,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1224,6 +1934,7 @@
       "github_url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview",
       "avatar_url": "",
       "score": 2607,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1254,6 +1965,7 @@
       "github_url": "https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint",
       "avatar_url": "",
       "score": 2528,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1283,6 +1995,7 @@
       "github_url": "https://huggingface.co/spaces/multimodalart/qwen-image-multiple-angles-3d-camera",
       "avatar_url": "",
       "score": 2474,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1312,6 +2025,7 @@
       "github_url": "https://huggingface.co/spaces/sczhou/CodeFormer",
       "avatar_url": "",
       "score": 2380,
+      "descripcion_es": "Repositorio vinculado a dev tools.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1341,8 +2055,84 @@
       "github_url": "https://huggingface.co/spaces/suno/bark",
       "avatar_url": "",
       "score": 2370,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
+      ]
+    },
+    {
+      "id": "github:staniel359/muffon",
+      "source": "MAGI//ARCHIVE",
+      "repo": "staniel359/muffon",
+      "owner": "staniel359",
+      "name": "muffon",
+      "description": "Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.",
+      "category": "Dev tools",
+      "language": "Vue",
+      "stars": 2101,
+      "forks": 82,
+      "open_issues": 41,
+      "license": "AGPL-3.0",
+      "topics": [
+        "bandcamp",
+        "discogs",
+        "electron",
+        "genius",
+        "javascript",
+        "lastfm",
+        "linux",
+        "macos",
+        "music",
+        "music-streaming",
+        "odnoklassniki",
+        "soundcloud",
+        "spotify",
+        "streaming",
+        "vk",
+        "vue",
+        "windows",
+        "yandexmusic",
+        "youtube",
+        "youtubemusic"
+      ],
+      "created_at": "2020-10-20T14:01:16Z",
+      "updated_at": "2026-05-17T22:20:54Z",
+      "pushed_at": "2026-05-17T22:20:50Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/staniel359-muffon.html",
+      "github_url": "https://github.com/staniel359/muffon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18214933?v=4",
+      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "score": 2347,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:the-ora/browser",
+      "source": "MAGI//ARCHIVE",
+      "repo": "the-ora/browser",
+      "owner": "the-ora",
+      "name": "browser",
+      "description": "Less noise, more browsing.",
+      "category": "Other",
+      "language": "Swift",
+      "stars": 2091,
+      "forks": 78,
+      "open_issues": 32,
+      "license": "GPL-3.0",
+      "topics": [],
+      "created_at": "2025-08-09T22:25:31Z",
+      "updated_at": "2026-05-17T18:06:36Z",
+      "pushed_at": "2026-04-07T09:01:27Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/the-ora-browser.html",
+      "github_url": "https://github.com/the-ora/browser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219109863?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 2325,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -1370,6 +2160,7 @@
       "github_url": "https://huggingface.co/spaces/microsoft/HuggingGPT",
       "avatar_url": "",
       "score": 2273,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1399,6 +2190,7 @@
       "github_url": "https://huggingface.co/spaces/AI4Editing/MagicQuill",
       "avatar_url": "",
       "score": 2246,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1435,6 +2227,7 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/opengisch/QField",
       "avatar_url": "https://avatars.githubusercontent.com/u/8892251?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 2219,
       "sources": [
         "GitHub topic:qgis"
@@ -1466,6 +2259,7 @@
       "github_url": "https://huggingface.co/spaces/linoyts/Qwen-Image-Edit-Angles",
       "avatar_url": "",
       "score": 2217,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1495,6 +2289,7 @@
       "github_url": "https://huggingface.co/spaces/jbilcke-hf/FacePoke_CLONE-THIS-REPO-TO-USE-IT",
       "avatar_url": "",
       "score": 2210,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1527,309 +2322,233 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/GenericMappingTools/gmt",
       "avatar_url": "https://avatars.githubusercontent.com/u/25944590?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 2180,
       "sources": [
         "GitHub topic:geospatial"
       ]
     },
     {
-      "id": "hf:tencent/Hunyuan3D-2.1",
-      "source": "Hugging Face Spaces",
-      "repo": "tencent/Hunyuan3D-2.1",
-      "owner": "tencent",
-      "name": "Hunyuan3D-2.1",
-      "description": "Hunyuan3D-2.1",
-      "category": "Other",
-      "language": "gradio",
-      "stars": 2139,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
+      "id": "github:evroon/bracket",
+      "source": "MAGI//ARCHIVE",
+      "repo": "evroon/bracket",
+      "owner": "evroon",
+      "name": "bracket",
+      "description": "Selfhosted tournament system",
+      "category": "Data / ETL",
+      "language": "TypeScript",
+      "stars": 1677,
+      "forks": 163,
+      "open_issues": 60,
+      "license": "AGPL-3.0",
       "topics": [
-        "gradio",
-        "region:us"
+        "api",
+        "bracket",
+        "brackets",
+        "docker",
+        "docusaurus",
+        "fastapi",
+        "json",
+        "mantine",
+        "postgresql",
+        "python",
+        "react",
+        "reactjs",
+        "selfhosted",
+        "sports",
+        "tournament-bracket",
+        "tournament-manager",
+        "tournaments",
+        "vitejs",
+        "web"
       ],
-      "created_at": "2025-06-16T08:08:36.000Z",
-      "updated_at": "2025-08-11T06:13:06.000Z",
-      "pushed_at": "2025-08-11T06:13:06.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2.1",
-      "avatar_url": "",
-      "score": 2139,
+      "created_at": "2022-12-09T09:56:31Z",
+      "updated_at": "2026-05-15T23:43:50Z",
+      "pushed_at": "2026-05-12T09:00:53Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/evroon-bracket.html",
+      "github_url": "https://github.com/evroon/bracket",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11857441?v=4",
+      "descripcion_es": "Recurso para datos.",
+      "score": 2166,
       "sources": [
-        "Hugging Face Spaces"
+        "MAGI//ARCHIVE"
       ]
     },
     {
-      "id": "hf:finegrain/finegrain-image-enhancer",
-      "source": "Hugging Face Spaces",
-      "repo": "finegrain/finegrain-image-enhancer",
-      "owner": "finegrain",
-      "name": "finegrain-image-enhancer",
-      "description": "Finegrain Image Enhancer",
+      "id": "github:yeoman/generator",
+      "source": "MAGI//ARCHIVE",
+      "repo": "yeoman/generator",
+      "owner": "yeoman",
+      "name": "generator",
+      "description": "Rails-inspired generator system that provides scaffolding for your apps",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 1263,
+      "forks": 299,
+      "open_issues": 4,
+      "license": "BSD-2-Clause",
+      "topics": [
+        "generator",
+        "javascript",
+        "nodejs",
+        "scaffold",
+        "yeoman",
+        "yeoman-generator"
+      ],
+      "created_at": "2012-07-23T13:07:31Z",
+      "updated_at": "2026-05-16T05:56:29Z",
+      "pushed_at": "2026-05-16T05:56:27Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/yeoman-generator.html",
+      "github_url": "https://github.com/yeoman/generator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1714870?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 2160,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:ulixee/hero",
+      "source": "MAGI//ARCHIVE",
+      "repo": "ulixee/hero",
+      "owner": "ulixee",
+      "name": "hero",
+      "description": "The web browser built for scraping",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 1529,
+      "forks": 75,
+      "open_issues": 71,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2021-07-28T23:50:43Z",
+      "updated_at": "2026-05-16T10:39:40Z",
+      "pushed_at": "2026-05-16T10:41:45Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/ulixee-hero.html",
+      "github_url": "https://github.com/ulixee/hero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30395664?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 1754,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:frappe/education",
+      "source": "MAGI//ARCHIVE",
+      "repo": "frappe/education",
+      "owner": "frappe",
+      "name": "education",
+      "description": "Open source education / school management system",
+      "category": "Other",
+      "language": "Python",
+      "stars": 521,
+      "forks": 382,
+      "open_issues": 100,
+      "license": "NOASSERTION",
+      "topics": [
+        "education",
+        "erp",
+        "erpnext",
+        "frappe",
+        "school-erp",
+        "school-management"
+      ],
+      "created_at": "2022-04-27T12:59:26Z",
+      "updated_at": "2026-05-17T21:43:30Z",
+      "pushed_at": "2026-05-12T15:17:09Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/frappe-education.html",
+      "github_url": "https://github.com/frappe/education",
+      "avatar_url": "https://avatars.githubusercontent.com/u/836974?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto.",
+      "score": 1667,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:thu-vu92/local-llms-analyse-finance",
+      "source": "MAGI//ARCHIVE",
+      "repo": "thu-vu92/local-llms-analyse-finance",
+      "owner": "thu-vu92",
+      "name": "local-llms-analyse-finance",
+      "description": "In this project, I explored how local LLMs can be used to label data and support analyses. Specifically, I used Llama2 model to automatically categorise my bank transaction data.",
       "category": "LLM / GenAI",
-      "language": "gradio",
-      "stars": 2116,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "enhancer",
-        "upscaler",
-        "clarity",
-        "refiners",
-        "image-to-image",
-        "stable-diffusion",
-        "juggernaut",
-        "sd1.5",
-        "art",
-        "region:us"
-      ],
-      "created_at": "2024-07-10T17:31:56.000Z",
-      "updated_at": "2026-01-31T19:12:59.000Z",
-      "pushed_at": "2026-01-31T19:12:59.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/finegrain/finegrain-image-enhancer",
-      "avatar_url": "",
-      "score": 2116,
+      "language": "Jupyter Notebook",
+      "stars": 865,
+      "forks": 244,
+      "open_issues": 4,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2024-02-02T10:15:59Z",
+      "updated_at": "2026-05-10T02:58:19Z",
+      "pushed_at": "2024-05-16T05:51:45Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/thu-vu92-local-llms-analyse-finance.html",
+      "github_url": "https://github.com/thu-vu92/local-llms-analyse-finance",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22730220?v=4",
+      "descripcion_es": "Recurso para datos, modelos de lenguaje e IA generativa.",
+      "score": 1597,
       "sources": [
-        "Hugging Face Spaces"
+        "MAGI//ARCHIVE"
       ]
     },
     {
-      "id": "hf:yisol/IDM-VTON",
-      "source": "Hugging Face Spaces",
-      "repo": "yisol/IDM-VTON",
-      "owner": "yisol",
-      "name": "IDM-VTON",
-      "description": "IDM VTON",
-      "category": "Other",
-      "language": "gradio",
-      "stars": 2101,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2024-03-28T17:31:07.000Z",
-      "updated_at": "2025-05-17T13:18:23.000Z",
-      "pushed_at": "2025-05-17T13:18:23.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/yisol/IDM-VTON",
-      "avatar_url": "",
-      "score": 2101,
+      "id": "github:timb-machine/linux-malware",
+      "source": "MAGI//ARCHIVE",
+      "repo": "timb-machine/linux-malware",
+      "owner": "timb-machine",
+      "name": "linux-malware",
+      "description": "Tracking interesting Linux (and UNIX) malware. Send PRs",
+      "category": "Security",
+      "language": "HTML",
+      "stars": 1214,
+      "forks": 94,
+      "open_issues": 794,
+      "license": "Unlicense",
+      "topics": [],
+      "created_at": "2021-07-20T20:44:00Z",
+      "updated_at": "2026-05-11T13:57:27Z",
+      "pushed_at": "2025-05-10T17:27:36Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/timb-machine-linux-malware.html",
+      "github_url": "https://github.com/timb-machine/linux-malware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13330917?v=4",
+      "descripcion_es": "Repositorio vinculado a security.",
+      "score": 1496,
       "sources": [
-        "Hugging Face Spaces"
+        "MAGI//ARCHIVE"
       ]
     },
     {
-      "id": "hf:Wan-AI/Wan2.1",
-      "source": "Hugging Face Spaces",
-      "repo": "Wan-AI/Wan2.1",
-      "owner": "Wan-AI",
-      "name": "Wan2.1",
-      "description": "Wan2.1",
-      "category": "Other",
-      "language": "gradio",
-      "stars": 2093,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2025-02-23T09:50:52.000Z",
-      "updated_at": "2025-03-20T12:20:36.000Z",
-      "pushed_at": "2025-03-20T12:20:36.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/Wan-AI/Wan2.1",
-      "avatar_url": "",
-      "score": 2093,
+      "id": "github:datastack-net/dockerized",
+      "source": "MAGI//ARCHIVE",
+      "repo": "datastack-net/dockerized",
+      "owner": "datastack-net",
+      "name": "dockerized",
+      "description": "Run popular commandline tools within docker",
+      "category": "Data / ETL",
+      "language": "Go",
+      "stars": 1272,
+      "forks": 36,
+      "open_issues": 8,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2022-03-09T21:58:49Z",
+      "updated_at": "2026-05-16T07:45:38Z",
+      "pushed_at": "2023-08-31T01:28:09Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/datastack-net-dockerized.html",
+      "github_url": "https://github.com/datastack-net/dockerized",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76070895?v=4",
+      "descripcion_es": "Recurso para datos.",
+      "score": 1380,
       "sources": [
-        "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "hf:yanze/PuLID-FLUX",
-      "source": "Hugging Face Spaces",
-      "repo": "yanze/PuLID-FLUX",
-      "owner": "yanze",
-      "name": "PuLID-FLUX",
-      "description": "PuLID-FLUX",
-      "category": "Other",
-      "language": "gradio",
-      "stars": 2082,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2024-09-10T13:02:43.000Z",
-      "updated_at": "2025-07-31T17:47:42.000Z",
-      "pushed_at": "2025-07-31T17:47:42.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/yanze/PuLID-FLUX",
-      "avatar_url": "",
-      "score": 2082,
-      "sources": [
-        "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "hf:Gustavosta/MagicPrompt-Stable-Diffusion",
-      "source": "Hugging Face Spaces",
-      "repo": "Gustavosta/MagicPrompt-Stable-Diffusion",
-      "owner": "Gustavosta",
-      "name": "MagicPrompt-Stable-Diffusion",
-      "description": "MagicPrompt Stable Diffusion",
-      "category": "LLM / GenAI",
-      "language": "gradio",
-      "stars": 2067,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2022-09-18T22:08:09.000Z",
-      "updated_at": "2023-12-13T15:27:06.000Z",
-      "pushed_at": "2023-12-13T15:27:06.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion",
-      "avatar_url": "",
-      "score": 2067,
-      "sources": [
-        "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "hf:google/sdxl",
-      "source": "Hugging Face Spaces",
-      "repo": "google/sdxl",
-      "owner": "google",
-      "name": "sdxl",
-      "description": "Stable Diffusion XL on TPUv5e",
-      "category": "LLM / GenAI",
-      "language": "gradio",
-      "stars": 2039,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2023-09-24T17:57:02.000Z",
-      "updated_at": "2025-01-28T19:23:02.000Z",
-      "pushed_at": "2025-01-28T19:23:02.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/google/sdxl",
-      "avatar_url": "",
-      "score": 2039,
-      "sources": [
-        "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "hf:deepseek-ai/Janus-Pro-7B",
-      "source": "Hugging Face Spaces",
-      "repo": "deepseek-ai/Janus-Pro-7B",
-      "owner": "deepseek-ai",
-      "name": "Janus-Pro-7B",
-      "description": "Chat With Janus-Pro-7B",
-      "category": "Other",
-      "language": "gradio",
-      "stars": 2017,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2025-01-27T12:30:34.000Z",
-      "updated_at": "2025-02-01T18:39:39.000Z",
-      "pushed_at": "2025-02-01T18:39:39.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/deepseek-ai/Janus-Pro-7B",
-      "avatar_url": "",
-      "score": 2017,
-      "sources": [
-        "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "hf:multimodalart/stable-video-diffusion",
-      "source": "Hugging Face Spaces",
-      "repo": "multimodalart/stable-video-diffusion",
-      "owner": "multimodalart",
-      "name": "stable-video-diffusion",
-      "description": "Stable Video Diffusion 1.1",
-      "category": "AI agents",
-      "language": "gradio",
-      "stars": 2012,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "mcp-server",
-        "region:us"
-      ],
-      "created_at": "2023-11-21T17:00:43.000Z",
-      "updated_at": "2025-06-23T08:31:40.000Z",
-      "pushed_at": "2025-06-23T08:31:40.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/multimodalart/stable-video-diffusion",
-      "avatar_url": "",
-      "score": 2012,
-      "sources": [
-        "Hugging Face Spaces"
-      ]
-    },
-    {
-      "id": "hf:stabilityai/stable-diffusion-3.5-large",
-      "source": "Hugging Face Spaces",
-      "repo": "stabilityai/stable-diffusion-3.5-large",
-      "owner": "stabilityai",
-      "name": "stable-diffusion-3.5-large",
-      "description": "Stable Diffusion 3.5 Large",
-      "category": "LLM / GenAI",
-      "language": "gradio",
-      "stars": 1997,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "gradio",
-        "region:us"
-      ],
-      "created_at": "2024-10-22T08:39:39.000Z",
-      "updated_at": "2024-10-22T12:41:25.000Z",
-      "pushed_at": "2024-10-22T12:41:25.000Z",
-      "discovered_at": "2026-05-17",
-      "source_url": "https://huggingface.co/spaces",
-      "github_url": "https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large",
-      "avatar_url": "",
-      "score": 1997,
-      "sources": [
-        "Hugging Face Spaces"
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -1866,6 +2585,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/SamR1/FitTrackee",
       "avatar_url": "https://avatars.githubusercontent.com/u/3525167?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 1348,
       "sources": [
         "GitHub topic:leaflet"
@@ -1907,9 +2627,108 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/JamesLMilner/terra-draw",
       "avatar_url": "https://avatars.githubusercontent.com/u/8822075?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 1341,
       "sources": [
         "GitHub topic:leaflet"
+      ]
+    },
+    {
+      "id": "github:saharmor/whisper-playground",
+      "source": "MAGI//ARCHIVE",
+      "repo": "saharmor/whisper-playground",
+      "owner": "saharmor",
+      "name": "whisper-playground",
+      "description": "Build real time speech2text web apps using OpenAI's Whisper https://openai.com/blog/whisper/",
+      "category": "LLM / GenAI",
+      "language": "Python",
+      "stars": 832,
+      "forks": 145,
+      "open_issues": 16,
+      "license": "MIT",
+      "topics": [
+        "machine-learning",
+        "openai",
+        "speech-recognition",
+        "speech-to-text",
+        "whisper"
+      ],
+      "created_at": "2022-10-02T13:56:28Z",
+      "updated_at": "2026-05-15T21:17:10Z",
+      "pushed_at": "2025-09-12T02:54:11Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/saharmor-whisper-playground.html",
+      "github_url": "https://github.com/saharmor/whisper-playground",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6180201?v=4",
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "score": 1267,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:slingdata-io/sling-cli",
+      "source": "MAGI//ARCHIVE",
+      "repo": "slingdata-io/sling-cli",
+      "owner": "slingdata-io",
+      "name": "sling-cli",
+      "description": "Sling is a CLI tool that extracts data from a source storage/database and loads it in a target storage/database.",
+      "category": "LLM / GenAI",
+      "language": "Go",
+      "stars": 851,
+      "forks": 67,
+      "open_issues": 42,
+      "license": "GPL-3.0",
+      "topics": [
+        "elt",
+        "etl",
+        "extract",
+        "load"
+      ],
+      "created_at": "2020-10-15T10:06:58Z",
+      "updated_at": "2026-05-17T00:26:01Z",
+      "pushed_at": "2026-05-15T17:09:17Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/slingdata-io-sling-cli.html",
+      "github_url": "https://github.com/slingdata-io/sling-cli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72503188?v=4",
+      "descripcion_es": "Recurso para datos, modelos de lenguaje e IA generativa.",
+      "score": 1052,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:dimastatz/whisper-flow",
+      "source": "MAGI//ARCHIVE",
+      "repo": "dimastatz/whisper-flow",
+      "owner": "dimastatz",
+      "name": "whisper-flow",
+      "description": "Whisper-Flow is a framework designed to enable real-time transcription of audio content using OpenAI’s Whisper model. Rather than processing entire files after upload (“batch mode”), Whisper-Flow accepts a continuous stream of audio chunks and produces incremental transcripts immediately.",
+      "category": "Qualitative analysis",
+      "language": "Python",
+      "stars": 734,
+      "forks": 103,
+      "open_issues": 0,
+      "license": "MIT",
+      "topics": [
+        "pypi-package",
+        "python",
+        "speech-to-text",
+        "transcription",
+        "whisper"
+      ],
+      "created_at": "2024-06-03T12:13:05Z",
+      "updated_at": "2026-05-17T18:44:46Z",
+      "pushed_at": "2026-04-20T16:29:18Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dimastatz-whisper-flow.html",
+      "github_url": "https://github.com/dimastatz/whisper-flow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9291759?v=4",
+      "descripcion_es": "Recurso para análisis cualitativo, trabajo con entrevistas y transcripciones.",
+      "score": 1043,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -1954,9 +2773,97 @@
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/catalyst-cooperative/pudl",
       "avatar_url": "https://avatars.githubusercontent.com/u/25487946?v=4",
+      "descripcion_es": "Recurso para datos.",
       "score": 997,
       "sources": [
         "GitHub topic:open-data"
+      ]
+    },
+    {
+      "id": "github:runabol/tork",
+      "source": "MAGI//ARCHIVE",
+      "repo": "runabol/tork",
+      "owner": "runabol",
+      "name": "tork",
+      "description": "Tork is a lightweight, distributed workflow engine that runs tasks as simple scripts within Docker containers.",
+      "category": "Other",
+      "language": "Go",
+      "stars": 804,
+      "forks": 58,
+      "open_issues": 19,
+      "license": "MIT",
+      "topics": [
+        "background-jobs",
+        "distributed",
+        "docker",
+        "go",
+        "golang",
+        "job-queue",
+        "podman",
+        "scheduler",
+        "task-queue",
+        "work-queue",
+        "workflow-engine"
+      ],
+      "created_at": "2023-05-24T01:17:07Z",
+      "updated_at": "2026-05-17T10:42:34Z",
+      "pushed_at": "2026-04-24T21:24:36Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/runabol-tork.html",
+      "github_url": "https://github.com/runabol/tork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3052806?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 978,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:tom-draper/api-analytics",
+      "source": "MAGI//ARCHIVE",
+      "repo": "tom-draper/api-analytics",
+      "owner": "tom-draper",
+      "name": "api-analytics",
+      "description": "Effortless monitoring and analytics for API frameworks.",
+      "category": "Dashboard / UI",
+      "language": "Go",
+      "stars": 653,
+      "forks": 66,
+      "open_issues": 20,
+      "license": "MIT",
+      "topics": [
+        "actix",
+        "analytics",
+        "api",
+        "api-analytics",
+        "api-monitoring",
+        "axum",
+        "chi",
+        "dashboard",
+        "django",
+        "echo",
+        "express",
+        "fastapi",
+        "fastapi-analytics",
+        "fastify",
+        "fiber",
+        "flask",
+        "gin",
+        "middleware",
+        "server-analytics",
+        "server-monitoring"
+      ],
+      "created_at": "2022-11-23T15:02:11Z",
+      "updated_at": "2026-05-11T20:34:24Z",
+      "pushed_at": "2026-05-12T15:17:21Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/tom-draper-api-analytics.html",
+      "github_url": "https://github.com/tom-draper/api-analytics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41476809?v=4",
+      "descripcion_es": "Recurso para panel de control.",
+      "score": 851,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -1998,9 +2905,81 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/sunny9577/proxy-scraper",
       "avatar_url": "https://avatars.githubusercontent.com/u/31134026?v=4",
+      "descripcion_es": "Recurso para datos, recolección automatizada.",
       "score": 813,
       "sources": [
         "GitHub topic:scraper"
+      ]
+    },
+    {
+      "id": "github:trasta298/keifu",
+      "source": "MAGI//ARCHIVE",
+      "repo": "trasta298/keifu",
+      "owner": "trasta298",
+      "name": "keifu",
+      "description": "Git genealogy, untangled. A TUI for navigating commit graphs with color and clarity.",
+      "category": "Dashboard / UI",
+      "language": "Rust",
+      "stars": 747,
+      "forks": 18,
+      "open_issues": 6,
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "developer-tools",
+        "git",
+        "git-graph",
+        "ratatui",
+        "rust",
+        "terminal",
+        "tui",
+        "visualization"
+      ],
+      "created_at": "2025-12-20T02:28:27Z",
+      "updated_at": "2026-05-17T21:30:27Z",
+      "pushed_at": "2026-03-23T17:35:08Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/trasta298-keifu.html",
+      "github_url": "https://github.com/trasta298/keifu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13024718?v=4",
+      "descripcion_es": "Recurso para panel de control, visualización de datos.",
+      "score": 801,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:sachinsenal0x64/hifi",
+      "source": "MAGI//ARCHIVE",
+      "repo": "sachinsenal0x64/hifi",
+      "owner": "sachinsenal0x64",
+      "name": "hifi",
+      "description": "Tidal music integration for Subsonic/Jellyfin/Plexamp.",
+      "category": "Other",
+      "language": "Svelte",
+      "stars": 556,
+      "forks": 80,
+      "open_issues": 6,
+      "license": "GPL-2.0",
+      "topics": [
+        "hi-res",
+        "jellyfin",
+        "lossless-audio",
+        "plexamp",
+        "self-hosted",
+        "subsonic"
+      ],
+      "created_at": "2023-09-03T22:57:11Z",
+      "updated_at": "2026-05-17T02:26:49Z",
+      "pushed_at": "2026-04-25T15:31:36Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/sachinsenal0x64-hifi.html",
+      "github_url": "https://github.com/sachinsenal0x64/hifi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127573781?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 796,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2031,9 +3010,155 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/3liz/lizmap-web-client",
       "avatar_url": "https://avatars.githubusercontent.com/u/3490073?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 786,
       "sources": [
         "GitHub topic:qgis"
+      ]
+    },
+    {
+      "id": "github:oxbshw/LLM-Agents-Ecosystem-Handbook",
+      "source": "MAGI//ARCHIVE",
+      "repo": "oxbshw/LLM-Agents-Ecosystem-Handbook",
+      "owner": "oxbshw",
+      "name": "LLM-Agents-Ecosystem-Handbook",
+      "description": "One-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools.",
+      "category": "AI agents",
+      "language": "Python",
+      "stars": 519,
+      "forks": 82,
+      "open_issues": 0,
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "fine-tuning",
+        "finetuning-llms",
+        "freamework",
+        "llm",
+        "llmops",
+        "local-development",
+        "mcp-server",
+        "memory",
+        "rag",
+        "rag-chatbot",
+        "voice-agent"
+      ],
+      "created_at": "2025-09-08T01:24:26Z",
+      "updated_at": "2026-05-15T04:29:09Z",
+      "pushed_at": "2026-05-09T23:59:57Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/oxbshw-LLM-Agents-Ecosystem-Handbook.html",
+      "github_url": "https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212214682?v=4",
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa, agentes de IA.",
+      "score": 765,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:qgis/qwc2",
+      "source": "MAGI//ARCHIVE",
+      "repo": "qgis/qwc2",
+      "owner": "qgis",
+      "name": "qwc2",
+      "description": "QGIS Web Client",
+      "category": "Geospatial",
+      "language": "JavaScript",
+      "stars": 358,
+      "forks": 128,
+      "open_issues": 45,
+      "license": "BSD-2-Clause",
+      "topics": [
+        "qgis",
+        "webgis"
+      ],
+      "created_at": "2016-09-20T08:41:41Z",
+      "updated_at": "2026-05-13T08:00:38Z",
+      "pushed_at": "2026-05-13T08:03:00Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/qgis-qwc2.html",
+      "github_url": "https://github.com/qgis/qwc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/483444?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "score": 742,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:jaywcjlove/mocker-api",
+      "source": "MAGI//ARCHIVE",
+      "repo": "jaywcjlove/mocker-api",
+      "owner": "jaywcjlove",
+      "name": "mocker-api",
+      "description": "mocker-api that creates mocks for REST APIs. It will be helpful when you try to test your application without the actual REST API server.",
+      "category": "Data / ETL",
+      "language": "TypeScript",
+      "stars": 502,
+      "forks": 63,
+      "open_issues": 26,
+      "license": "MIT",
+      "topics": [
+        "mock-data",
+        "mock-server",
+        "mockjs",
+        "mockup",
+        "webpack",
+        "webpack-dev-server",
+        "webpack3",
+        "webpack4"
+      ],
+      "created_at": "2018-02-07T16:37:03Z",
+      "updated_at": "2026-04-21T09:52:49Z",
+      "pushed_at": "2026-04-21T09:54:20Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/jaywcjlove-mocker-api.html",
+      "github_url": "https://github.com/jaywcjlove/mocker-api",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1680273?v=4",
+      "descripcion_es": "Recurso para datos.",
+      "score": 691,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:ravi-ojha/startuptoolbox",
+      "source": "MAGI//ARCHIVE",
+      "repo": "ravi-ojha/startuptoolbox",
+      "owner": "ravi-ojha",
+      "name": "startuptoolbox",
+      "description": "The startup founder toolbelt. A forever-updating crowdsourced collection.",
+      "category": "Other",
+      "language": "",
+      "stars": 466,
+      "forks": 72,
+      "open_issues": 9,
+      "license": "",
+      "topics": [
+        "analytics",
+        "collection",
+        "communication",
+        "design",
+        "marketing",
+        "startup",
+        "tech",
+        "tools",
+        "website"
+      ],
+      "created_at": "2019-11-01T12:31:12Z",
+      "updated_at": "2026-05-15T16:41:02Z",
+      "pushed_at": "2026-01-29T09:18:22Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/ravi-ojha-startuptoolbox.html",
+      "github_url": "https://github.com/ravi-ojha/startuptoolbox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4465264?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 682,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2047,7 +3172,7 @@
       "language": "Go",
       "stars": 223,
       "forks": 134,
-      "open_issues": 29,
+      "open_issues": 28,
       "license": "AGPL-3.0",
       "topics": [
         "ai",
@@ -2072,50 +3197,118 @@
         "self-hosted"
       ],
       "created_at": "2026-04-19T17:34:55Z",
-      "updated_at": "2026-05-17T22:13:11Z",
-      "pushed_at": "2026-05-17T22:26:03Z",
+      "updated_at": "2026-05-17T22:30:15Z",
+      "pushed_at": "2026-05-17T22:30:38Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/data-visualization",
       "github_url": "https://github.com/DioCrafts/OpenFoundry",
       "avatar_url": "https://avatars.githubusercontent.com/u/58851263?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, visualización de datos, datos.",
       "score": 625,
       "sources": [
         "GitHub topic:data-visualization"
       ]
     },
     {
-      "id": "github:SymbolixAU/mapdeck",
-      "source": "GitHub topic:deckgl",
-      "repo": "SymbolixAU/mapdeck",
-      "owner": "SymbolixAU",
-      "name": "mapdeck",
-      "description": "R interface to Deck.gl and Mapbox",
-      "category": "Geospatial",
-      "language": "HTML",
-      "stars": 382,
-      "forks": 42,
-      "open_issues": 79,
+      "id": "github:showlab/livecc",
+      "source": "MAGI//ARCHIVE",
+      "repo": "showlab/livecc",
+      "owner": "showlab",
+      "name": "livecc",
+      "description": "LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale (CVPR 2025)",
+      "category": "Qualitative analysis",
+      "language": "Python",
+      "stars": 446,
+      "forks": 57,
+      "open_issues": 16,
       "license": "",
-      "topics": [
-        "deckgl",
-        "geospatial",
-        "mapbox",
-        "mapbox-gl",
-        "mapbox-gl-js",
-        "maps",
-        "r",
-        "rstats"
-      ],
-      "created_at": "2018-07-17T22:06:34Z",
-      "updated_at": "2026-04-29T22:32:19Z",
-      "pushed_at": "2025-03-21T00:30:26Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/deckgl",
-      "github_url": "https://github.com/SymbolixAU/mapdeck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18344164?v=4",
-      "score": 508,
+      "topics": [],
+      "created_at": "2025-03-10T16:11:31Z",
+      "updated_at": "2026-05-13T23:58:03Z",
+      "pushed_at": "2025-10-29T04:30:00Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/showlab-livecc.html",
+      "github_url": "https://github.com/showlab/livecc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101181824?v=4",
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa, análisis cualitativo, trabajo con entrevistas y transcripciones.",
+      "score": 617,
       "sources": [
-        "GitHub topic:deckgl"
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:saeloun/miru-web",
+      "source": "MAGI//ARCHIVE",
+      "repo": "saeloun/miru-web",
+      "owner": "saeloun",
+      "name": "miru-web",
+      "description": "Miru | Time Tracking and Invoicing and Employee Benefits. Built using Ruby On Rails and ReactJS",
+      "category": "Dev tools",
+      "language": "TypeScript",
+      "stars": 259,
+      "forks": 91,
+      "open_issues": 0,
+      "license": "MIT",
+      "topics": [
+        "client-invoiving",
+        "hacktoberbest2023",
+        "hacktoberfest",
+        "heroku",
+        "internal-tools",
+        "invoicing",
+        "javascript",
+        "open-source",
+        "rails",
+        "react",
+        "ruby",
+        "rubyonrails",
+        "time-tracking-app",
+        "timetracking"
+      ],
+      "created_at": "2021-12-01T15:08:49Z",
+      "updated_at": "2026-05-17T01:44:06Z",
+      "pushed_at": "2026-05-17T01:44:03Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/saeloun-miru-web.html",
+      "github_url": "https://github.com/saeloun/miru-web",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47183150?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto.",
+      "score": 532,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:lbrndnr/nuage-macos",
+      "source": "MAGI//ARCHIVE",
+      "repo": "lbrndnr/nuage-macos",
+      "owner": "lbrndnr",
+      "name": "nuage-macos",
+      "description": "A native SoundCloud app for macOS, written in SwiftUI",
+      "category": "Other",
+      "language": "Swift",
+      "stars": 454,
+      "forks": 24,
+      "open_issues": 13,
+      "license": "GPL-3.0",
+      "topics": [
+        "combine",
+        "soundcloud",
+        "soundcloud-api",
+        "swift",
+        "swiftui"
+      ],
+      "created_at": "2020-12-20T12:25:04Z",
+      "updated_at": "2026-05-14T06:52:17Z",
+      "pushed_at": "2025-10-09T07:45:17Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/lbrndnr-nuage-macos.html",
+      "github_url": "https://github.com/lbrndnr/nuage-macos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/762049?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 526,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2129,7 +3322,7 @@
       "language": "Python",
       "stars": 329,
       "forks": 53,
-      "open_issues": 112,
+      "open_issues": 110,
       "license": "MIT",
       "topics": [
         "ai-agent",
@@ -2142,15 +3335,85 @@
         "python"
       ],
       "created_at": "2026-02-13T06:49:19Z",
-      "updated_at": "2026-05-17T21:28:01Z",
-      "pushed_at": "2026-05-17T22:23:21Z",
+      "updated_at": "2026-05-17T22:32:56Z",
+      "pushed_at": "2026-05-17T22:37:42Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/dashboard",
       "github_url": "https://github.com/vivekchand/clawmetry",
       "avatar_url": "https://avatars.githubusercontent.com/u/987905?v=4",
+      "descripcion_es": "Recurso para panel de control, agentes de IA.",
       "score": 488,
       "sources": [
         "GitHub topic:dashboard"
+      ]
+    },
+    {
+      "id": "github:ventojs/vento",
+      "source": "MAGI//ARCHIVE",
+      "repo": "ventojs/vento",
+      "owner": "ventojs",
+      "name": "vento",
+      "description": "🌬 A light and fast template engine for Deno, Node, Bun and browsers",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 413,
+      "forks": 21,
+      "open_issues": 7,
+      "license": "MIT",
+      "topics": [
+        "deno",
+        "nodejs",
+        "template-engine"
+      ],
+      "created_at": "2023-03-26T11:11:59Z",
+      "updated_at": "2026-05-14T15:01:44Z",
+      "pushed_at": "2026-05-08T08:17:57Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/ventojs-vento.html",
+      "github_url": "https://github.com/ventojs/vento",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161956272?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 476,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:pranavp10/video-compress",
+      "source": "MAGI//ARCHIVE",
+      "repo": "pranavp10/video-compress",
+      "owner": "pranavp10",
+      "name": "video-compress",
+      "description": "Compress Videos for Free. Forever. Say goodbye to bulky files! Crush video sizes by 90% with no quality loss, even offline. And the best part? It's free!",
+      "category": "Dev tools",
+      "language": "JavaScript",
+      "stars": 347,
+      "forks": 42,
+      "open_issues": 5,
+      "license": "MIT",
+      "topics": [
+        "bun",
+        "compression",
+        "coolify",
+        "ffmpeg",
+        "mp4",
+        "nextjs14",
+        "transcode",
+        "video-compression",
+        "video-crop",
+        "webm"
+      ],
+      "created_at": "2024-02-26T07:48:37Z",
+      "updated_at": "2026-05-11T13:57:31Z",
+      "pushed_at": "2026-01-06T18:29:21Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/pranavp10-video-compress.html",
+      "github_url": "https://github.com/pranavp10/video-compress",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49075129?v=4",
+      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "score": 473,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2164,7 +3427,7 @@
       "language": "Python",
       "stars": 112,
       "forks": 93,
-      "open_issues": 32,
+      "open_issues": 33,
       "license": "MIT",
       "topics": [
         "climate",
@@ -2185,45 +3448,142 @@
       "source_url": "https://github.com/topics/remote-sensing",
       "github_url": "https://github.com/Climate-Vision/ClimateVision",
       "avatar_url": "https://avatars.githubusercontent.com/u/260084709?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, información geoespacial y mapas.",
       "score": 391,
       "sources": [
         "GitHub topic:remote-sensing"
       ]
     },
     {
-      "id": "github:rexrodeo/american-healthcare-conundrum",
-      "source": "GitHub topic:open-data",
-      "repo": "rexrodeo/american-healthcare-conundrum",
-      "owner": "rexrodeo",
-      "name": "american-healthcare-conundrum",
-      "description": "Investigative data journalism: quantifying fixable waste in US healthcare, one issue at a time. Open-source analysis of CMS, OECD, and federal datasets. $428.6B in savings identified so far across 8 published issues.",
-      "category": "Data / ETL",
-      "language": "Python",
-      "stars": 223,
-      "forks": 4,
-      "open_issues": 2,
+      "id": "github:parawanderer/OpenTagViewer",
+      "source": "MAGI//ARCHIVE",
+      "repo": "parawanderer/OpenTagViewer",
+      "owner": "parawanderer",
+      "name": "OpenTagViewer",
+      "description": "Track your AirTags and iDevices on Android",
+      "category": "Dashboard / UI",
+      "language": "Java",
+      "stars": 316,
+      "forks": 21,
+      "open_issues": 25,
       "license": "MIT",
       "topics": [
-        "cms-data",
-        "data-journalism",
-        "drug-pricing",
-        "health-policy",
-        "healthcare",
-        "hospital-pricing",
-        "medicare",
-        "open-data",
-        "python"
+        "android",
+        "android-app",
+        "chaquopy",
+        "macos-app",
+        "tkinter-gui",
+        "wiki"
       ],
-      "created_at": "2026-03-02T05:01:00Z",
-      "updated_at": "2026-05-17T20:00:51Z",
-      "pushed_at": "2026-05-17T20:00:45Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/open-data",
-      "github_url": "https://github.com/rexrodeo/american-healthcare-conundrum",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14000011?v=4",
-      "score": 235,
+      "created_at": "2025-03-18T00:11:10Z",
+      "updated_at": "2026-05-17T18:55:33Z",
+      "pushed_at": "2025-09-13T18:13:15Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/parawanderer-OpenTagViewer.html",
+      "github_url": "https://github.com/parawanderer/OpenTagViewer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37834723?v=4",
+      "descripcion_es": "Recurso para panel de control.",
+      "score": 379,
       "sources": [
-        "GitHub topic:open-data"
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:dockur/casa",
+      "source": "MAGI//ARCHIVE",
+      "repo": "dockur/casa",
+      "owner": "dockur",
+      "name": "casa",
+      "description": "CasaOS inside a Docker container.",
+      "category": "Dev tools",
+      "language": "Dockerfile",
+      "stars": 204,
+      "forks": 28,
+      "open_issues": 10,
+      "license": "MIT",
+      "topics": [
+        "casaos",
+        "casaos-appstore",
+        "docker",
+        "docker-container",
+        "home-server",
+        "homeserver",
+        "self-hosting",
+        "selfhosting"
+      ],
+      "created_at": "2024-11-10T02:07:19Z",
+      "updated_at": "2026-05-10T23:26:31Z",
+      "pushed_at": "2026-05-10T15:49:08Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dockur-casa.html",
+      "github_url": "https://github.com/dockur/casa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133648939?v=4",
+      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "score": 288,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:dynatrace-oss/unguard",
+      "source": "MAGI//ARCHIVE",
+      "repo": "dynatrace-oss/unguard",
+      "owner": "dynatrace-oss",
+      "name": "unguard",
+      "description": "Unguard is an insecure cloud-native microservices demo application.",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 69,
+      "forks": 64,
+      "open_issues": 18,
+      "license": "Apache-2.0",
+      "topics": [
+        "cloud-native",
+        "exploits",
+        "kubernetes",
+        "microservices",
+        "tracing"
+      ],
+      "created_at": "2021-07-01T11:54:52Z",
+      "updated_at": "2026-05-13T12:14:56Z",
+      "pushed_at": "2026-05-13T12:21:34Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dynatrace-oss-unguard.html",
+      "github_url": "https://github.com/dynatrace-oss/unguard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58178984?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 261,
+      "sources": [
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:rtCamp/frappe-appointment",
+      "source": "MAGI//ARCHIVE",
+      "repo": "rtCamp/frappe-appointment",
+      "owner": "rtCamp",
+      "name": "frappe-appointment",
+      "description": "Frappe app designed to streamline meeting scheduling with smart integrations.",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 80,
+      "forks": 54,
+      "open_issues": 36,
+      "license": "AGPL-3.0",
+      "topics": [
+        "tier-2"
+      ],
+      "created_at": "2023-10-10T13:50:40Z",
+      "updated_at": "2026-05-07T10:44:19Z",
+      "pushed_at": "2026-05-17T15:22:49Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/rtCamp-frappe-appointment.html",
+      "github_url": "https://github.com/rtCamp/frappe-appointment",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128395?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 242,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2255,9 +3615,37 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/Juliusolsson05/pharos-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/134848912?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 233,
       "sources": [
         "GitHub topic:deckgl"
+      ]
+    },
+    {
+      "id": "github:keshavashiya/docify",
+      "source": "MAGI//ARCHIVE",
+      "repo": "keshavashiya/docify",
+      "owner": "keshavashiya",
+      "name": "docify",
+      "description": "Your personal research assistant that remembers everything you've ever read.",
+      "category": "Research",
+      "language": "Python",
+      "stars": 172,
+      "forks": 20,
+      "open_issues": 1,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2025-12-14T17:21:11Z",
+      "updated_at": "2026-05-07T11:52:32Z",
+      "pushed_at": "2026-01-08T16:32:06Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/keshavashiya-docify.html",
+      "github_url": "https://github.com/keshavashiya/docify",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20239068?v=4",
+      "descripcion_es": "Repositorio vinculado a research.",
+      "score": 232,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2295,6 +3683,7 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/pavlovtech/WebReaper",
       "avatar_url": "https://avatars.githubusercontent.com/u/6662454?v=4",
+      "descripcion_es": "Recurso para datos, recolección automatizada.",
       "score": 231,
       "sources": [
         "GitHub topic:scraper"
@@ -2328,56 +3717,68 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/theosanderson/taxonium",
       "avatar_url": "https://avatars.githubusercontent.com/u/19732295?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 216,
       "sources": [
         "GitHub topic:deckgl"
       ]
     },
     {
-      "id": "github:Mictronics/readsb-protobuf",
-      "source": "GitHub topic:leaflet",
-      "repo": "Mictronics/readsb-protobuf",
-      "owner": "Mictronics",
-      "name": "readsb-protobuf",
-      "description": "Readsb is a Mode-S/ADSB/TIS decoder for RTLSDR, BladeRF, Modes-Beast and GNS5894 devices. Future development version with protocol buffer storage.",
-      "category": "LLM / GenAI",
-      "language": "C",
-      "stars": 113,
-      "forks": 27,
-      "open_issues": 3,
+      "id": "github:xpipe-io/kickstartfx",
+      "source": "MAGI//ARCHIVE",
+      "repo": "xpipe-io/kickstartfx",
+      "owner": "xpipe-io",
+      "name": "kickstartfx",
+      "description": "The most advanced template for JavaFX applications",
+      "category": "Other",
+      "language": "Java",
+      "stars": 147,
+      "forks": 12,
+      "open_issues": 11,
       "license": "NOASSERTION",
       "topics": [
-        "adalm-pluto",
-        "ads-b",
-        "adsb",
-        "bladerf",
-        "dump1090",
-        "dump1090-fa",
-        "gns5894",
-        "indexeddb",
-        "leaflet",
-        "libprotobuf-c",
-        "mode-s",
-        "protobuf-c",
-        "protocol-buffer",
-        "readsb",
-        "rrd",
-        "rtl-sdr",
-        "rtlsdr",
-        "sdr",
-        "typescript",
-        "ubladerf"
+        "java",
+        "javafx",
+        "javafx-project"
       ],
-      "created_at": "2020-01-27T14:33:57Z",
-      "updated_at": "2026-05-17T08:16:37Z",
-      "pushed_at": "2026-05-17T08:16:33Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/leaflet",
-      "github_url": "https://github.com/Mictronics/readsb-protobuf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11965780?v=4",
-      "score": 194,
+      "created_at": "2025-09-11T01:40:52Z",
+      "updated_at": "2026-05-16T06:50:49Z",
+      "pushed_at": "2026-05-16T06:50:45Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/xpipe-io-kickstartfx.html",
+      "github_url": "https://github.com/xpipe-io/kickstartfx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93734037?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 183,
       "sources": [
-        "GitHub topic:leaflet"
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:makerbase-mks/MKS-PI",
+      "source": "MAGI//ARCHIVE",
+      "repo": "makerbase-mks/MKS-PI",
+      "owner": "makerbase-mks",
+      "name": "MKS-PI",
+      "description": "As we all know, the Klipper firmware has the advantages of high printing speed, high precision, and the ability to use the web page to control the printer, etc. MKS PI is a high-end microcomputer board designed by makerbase to replace the Raspberry Pi for the convenience of 3D printing users to use the Klipper firmware. In terms of hardware, MKS PI has a powerful 4-core 64-bit SOC onboard, with 1GBytes of DDR3 memory, supports HDMI screen interface and PI-TS35 screen interface, provides Ethernet port, 3-channel USB interfaces (can be connected to a 3D printer main board, USB Wireless network card, USB camera, U disk, USB keyboard and mouse, etc.); In terms of software, Makerbase provides a complete Klipper firmware transplanted based on the Armbian desktop system, and directly supports klipperScreen. Users only need to download the image file provided by Makerbase, burn it to the TF card, without a lot of construction work, use the usb port or serial port to connect your main board, configure the parameters on the webpage, and you can use the Klipper firmware happily!",
+      "category": "Dashboard / UI",
+      "language": "",
+      "stars": 144,
+      "forks": 11,
+      "open_issues": 57,
+      "license": "GPL-3.0",
+      "topics": [],
+      "created_at": "2022-06-15T07:51:27Z",
+      "updated_at": "2026-04-20T21:11:09Z",
+      "pushed_at": "2022-12-06T03:30:29Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/makerbase-mks-MKS-PI.html",
+      "github_url": "https://github.com/makerbase-mks/MKS-PI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12979070?v=4",
+      "descripcion_es": "Recurso para panel de control.",
+      "score": 177,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2389,7 +3790,7 @@
       "description": "Navet (Swedish for \"the hub\") is a modern, responsive smart home dashboard with intuitive editing and a frosted-glass UI inspired by iOS widgets.",
       "category": "Dashboard / UI",
       "language": "TypeScript",
-      "stars": 156,
+      "stars": 157,
       "forks": 3,
       "open_issues": 8,
       "license": "NOASSERTION",
@@ -2400,13 +3801,14 @@
         "homeassistant-frontend"
       ],
       "created_at": "2026-03-06T20:18:16Z",
-      "updated_at": "2026-05-17T22:14:01Z",
-      "pushed_at": "2026-05-17T22:02:58Z",
+      "updated_at": "2026-05-17T22:37:00Z",
+      "pushed_at": "2026-05-17T22:34:07Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/dashboard",
       "github_url": "https://github.com/awesomestvi/navet",
       "avatar_url": "https://avatars.githubusercontent.com/u/8188954?v=4",
-      "score": 165,
+      "descripcion_es": "Recurso para panel de control.",
+      "score": 166,
       "sources": [
         "GitHub topic:dashboard"
       ]
@@ -2438,12 +3840,13 @@
         "scraper"
       ],
       "created_at": "2025-06-13T01:56:16Z",
-      "updated_at": "2026-05-17T22:07:39Z",
-      "pushed_at": "2026-05-17T22:07:36Z",
+      "updated_at": "2026-05-17T22:37:27Z",
+      "pushed_at": "2026-05-17T22:37:23Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/Skillter/ProxyGather",
       "avatar_url": "https://avatars.githubusercontent.com/u/57605954?v=4",
+      "descripcion_es": "Recurso para datos, recolección automatizada.",
       "score": 140,
       "sources": [
         "GitHub topic:scraper"
@@ -2475,49 +3878,99 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/opengisch/qgis-plugin-ci",
       "avatar_url": "https://avatars.githubusercontent.com/u/8892251?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 132,
       "sources": [
         "GitHub topic:qgis"
       ]
     },
     {
-      "id": "github:open-risk/equinox",
-      "source": "GitHub topic:geospatial",
-      "repo": "open-risk/equinox",
-      "owner": "open-risk",
-      "name": "equinox",
-      "description": "Equinox is an open source platform that supports the holistic risk management of sustainable finance projects",
-      "category": "Geospatial",
-      "language": "JavaScript",
-      "stars": 50,
-      "forks": 17,
-      "open_issues": 6,
-      "license": "Apache-2.0",
+      "id": "github:turtle-key/TabLift",
+      "source": "MAGI//ARCHIVE",
+      "repo": "turtle-key/TabLift",
+      "owner": "turtle-key",
+      "name": "TabLift",
+      "description": "A lightweight, open-source macOS utility that automatically restores minimized app windows when switching with ⌘+Tab or ⌘+`.",
+      "category": "Other",
+      "language": "Swift",
+      "stars": 117,
+      "forks": 2,
+      "open_issues": 14,
+      "license": "AGPL-3.0",
       "topics": [
-        "django",
-        "equator-principles",
-        "esg",
-        "finance",
-        "financial-data",
-        "geospatial",
-        "ghg-emissions",
-        "python",
-        "risk-analysis",
-        "risk-management",
-        "sustainability",
-        "sustainable-finance",
-        "sustainable-portfolio-management"
+        "accesibility",
+        "accessibility",
+        "alt-tab-fix",
+        "app-switcher",
+        "app-switching",
+        "cmd-tab",
+        "macos",
+        "minimized-windows",
+        "open-source",
+        "privacy",
+        "productivity",
+        "svelte",
+        "swift",
+        "swiftui",
+        "tab-switching",
+        "user-experience",
+        "utility",
+        "window-management",
+        "workflow-opitmization"
       ],
-      "created_at": "2021-03-21T16:52:58Z",
-      "updated_at": "2026-05-17T19:45:25Z",
-      "pushed_at": "2026-05-17T19:48:52Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/geospatial",
-      "github_url": "https://github.com/open-risk/equinox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6192002?v=4",
-      "score": 101,
+      "created_at": "2024-09-23T05:01:47Z",
+      "updated_at": "2026-05-11T07:52:18Z",
+      "pushed_at": "2026-04-07T04:38:08Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/turtle-key-TabLift.html",
+      "github_url": "https://github.com/turtle-key/TabLift",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109158803?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto.",
+      "score": 123,
       "sources": [
-        "GitHub topic:geospatial"
+        "MAGI//ARCHIVE"
+      ]
+    },
+    {
+      "id": "github:JasonHoku/ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite",
+      "source": "GitHub topic:dashboard",
+      "repo": "JasonHoku/ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite",
+      "owner": "JasonHoku",
+      "name": "ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite",
+      "description": "Test Everything All In One Run!!!  Testing & benchmarking tool for samplers, schedulers, CFG scales, multiple prompts, img2img denoise values, Models, Weights, LoRA  and more!  Features infinite-canvas dashboard image grids with virtual scrolling that can handle thousands of images! Smart caching, powerful sorting, filters, favoriting & much more!",
+      "category": "LLM / GenAI",
+      "language": "JavaScript",
+      "stars": 87,
+      "forks": 7,
+      "open_issues": 4,
+      "license": "",
+      "topics": [
+        "benchmarks",
+        "comfyui",
+        "comfyui-custom-node",
+        "comfyui-nodes",
+        "configs",
+        "dashboard",
+        "grid",
+        "iterations",
+        "multi-prompt",
+        "sampler",
+        "set-and-go",
+        "tests",
+        "xyz",
+        "xyz-test"
+      ],
+      "created_at": "2026-01-07T04:20:12Z",
+      "updated_at": "2026-05-17T22:37:46Z",
+      "pushed_at": "2026-05-17T22:37:42Z",
+      "discovered_at": "",
+      "source_url": "https://github.com/topics/dashboard",
+      "github_url": "https://github.com/JasonHoku/ComfyUI-Ultimate-Auto-Sampler-Config-Grid-Testing-Suite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6715569?v=4",
+      "descripcion_es": "Recurso para panel de control, modelos de lenguaje e IA generativa.",
+      "score": 108,
+      "sources": [
+        "GitHub topic:dashboard"
       ]
     },
     {
@@ -2559,6 +4012,7 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/ipitio/backage",
       "avatar_url": "https://avatars.githubusercontent.com/u/21136719?v=4",
+      "descripcion_es": "Recurso para datos, recolección automatizada.",
       "score": 97,
       "sources": [
         "GitHub topic:scraper"
@@ -2595,6 +4049,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/Yizack/mappedlove",
       "avatar_url": "https://avatars.githubusercontent.com/u/16264115?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 87,
       "sources": [
         "GitHub topic:leaflet"
@@ -2629,10 +4084,53 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/firelab/gdalraster",
       "avatar_url": "https://avatars.githubusercontent.com/u/3028309?v=4",
+      "descripcion_es": "Recurso para datos, información geoespacial y mapas.",
       "score": 86,
       "sources": [
         "GitHub topic:geospatial",
         "GitHub topic:gis"
+      ]
+    },
+    {
+      "id": "github:guillevc/listseerr",
+      "source": "MAGI//ARCHIVE",
+      "repo": "guillevc/listseerr",
+      "owner": "guillevc",
+      "name": "listseerr",
+      "description": "Sync curated movie & TV show lists to Seerr as automated requests.",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 82,
+      "forks": 0,
+      "open_issues": 4,
+      "license": "NOASSERTION",
+      "topics": [
+        "docker",
+        "jellyfin",
+        "jellyseerr",
+        "mdblist",
+        "movie",
+        "overseerr",
+        "plex",
+        "radarr",
+        "seerr",
+        "shows",
+        "sonarr",
+        "stevenlu",
+        "trakt",
+        "tv"
+      ],
+      "created_at": "2025-12-07T01:22:20Z",
+      "updated_at": "2026-05-11T23:35:28Z",
+      "pushed_at": "2026-05-11T23:35:23Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/guillevc-listseerr.html",
+      "github_url": "https://github.com/guillevc/listseerr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879763?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 82,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2665,95 +4163,43 @@
         "woocommerce"
       ],
       "created_at": "2026-01-27T09:08:44Z",
-      "updated_at": "2026-05-17T22:16:42Z",
-      "pushed_at": "2026-05-17T22:16:38Z",
+      "updated_at": "2026-05-17T22:31:39Z",
+      "pushed_at": "2026-05-17T22:31:35Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/leadita/tech-stack-datasets",
       "avatar_url": "https://avatars.githubusercontent.com/u/213343898?v=4",
+      "descripcion_es": "Recurso para datos, recolección automatizada.",
       "score": 76,
       "sources": [
         "GitHub topic:open-data"
       ]
     },
     {
-      "id": "github:Liang-Team/Sequenzo",
-      "source": "GitHub topic:data-visualization",
-      "repo": "Liang-Team/Sequenzo",
-      "owner": "Liang-Team",
-      "name": "Sequenzo",
-      "description": "A fast, scalable, and intuitive Python package in sequence analysis. ",
-      "category": "Data / ETL",
-      "language": "Jupyter Notebook",
-      "stars": 34,
-      "forks": 10,
-      "open_issues": 0,
-      "license": "BSD-3-Clause",
-      "topics": [
-        "categorical-data",
-        "cluster-analysis",
-        "data-science",
-        "data-visualization",
-        "longitudinal-studies",
-        "python",
-        "sequence",
-        "sequence-analysis",
-        "social-science",
-        "time",
-        "time-series",
-        "unsupervised-machine-learning"
-      ],
-      "created_at": "2025-02-10T03:15:21Z",
-      "updated_at": "2026-05-17T21:57:21Z",
-      "pushed_at": "2026-05-17T21:57:17Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/data-visualization",
-      "github_url": "https://github.com/Liang-Team/Sequenzo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198521302?v=4",
-      "score": 64,
+      "id": "github:getsieutoc/voi",
+      "source": "MAGI//ARCHIVE",
+      "repo": "getsieutoc/voi",
+      "owner": "getsieutoc",
+      "name": "voi",
+      "description": "Minimalist self-hosted customer feedback management system",
+      "category": "Other",
+      "language": "TypeScript",
+      "stars": 44,
+      "forks": 5,
+      "open_issues": 4,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2024-02-11T11:54:05Z",
+      "updated_at": "2026-05-07T12:14:07Z",
+      "pushed_at": "2026-05-07T12:14:02Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/getsieutoc-voi.html",
+      "github_url": "https://github.com/getsieutoc/voi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142740426?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 59,
       "sources": [
-        "GitHub topic:data-visualization"
-      ]
-    },
-    {
-      "id": "github:ML4Sustain/rs-paper-hub",
-      "source": "GitHub topic:remote-sensing",
-      "repo": "ML4Sustain/rs-paper-hub",
-      "owner": "ML4Sustain",
-      "name": "rs-paper-hub",
-      "description": "RS-Paper-Hub: A curated collection of remote sensing papers from arXiv. 遥感论文社：打造遥感领域的专属论文集（如卫星、无人机、地面基站）（http://rspaper.top/）",
-      "category": "AI agents",
-      "language": "HTML",
-      "stars": 38,
-      "forks": 6,
-      "open_issues": 2,
-      "license": "",
-      "topics": [
-        "agent",
-        "classification",
-        "compter-vision",
-        "ground-station",
-        "meachine-learning",
-        "muti-task",
-        "object-detection",
-        "papers-with-code",
-        "remote-sensing",
-        "retrieval",
-        "satellite",
-        "segmentation",
-        "uav",
-        "vision-language-model"
-      ],
-      "created_at": "2026-04-18T06:35:50Z",
-      "updated_at": "2026-05-17T14:37:34Z",
-      "pushed_at": "2026-05-17T14:37:31Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/remote-sensing",
-      "github_url": "https://github.com/ML4Sustain/rs-paper-hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/215718500?v=4",
-      "score": 56,
-      "sources": [
-        "GitHub topic:remote-sensing"
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2785,6 +4231,7 @@
       "source_url": "https://github.com/topics/gis",
       "github_url": "https://github.com/geoql/v-maplibre",
       "avatar_url": "https://avatars.githubusercontent.com/u/74910433?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 54,
       "sources": [
         "GitHub topic:gis"
@@ -2827,6 +4274,7 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/mountayaapp/insight-editor",
       "avatar_url": "https://avatars.githubusercontent.com/u/183229617?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, datos, información geoespacial y mapas.",
       "score": 54,
       "sources": [
         "GitHub topic:deckgl"
@@ -2874,9 +4322,37 @@
       "source_url": "https://github.com/topics/remote-sensing",
       "github_url": "https://github.com/judasgutenberg/Esp8266_RemoteControl",
       "avatar_url": "https://avatars.githubusercontent.com/u/1992956?v=4",
+      "descripcion_es": "Recurso para datos.",
       "score": 49,
       "sources": [
         "GitHub topic:remote-sensing"
+      ]
+    },
+    {
+      "id": "github:elchead/misou",
+      "source": "MAGI//ARCHIVE",
+      "repo": "elchead/misou",
+      "owner": "elchead",
+      "name": "misou",
+      "description": "personal knowledge search engine (native app)",
+      "category": "Other",
+      "language": "Go",
+      "stars": 43,
+      "forks": 1,
+      "open_issues": 0,
+      "license": "MIT",
+      "topics": [],
+      "created_at": "2021-12-13T15:36:04Z",
+      "updated_at": "2026-02-09T17:30:13Z",
+      "pushed_at": "2022-06-05T03:26:29Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/elchead-misou.html",
+      "github_url": "https://github.com/elchead/misou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29373967?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 46,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -2911,15 +4387,50 @@
         "grafana-influxdb"
       ],
       "created_at": "2020-04-03T08:55:25Z",
-      "updated_at": "2026-05-17T21:47:25Z",
-      "pushed_at": "2026-05-17T21:47:23Z",
+      "updated_at": "2026-05-17T22:31:26Z",
+      "pushed_at": "2026-05-17T22:31:24Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/dashboard",
       "github_url": "https://github.com/denesdata/roem",
       "avatar_url": "https://avatars.githubusercontent.com/u/45861308?v=4",
+      "descripcion_es": "Recurso para panel de control, visualización de datos, datos.",
       "score": 38,
       "sources": [
         "GitHub topic:dashboard",
+        "GitHub topic:data-visualization"
+      ]
+    },
+    {
+      "id": "github:NazmusSayad/Git-Stats",
+      "source": "GitHub topic:data-visualization",
+      "repo": "NazmusSayad/Git-Stats",
+      "owner": "NazmusSayad",
+      "name": "Git-Stats",
+      "description": "Automates generation of GitHub activity stats and visual summaries.",
+      "category": "Data / ETL",
+      "language": "Python",
+      "stars": 32,
+      "forks": 2,
+      "open_issues": 0,
+      "license": "GPL-3.0",
+      "topics": [
+        "activity-stats",
+        "automation",
+        "data-visualization",
+        "github",
+        "github-stats",
+        "python"
+      ],
+      "created_at": "2022-09-08T01:19:06Z",
+      "updated_at": "2026-05-17T22:30:54Z",
+      "pushed_at": "2026-05-17T22:30:50Z",
+      "discovered_at": "",
+      "source_url": "https://github.com/topics/data-visualization",
+      "github_url": "https://github.com/NazmusSayad/Git-Stats",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87106526?v=4",
+      "descripcion_es": "Recurso para visualización de datos, datos.",
+      "score": 38,
+      "sources": [
         "GitHub topic:data-visualization"
       ]
     },
@@ -2959,6 +4470,7 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/b-data/jupyterlab-qgis-docker-stack",
       "avatar_url": "https://avatars.githubusercontent.com/u/23398153?v=4",
+      "descripcion_es": "Recurso para datos, información geoespacial y mapas.",
       "score": 38,
       "sources": [
         "GitHub topic:qgis"
@@ -2996,48 +4508,37 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/GlobalFishingWatch/frontend",
       "avatar_url": "https://avatars.githubusercontent.com/u/9467707?v=4",
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "score": 37,
       "sources": [
         "GitHub topic:deckgl"
       ]
     },
     {
-      "id": "github:CarlosBergillos/xplane_apt_convert",
-      "source": "GitHub topic:gis",
-      "repo": "CarlosBergillos/xplane_apt_convert",
-      "owner": "CarlosBergillos",
-      "name": "xplane_apt_convert",
-      "description": "Convert X-Plane airport data to GIS-friendly formats like GeoJSON or ESRI Shapefile.",
-      "category": "Geospatial",
+      "id": "github:samzong/hf-model-downloader",
+      "source": "MAGI//ARCHIVE",
+      "repo": "samzong/hf-model-downloader",
+      "owner": "samzong",
+      "name": "hf-model-downloader",
+      "description": "A cross-platform GUI application for easily downloading Hugging Face models without requiring technical knowledge or setup.",
+      "category": "Other",
       "language": "Python",
-      "stars": 24,
-      "forks": 4,
+      "stars": 28,
+      "forks": 3,
       "open_issues": 0,
       "license": "MIT",
-      "topics": [
-        "airport",
-        "airports",
-        "fiona",
-        "flatgeobuf",
-        "geobuf",
-        "geojson",
-        "geopackage",
-        "gis",
-        "gpkg",
-        "ogr",
-        "shapefile",
-        "xplane"
-      ],
-      "created_at": "2022-07-17T22:25:02Z",
-      "updated_at": "2026-05-17T16:16:21Z",
-      "pushed_at": "2026-05-17T16:16:18Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/gis",
-      "github_url": "https://github.com/CarlosBergillos/xplane_apt_convert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1731534?v=4",
-      "score": 36,
+      "topics": [],
+      "created_at": "2025-01-14T09:41:14Z",
+      "updated_at": "2026-04-10T14:35:12Z",
+      "pushed_at": "2025-11-26T01:24:54Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/samzong-hf-model-downloader.html",
+      "github_url": "https://github.com/samzong/hf-model-downloader",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13782141?v=4",
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "score": 37,
       "sources": [
-        "GitHub topic:gis"
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -3079,9 +4580,42 @@
       "source_url": "https://github.com/topics/data-visualization",
       "github_url": "https://github.com/wopian/kitsu-season-trends",
       "avatar_url": "https://avatars.githubusercontent.com/u/3440094?v=4",
+      "descripcion_es": "Recurso para visualización de datos, datos.",
       "score": 35,
       "sources": [
         "GitHub topic:data-visualization"
+      ]
+    },
+    {
+      "id": "github:g-hano/Claude-Powered-Study-Assistant",
+      "source": "MAGI//ARCHIVE",
+      "repo": "g-hano/Claude-Powered-Study-Assistant",
+      "owner": "g-hano",
+      "name": "Claude-Powered-Study-Assistant",
+      "description": "A study assistant powered by Claude Opus. It provides various tools to assist with different tasks, such as researching,coding,note-taking and more.",
+      "category": "Qualitative analysis",
+      "language": "Python",
+      "stars": 26,
+      "forks": 3,
+      "open_issues": 0,
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "llm",
+        "python",
+        "rag"
+      ],
+      "created_at": "2024-03-11T11:26:46Z",
+      "updated_at": "2026-05-17T12:31:27Z",
+      "pushed_at": "2024-07-18T12:01:47Z",
+      "discovered_at": "2026-01-31",
+      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/g-hano-Claude-Powered-Study-Assistant.html",
+      "github_url": "https://github.com/g-hano/Claude-Powered-Study-Assistant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113353248?v=4",
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa, análisis cualitativo.",
+      "score": 35,
+      "sources": [
+        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -3112,6 +4646,7 @@
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/ironlam/poligraph",
       "avatar_url": "https://avatars.githubusercontent.com/u/1285291?v=4",
+      "descripcion_es": "Recurso para datos.",
       "score": 34,
       "sources": [
         "GitHub topic:open-data"
@@ -3149,77 +4684,10 @@
       "source_url": "https://github.com/topics/gis",
       "github_url": "https://github.com/themustafaomar/libregl",
       "avatar_url": "https://avatars.githubusercontent.com/u/46113191?v=4",
+      "descripcion_es": "Recurso para visualización de datos, información geoespacial y mapas.",
       "score": 34,
       "sources": [
         "GitHub topic:gis"
-      ]
-    },
-    {
-      "id": "github:BEKO2210/World_report",
-      "source": "GitHub topic:open-data",
-      "repo": "BEKO2210/World_report",
-      "owner": "BEKO2210",
-      "name": "World_report",
-      "description": "A self-updating global dashboard that aggregates 40+ open data sources (NASA, World Bank, WHO, etc.) to compute a transparent World Index every 6 hours.",
-      "category": "Data / ETL",
-      "language": "JavaScript",
-      "stars": 31,
-      "forks": 1,
-      "open_issues": 0,
-      "license": "NOASSERTION",
-      "topics": [
-        "climate-data",
-        "dashboard",
-        "data-pipeline",
-        "data-science",
-        "data-visualization",
-        "github-actions",
-        "global-data",
-        "open-data",
-        "world-dashboard",
-        "world-indicators"
-      ],
-      "created_at": "2026-03-11T18:37:55Z",
-      "updated_at": "2026-05-17T19:09:03Z",
-      "pushed_at": "2026-05-17T19:09:00Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/open-data",
-      "github_url": "https://github.com/BEKO2210/World_report",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129214713?v=4",
-      "score": 34,
-      "sources": [
-        "GitHub topic:open-data"
-      ]
-    },
-    {
-      "id": "github:opengeos/qgis-terminal-plugin",
-      "source": "GitHub topic:qgis",
-      "repo": "opengeos/qgis-terminal-plugin",
-      "owner": "opengeos",
-      "name": "qgis-terminal-plugin",
-      "description": "An integrated terminal for QGIS",
-      "category": "Geospatial",
-      "language": "Python",
-      "stars": 24,
-      "forks": 3,
-      "open_issues": 3,
-      "license": "MIT",
-      "topics": [
-        "geospatial",
-        "python",
-        "qgis",
-        "terminal"
-      ],
-      "created_at": "2026-04-12T15:35:52Z",
-      "updated_at": "2026-05-17T18:20:23Z",
-      "pushed_at": "2026-05-15T15:35:25Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/qgis",
-      "github_url": "https://github.com/opengeos/qgis-terminal-plugin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129896036?v=4",
-      "score": 33,
-      "sources": [
-        "GitHub topic:qgis"
       ]
     },
     {
@@ -3251,1579 +4719,10 @@
       "source_url": "https://github.com/topics/remote-sensing",
       "github_url": "https://github.com/InSARdev/S1orbits",
       "avatar_url": "https://avatars.githubusercontent.com/u/266545632?v=4",
+      "descripcion_es": "Recurso para datos.",
       "score": 30,
       "sources": [
         "GitHub topic:remote-sensing"
-      ]
-    },
-    {
-      "id": "github:yaroslav2901/OE_OUTAGE_DATA",
-      "source": "GitHub topic:scraper",
-      "repo": "yaroslav2901/OE_OUTAGE_DATA",
-      "owner": "yaroslav2901",
-      "name": "OE_OUTAGE_DATA",
-      "description": "Репозиторій містить JSON-дані про відключення електроенергії та згенеровані зображення розкладів для кожної групи та загальне зображення для всіх груп.",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 26,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [
-        "outatage",
-        "parser",
-        "parsing",
-        "power-outage",
-        "power-outages",
-        "scraper",
-        "scraping",
-        "uk",
-        "ukrainian"
-      ],
-      "created_at": "2025-11-28T12:05:45Z",
-      "updated_at": "2026-05-17T21:03:13Z",
-      "pushed_at": "2026-05-17T21:03:09Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/scraper",
-      "github_url": "https://github.com/yaroslav2901/OE_OUTAGE_DATA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/130594205?v=4",
-      "score": 26,
-      "sources": [
-        "GitHub topic:scraper"
-      ]
-    },
-    {
-      "id": "magi:yeoman/generator",
-      "source": "MAGI//ARCHIVE",
-      "repo": "yeoman/generator",
-      "owner": "yeoman",
-      "name": "generator",
-      "description": "Scaffolding system for web applications",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/yeoman-generator.html",
-      "github_url": "https://github.com/yeoman/generator",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:xpipe-io/kickstartfx",
-      "source": "MAGI//ARCHIVE",
-      "repo": "xpipe-io/kickstartfx",
-      "owner": "xpipe-io",
-      "name": "kickstartfx",
-      "description": "Template for JavaFX applications with native installers and GitHub actions",
-      "category": "Dev tools",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/xpipe-io-kickstartfx.html",
-      "github_url": "https://github.com/xpipe-io/kickstartfx",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:ventojs/vento",
-      "source": "MAGI//ARCHIVE",
-      "repo": "ventojs/vento",
-      "owner": "ventojs",
-      "name": "vento",
-      "description": "Template engine for JS runtimes",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/ventojs-vento.html",
-      "github_url": "https://github.com/ventojs/vento",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:undb-io/undb",
-      "source": "MAGI//ARCHIVE",
-      "repo": "undb-io/undb",
-      "owner": "undb-io",
-      "name": "undb",
-      "description": "Self-hosted database and backend service on SQLite",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/undb-io-undb.html",
-      "github_url": "https://github.com/undb-io/undb",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:ulixee/hero",
-      "source": "MAGI//ARCHIVE",
-      "repo": "ulixee/hero",
-      "owner": "ulixee",
-      "name": "hero",
-      "description": "Headless browser for scraping with TLS fingerprinting protection",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/ulixee-hero.html",
-      "github_url": "https://github.com/ulixee/hero",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:turtle-key/TabLift",
-      "source": "MAGI//ARCHIVE",
-      "repo": "turtle-key/TabLift",
-      "owner": "turtle-key",
-      "name": "TabLift",
-      "description": "Restores windows when switching apps",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/turtle-key-TabLift.html",
-      "github_url": "https://github.com/turtle-key/TabLift",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:trinodb/trino",
-      "source": "MAGI//ARCHIVE",
-      "repo": "trinodb/trino",
-      "owner": "trinodb",
-      "name": "trino",
-      "description": "Distributed SQL query engine for big data analytics",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/trinodb-trino.html",
-      "github_url": "https://github.com/trinodb/trino",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:trasta298/keifu",
-      "source": "MAGI//ARCHIVE",
-      "repo": "trasta298/keifu",
-      "owner": "trasta298",
-      "name": "keifu",
-      "description": "Terminal UI for visualizing Git commit graphs",
-      "category": "Dashboard / UI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/trasta298-keifu.html",
-      "github_url": "https://github.com/trasta298/keifu",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:tom-draper/api-analytics",
-      "source": "MAGI//ARCHIVE",
-      "repo": "tom-draper/api-analytics",
-      "owner": "tom-draper",
-      "name": "api-analytics",
-      "description": "Monitoring and analytics for API frameworks",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/tom-draper-api-analytics.html",
-      "github_url": "https://github.com/tom-draper/api-analytics",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:timb-machine/linux-malware",
-      "source": "MAGI//ARCHIVE",
-      "repo": "timb-machine/linux-malware",
-      "owner": "timb-machine",
-      "name": "linux-malware",
-      "description": "Repository tracking Linux and UNIX malware",
-      "category": "Security",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/timb-machine-linux-malware.html",
-      "github_url": "https://github.com/timb-machine/linux-malware",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:thu-vu92/local-llms-analyse-finance",
-      "source": "MAGI//ARCHIVE",
-      "repo": "thu-vu92/local-llms-analyse-finance",
-      "owner": "thu-vu92",
-      "name": "local-llms-analyse-finance",
-      "description": "Categorizes bank transactions with local LLMs",
-      "category": "LLM / GenAI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/thu-vu92-local-llms-analyse-finance.html",
-      "github_url": "https://github.com/thu-vu92/local-llms-analyse-finance",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:theopfr/somo",
-      "source": "MAGI//ARCHIVE",
-      "repo": "theopfr/somo",
-      "owner": "theopfr",
-      "name": "somo",
-      "description": "Monitor sockets and ports on Linux and macOS",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/theopfr-somo.html",
-      "github_url": "https://github.com/theopfr/somo",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:the-ora/browser",
-      "source": "MAGI//ARCHIVE",
-      "repo": "the-ora/browser",
-      "owner": "the-ora",
-      "name": "browser",
-      "description": "Browser for macOS built with SwiftUI and WebKit",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/the-ora-browser.html",
-      "github_url": "https://github.com/the-ora/browser",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:staniel359/muffon",
-      "source": "MAGI//ARCHIVE",
-      "repo": "staniel359/muffon",
-      "owner": "staniel359",
-      "name": "muffon",
-      "description": "Music client for streaming from multiple sources",
-      "category": "Dev tools",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/staniel359-muffon.html",
-      "github_url": "https://github.com/staniel359/muffon",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:souzatharsis/podcastfy",
-      "source": "MAGI//ARCHIVE",
-      "repo": "souzatharsis/podcastfy",
-      "owner": "souzatharsis",
-      "name": "podcastfy",
-      "description": "Converts multimodal content into audio conversations with GenAI",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/souzatharsis-podcastfy.html",
-      "github_url": "https://github.com/souzatharsis/podcastfy",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:slingdata-io/sling-cli",
-      "source": "MAGI//ARCHIVE",
-      "repo": "slingdata-io/sling-cli",
-      "owner": "slingdata-io",
-      "name": "sling-cli",
-      "description": "Moves data between databases and file systems",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/slingdata-io-sling-cli.html",
-      "github_url": "https://github.com/slingdata-io/sling-cli",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:showlab/livecc",
-      "source": "MAGI//ARCHIVE",
-      "repo": "showlab/livecc",
-      "owner": "showlab",
-      "name": "livecc",
-      "description": "Video LLM for real-time commentary with streaming speech transcription",
-      "category": "LLM / GenAI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/showlab-livecc.html",
-      "github_url": "https://github.com/showlab/livecc",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:scrapinghub/dateparser",
-      "source": "MAGI//ARCHIVE",
-      "repo": "scrapinghub/dateparser",
-      "owner": "scrapinghub",
-      "name": "dateparser",
-      "description": "Parses dates from strings in over 200 languages",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/scrapinghub-dateparser.html",
-      "github_url": "https://github.com/scrapinghub/dateparser",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:samzong/hf-model-downloader",
-      "source": "MAGI//ARCHIVE",
-      "repo": "samzong/hf-model-downloader",
-      "owner": "samzong",
-      "name": "hf-model-downloader",
-      "description": "GUI for downloading Hugging Face and ModelScope models",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/samzong-hf-model-downloader.html",
-      "github_url": "https://github.com/samzong/hf-model-downloader",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:saharmor/whisper-playground",
-      "source": "MAGI//ARCHIVE",
-      "repo": "saharmor/whisper-playground",
-      "owner": "saharmor",
-      "name": "whisper-playground",
-      "description": "Speech-to-text apps in 99 languages",
-      "category": "LLM / GenAI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/saharmor-whisper-playground.html",
-      "github_url": "https://github.com/saharmor/whisper-playground",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:saeloun/miru-web",
-      "source": "MAGI//ARCHIVE",
-      "repo": "saeloun/miru-web",
-      "owner": "saeloun",
-      "name": "miru-web",
-      "description": "Time tracking and invoice management for businesses",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/saeloun-miru-web.html",
-      "github_url": "https://github.com/saeloun/miru-web",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:sachinsenal0x64/hifi",
-      "source": "MAGI//ARCHIVE",
-      "repo": "sachinsenal0x64/hifi",
-      "owner": "sachinsenal0x64",
-      "name": "hifi",
-      "description": "Integrates Tidal music into Subsonic, Jellyfin, and Plexamp",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/sachinsenal0x64-hifi.html",
-      "github_url": "https://github.com/sachinsenal0x64/hifi",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:runabol/tork",
-      "source": "MAGI//ARCHIVE",
-      "repo": "runabol/tork",
-      "owner": "runabol",
-      "name": "tork",
-      "description": "Distributed workflow engine for Docker containers",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/runabol-tork.html",
-      "github_url": "https://github.com/runabol/tork",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:rtCamp/frappe-appointment",
-      "source": "MAGI//ARCHIVE",
-      "repo": "rtCamp/frappe-appointment",
-      "owner": "rtCamp",
-      "name": "frappe-appointment",
-      "description": "Schedules meetings with calendar and video integrations",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/rtCamp-frappe-appointment.html",
-      "github_url": "https://github.com/rtCamp/frappe-appointment",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:rshipp/awesome-malware-analysis",
-      "source": "MAGI//ARCHIVE",
-      "repo": "rshipp/awesome-malware-analysis",
-      "owner": "rshipp",
-      "name": "awesome-malware-analysis",
-      "description": "Collection of tools for malware analysis",
-      "category": "Security",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/rshipp-awesome-malware-analysis.html",
-      "github_url": "https://github.com/rshipp/awesome-malware-analysis",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:ravi-ojha/startuptoolbox",
-      "source": "MAGI//ARCHIVE",
-      "repo": "ravi-ojha/startuptoolbox",
-      "owner": "ravi-ojha",
-      "name": "startuptoolbox",
-      "description": "Collection of tools for makers",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/ravi-ojha-startuptoolbox.html",
-      "github_url": "https://github.com/ravi-ojha/startuptoolbox",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:qgis/qwc2",
-      "source": "MAGI//ARCHIVE",
-      "repo": "qgis/qwc2",
-      "owner": "qgis",
-      "name": "qwc2",
-      "description": "Web client for map servers using React and OpenLayers",
-      "category": "Geospatial",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/qgis-qwc2.html",
-      "github_url": "https://github.com/qgis/qwc2",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:pranavp10/video-compress",
-      "source": "MAGI//ARCHIVE",
-      "repo": "pranavp10/video-compress",
-      "owner": "pranavp10",
-      "name": "video-compress",
-      "description": "Compresses videos offline using FFmpeg",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/pranavp10-video-compress.html",
-      "github_url": "https://github.com/pranavp10/video-compress",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:pomber/didact",
-      "source": "MAGI//ARCHIVE",
-      "repo": "pomber/didact",
-      "owner": "pomber",
-      "name": "didact",
-      "description": "Guide to build React from scratch",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/pomber-didact.html",
-      "github_url": "https://github.com/pomber/didact",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:piitaya/lovelace-mushroom",
-      "source": "MAGI//ARCHIVE",
-      "repo": "piitaya/lovelace-mushroom",
-      "owner": "piitaya",
-      "name": "lovelace-mushroom",
-      "description": "Cards for Home Assistant dashboards",
-      "category": "Dashboard / UI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/piitaya-lovelace-mushroom.html",
-      "github_url": "https://github.com/piitaya/lovelace-mushroom",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:parawanderer/OpenTagViewer",
-      "source": "MAGI//ARCHIVE",
-      "repo": "parawanderer/OpenTagViewer",
-      "owner": "parawanderer",
-      "name": "OpenTagViewer",
-      "description": "Tracks Apple AirTags on Android devices",
-      "category": "Dashboard / UI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/parawanderer-OpenTagViewer.html",
-      "github_url": "https://github.com/parawanderer/OpenTagViewer",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:oxbshw/LLM-Agents-Ecosystem-Handbook",
-      "source": "MAGI//ARCHIVE",
-      "repo": "oxbshw/LLM-Agents-Ecosystem-Handbook",
-      "owner": "oxbshw",
-      "name": "LLM-Agents-Ecosystem-Handbook",
-      "description": "Handbook for building and deploying LLM agents",
-      "category": "AI agents",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/oxbshw-LLM-Agents-Ecosystem-Handbook.html",
-      "github_url": "https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:oliverschwendener/ueli",
-      "source": "MAGI//ARCHIVE",
-      "repo": "oliverschwendener/ueli",
-      "owner": "oliverschwendener",
-      "name": "ueli",
-      "description": "Keystroke launcher for Windows, macOS, and Linux",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/oliverschwendener-ueli.html",
-      "github_url": "https://github.com/oliverschwendener/ueli",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:memvid/memvid",
-      "source": "MAGI//ARCHIVE",
-      "repo": "memvid/memvid",
-      "owner": "memvid",
-      "name": "memvid",
-      "description": "Memory layer for AI agents without databases",
-      "category": "AI agents",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/memvid-memvid.html",
-      "github_url": "https://github.com/memvid/memvid",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:maxdorninger/MediaManager",
-      "source": "MAGI//ARCHIVE",
-      "repo": "maxdorninger/MediaManager",
-      "owner": "maxdorninger",
-      "name": "MediaManager",
-      "description": "Automates media management with Docker and OAuth",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/maxdorninger-MediaManager.html",
-      "github_url": "https://github.com/maxdorninger/MediaManager",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:makerbase-mks/MKS-PI",
-      "source": "MAGI//ARCHIVE",
-      "repo": "makerbase-mks/MKS-PI",
-      "owner": "makerbase-mks",
-      "name": "MKS-PI",
-      "description": "Microcomputer board for Klipper firmware",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/makerbase-mks-MKS-PI.html",
-      "github_url": "https://github.com/makerbase-mks/MKS-PI",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:livekit/livekit",
-      "source": "MAGI//ARCHIVE",
-      "repo": "livekit/livekit",
-      "owner": "livekit",
-      "name": "livekit",
-      "description": "Stack for real-time video, audio, and data",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/livekit-livekit.html",
-      "github_url": "https://github.com/livekit/livekit",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:liam-hq/liam",
-      "source": "MAGI//ARCHIVE",
-      "repo": "liam-hq/liam",
-      "owner": "liam-hq",
-      "name": "liam",
-      "description": "Generates ER diagrams from a database",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/liam-hq-liam.html",
-      "github_url": "https://github.com/liam-hq/liam",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:lbrndnr/nuage-macos",
-      "source": "MAGI//ARCHIVE",
-      "repo": "lbrndnr/nuage-macos",
-      "owner": "lbrndnr",
-      "name": "nuage-macos",
-      "description": "SoundCloud client for macOS in SwiftUI",
-      "category": "Dev tools",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/lbrndnr-nuage-macos.html",
-      "github_url": "https://github.com/lbrndnr/nuage-macos",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:kuglee/TermiWatch",
-      "source": "MAGI//ARCHIVE",
-      "repo": "kuglee/TermiWatch",
-      "owner": "kuglee",
-      "name": "TermiWatch",
-      "description": "Terminal interface for the Apple Watch",
-      "category": "Dashboard / UI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/kuglee-TermiWatch.html",
-      "github_url": "https://github.com/kuglee/TermiWatch",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:keshavashiya/docify",
-      "source": "MAGI//ARCHIVE",
-      "repo": "keshavashiya/docify",
-      "owner": "keshavashiya",
-      "name": "docify",
-      "description": "Local research assistant with citations",
-      "category": "Research",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/keshavashiya-docify.html",
-      "github_url": "https://github.com/keshavashiya/docify",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:jaywcjlove/mocker-api",
-      "source": "MAGI//ARCHIVE",
-      "repo": "jaywcjlove/mocker-api",
-      "owner": "jaywcjlove",
-      "name": "mocker-api",
-      "description": "Mocks REST APIs for testing without a server",
-      "category": "Dev tools",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/jaywcjlove-mocker-api.html",
-      "github_url": "https://github.com/jaywcjlove/mocker-api",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:immich-app/immich",
-      "source": "MAGI//ARCHIVE",
-      "repo": "immich-app/immich",
-      "owner": "immich-app",
-      "name": "immich",
-      "description": "Manages photos and videos on personal servers",
-      "category": "Dev tools",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/immich-app-immich.html",
-      "github_url": "https://github.com/immich-app/immich",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:guillevc/listseerr",
-      "source": "MAGI//ARCHIVE",
-      "repo": "guillevc/listseerr",
-      "owner": "guillevc",
-      "name": "listseerr",
-      "description": "Automates media requests from lists to Jellyseerr or Overseerr",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/guillevc-listseerr.html",
-      "github_url": "https://github.com/guillevc/listseerr",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:google-ai-edge/gallery",
-      "source": "MAGI//ARCHIVE",
-      "repo": "google-ai-edge/gallery",
-      "owner": "google-ai-edge",
-      "name": "gallery",
-      "description": "Generative AI models on Android and iOS devices",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/google-ai-edge-gallery.html",
-      "github_url": "https://github.com/google-ai-edge/gallery",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:getsieutoc/voi",
-      "source": "MAGI//ARCHIVE",
-      "repo": "getsieutoc/voi",
-      "owner": "getsieutoc",
-      "name": "voi",
-      "description": "Self-hosted customer feedback management system",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/getsieutoc-voi.html",
-      "github_url": "https://github.com/getsieutoc/voi",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:g-hano/Claude-Powered-Study-Assistant",
-      "source": "MAGI//ARCHIVE",
-      "repo": "g-hano/Claude-Powered-Study-Assistant",
-      "owner": "g-hano",
-      "name": "Claude-Powered-Study-Assistant",
-      "description": "Study assistant with tool use for Claude",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/g-hano-Claude-Powered-Study-Assistant.html",
-      "github_url": "https://github.com/g-hano/Claude-Powered-Study-Assistant",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:frappe/education",
-      "source": "MAGI//ARCHIVE",
-      "repo": "frappe/education",
-      "owner": "frappe",
-      "name": "education",
-      "description": "Management system for schools and institutions",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/frappe-education.html",
-      "github_url": "https://github.com/frappe/education",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:evroon/bracket",
-      "source": "MAGI//ARCHIVE",
-      "repo": "evroon/bracket",
-      "owner": "evroon",
-      "name": "bracket",
-      "description": "Tournament system for sports and games",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/evroon-bracket.html",
-      "github_url": "https://github.com/evroon/bracket",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:elchead/misou",
-      "source": "MAGI//ARCHIVE",
-      "repo": "elchead/misou",
-      "owner": "elchead",
-      "name": "misou",
-      "description": "Search engine for personal knowledge sources",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/elchead-misou.html",
-      "github_url": "https://github.com/elchead/misou",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:dynatrace-oss/unguard",
-      "source": "MAGI//ARCHIVE",
-      "repo": "dynatrace-oss/unguard",
-      "owner": "dynatrace-oss",
-      "name": "unguard",
-      "description": "Microservices demo for security testing",
-      "category": "Security",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dynatrace-oss-unguard.html",
-      "github_url": "https://github.com/dynatrace-oss/unguard",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:docsifyjs/docsify",
-      "source": "MAGI//ARCHIVE",
-      "repo": "docsifyjs/docsify",
-      "owner": "docsifyjs",
-      "name": "docsify",
-      "description": "Generates documentation sites from Markdown files without build processes",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/docsifyjs-docsify.html",
-      "github_url": "https://github.com/docsifyjs/docsify",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:dockur/casa",
-      "source": "MAGI//ARCHIVE",
-      "repo": "dockur/casa",
-      "owner": "dockur",
-      "name": "casa",
-      "description": "Self-hosting operating system in a Docker container",
-      "category": "Other",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dockur-casa.html",
-      "github_url": "https://github.com/dockur/casa",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:dimastatz/whisper-flow",
-      "source": "MAGI//ARCHIVE",
-      "repo": "dimastatz/whisper-flow",
-      "owner": "dimastatz",
-      "name": "whisper-flow",
-      "description": "Transcribes audio streams in real time",
-      "category": "LLM / GenAI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dimastatz-whisper-flow.html",
-      "github_url": "https://github.com/dimastatz/whisper-flow",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:dayanch96/YTLite",
-      "source": "MAGI//ARCHIVE",
-      "repo": "dayanch96/YTLite",
-      "owner": "dayanch96",
-      "name": "YTLite",
-      "description": "Enhances YouTube on iOS with downloads and interface customization",
-      "category": "Dashboard / UI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/dayanch96-YTLite.html",
-      "github_url": "https://github.com/dayanch96/YTLite",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:datastack-net/dockerized",
-      "source": "MAGI//ARCHIVE",
-      "repo": "datastack-net/dockerized",
-      "owner": "datastack-net",
-      "name": "dockerized",
-      "description": "Runs command line tools within containers",
-      "category": "Data / ETL",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/datastack-net-dockerized.html",
-      "github_url": "https://github.com/datastack-net/dockerized",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:cugu/awesome-forensics",
-      "source": "MAGI//ARCHIVE",
-      "repo": "cugu/awesome-forensics",
-      "owner": "cugu",
-      "name": "awesome-forensics",
-      "description": "List of forensic analysis tools and resources",
-      "category": "Security",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/cugu-awesome-forensics.html",
-      "github_url": "https://github.com/cugu/awesome-forensics",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:creativetimofficial/material-dashboard",
-      "source": "MAGI//ARCHIVE",
-      "repo": "creativetimofficial/material-dashboard",
-      "owner": "creativetimofficial",
-      "name": "material-dashboard",
-      "description": "React components and blocks built on shadcn/ui",
-      "category": "Dashboard / UI",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/creativetimofficial-material-dashboard.html",
-      "github_url": "https://github.com/creativetimofficial/material-dashboard",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
-      ]
-    },
-    {
-      "id": "magi:contribsys/faktory",
-      "source": "MAGI//ARCHIVE",
-      "repo": "contribsys/faktory",
-      "owner": "contribsys",
-      "name": "faktory",
-      "description": "Background job server for any language",
-      "category": "Dev tools",
-      "language": "",
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "license": "",
-      "topics": [],
-      "created_at": "",
-      "updated_at": "",
-      "pushed_at": "",
-      "discovered_at": "2026-01-31",
-      "source_url": "https://tom-doerr.github.io/repo_posts/2026/01/31/contribsys-faktory.html",
-      "github_url": "https://github.com/contribsys/faktory",
-      "avatar_url": "",
-      "score": 0,
-      "sources": [
-        "MAGI//ARCHIVE"
       ]
     },
     {
@@ -4848,6 +4747,7 @@
       "github_url": "https://github.com/codeproject/CodeProject.AI-Server",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para datos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4874,6 +4774,7 @@
       "github_url": "https://github.com/chroma-core/chroma",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4900,6 +4801,7 @@
       "github_url": "https://github.com/caido/caido",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio vinculado a security.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4926,6 +4828,7 @@
       "github_url": "https://github.com/bestxxt/SmartLedger",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4952,6 +4855,7 @@
       "github_url": "https://github.com/awcodes/filament-quick-create",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio vinculado a dev tools.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4978,6 +4882,7 @@
       "github_url": "https://github.com/apache/streampark",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5004,6 +4909,7 @@
       "github_url": "https://github.com/apache/incubator-hugegraph",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para datos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5030,6 +4936,7 @@
       "github_url": "https://github.com/aelassas/wexcommerce",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5056,6 +4963,7 @@
       "github_url": "https://github.com/abhimishra91/insight",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5082,6 +4990,7 @@
       "github_url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5108,6 +5017,7 @@
       "github_url": "https://github.com/WCY-dt/EasyTransfer",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5134,6 +5044,7 @@
       "github_url": "https://github.com/Upsonic/Upsonic",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5160,6 +5071,7 @@
       "github_url": "https://github.com/Turbo1123/LauncherTurbo",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5186,6 +5098,7 @@
       "github_url": "https://github.com/QmiAI/Qmedia",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5212,6 +5125,7 @@
       "github_url": "https://github.com/Nutlope/roomGPT",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5238,6 +5152,7 @@
       "github_url": "https://github.com/Jstudner/jcorp-nomad",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio vinculado a dev tools.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5264,6 +5179,7 @@
       "github_url": "https://github.com/JMS1717/8mb.local",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5290,6 +5206,7 @@
       "github_url": "https://github.com/GuijiAI/duix.ai",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5316,6 +5233,7 @@
       "github_url": "https://github.com/CopilotKit/CopilotKit",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para agentes de IA.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5342,6 +5260,7 @@
       "github_url": "https://github.com/CloudDefenseAI/falco_extended_rules",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5368,6 +5287,7 @@
       "github_url": "https://github.com/CherryHQ/cherry-studio-app",
       "avatar_url": "",
       "score": 0,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]

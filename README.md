@@ -16,7 +16,7 @@ Abrir `http://localhost:8080/`.
 ## Actualizacion
 
 El workflow `.github/workflows/update-magi.yml` actualiza los datos todos los
-dias y tambien puede ejecutarse manualmente desde GitHub Actions.
+lunes y tambien puede ejecutarse manualmente desde GitHub Actions.
 
 ## Fuentes
 
@@ -24,6 +24,8 @@ dias y tambien puede ejecutarse manualmente desde GitHub Actions.
 - GitHub topics/search y GitHub Trending
 - Hugging Face Spaces
 - Papers with Code
+- Busquedas GitHub sobre escritura academica, revision bibliografica,
+  gestion de citas y analisis cualitativo.
 
 Este proyecto no copia imagenes ni textos extensos de terceros. Usa metadatos
 minimos, enlaces y enriquecimiento desde APIs o paginas publicas.
