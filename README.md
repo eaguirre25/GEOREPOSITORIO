@@ -1,7 +1,9 @@
 # GEOREPOSITORIO
 
 Dashboard personal para explorar repositorios detectados en varias fuentes y
-organizarlos con una capa propia de curaduria.
+organizarlos con una capa propia de curaduria. El panel muestra descripciones
+breves de cada repositorio, filtros clicables por categoria y fuente, y una
+lista de fuentes curadas para revisar manualmente.
 
 ## Uso local
 
@@ -26,6 +28,8 @@ lunes y tambien puede ejecutarse manualmente desde GitHub Actions.
 - Papers with Code
 - Busquedas GitHub sobre escritura academica, revision bibliografica,
   gestion de citas y analisis cualitativo.
+- Fuentes curadas de X / Twitter: DeepTechTR, R Markdown, Estacion R,
+  Google Maps Platform, MappingGIS y Google Earth.
 
 Este proyecto no copia imagenes ni textos extensos de terceros. Usa metadatos
 minimos, enlaces y enriquecimiento desde APIs o paginas publicas.

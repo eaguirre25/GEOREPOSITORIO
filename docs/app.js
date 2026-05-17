@@ -5,6 +5,7 @@ const state = {
   source: "all",
   sort: "date",
   savedOnly: false,
+  watchSources: [],
   saved: new Set(JSON.parse(localStorage.getItem("georepositorio:saved") || "[]")),
 };
 
@@ -25,6 +26,7 @@ const els = {
   languageChart: document.querySelector("#languageChart"),
   topRepos: document.querySelector("#topRepos"),
   radarFacts: document.querySelector("#radarFacts"),
+  watchSources: document.querySelector("#watchSources"),
   categoryList: document.querySelector("#categoryList"),
   sourceList: document.querySelector("#sourceList"),
   template: document.querySelector("#cardTemplate"),
@@ -75,13 +77,45 @@ function countBy(rows, getter) {
   return [...counts.entries()].sort((a, b) => b[1] - a[1]);
 }
 
-function renderBars(target, entries, limit = 8) {
+function setSelectValue(select, value) {
+  if ([...select.options].some(option => option.value === value)) {
+    select.value = value;
+  }
+}
+
+function activateCategory(category) {
+  state.category = state.category === category ? "all" : category;
+  setSelectValue(els.category, state.category);
+  renderCategoryList();
+  render();
+}
+
+function activateSource(source) {
+  state.source = state.source === source ? "all" : source;
+  setSelectValue(els.source, state.source);
+  renderSourceList();
+  render();
+}
+
+function renderBars(target, entries, limit = 8, onSelect = null, activeValue = "") {
   const rows = entries.slice(0, limit);
   const max = Math.max(1, ...rows.map(([, count]) => count));
   target.innerHTML = "";
   for (const [label, count] of rows) {
     const div = document.createElement("div");
     div.className = "bar-row";
+    if (label === activeValue) div.classList.add("active");
+    if (onSelect) {
+      div.role = "button";
+      div.tabIndex = 0;
+      div.addEventListener("click", () => onSelect(label));
+      div.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onSelect(label);
+        }
+      });
+    }
     div.innerHTML = `
       <div class="bar-label"><span>${label}</span><b>${count}</b></div>
       <div class="bar-track"><span style="width:${Math.max(4, (count / max) * 100)}%"></span></div>
@@ -91,8 +125,8 @@ function renderBars(target, entries, limit = 8) {
 }
 
 function renderDashboard(rows) {
-  renderBars(els.sourceChart, countBy(rows, row => row.sources || [row.source]), 10);
-  renderBars(els.categoryChart, countBy(rows, row => row.category), 8);
+  renderBars(els.sourceChart, countBy(rows, row => row.sources || [row.source]), 10, activateSource, state.source);
+  renderBars(els.categoryChart, countBy(rows, row => row.category), 8, activateCategory, state.category);
   renderBars(els.languageChart, countBy(rows, row => row.language || "n/d"), 8);
 
   const top = [...rows].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 8);
@@ -121,6 +155,22 @@ function renderDashboard(rows) {
     <div><b>${fresh}</b><span>actualizados 2026</span></div>
     <div><b>${multi}</b><span>aparecen en varias fuentes</span></div>
   `;
+}
+
+function renderWatchSources() {
+  els.watchSources.innerHTML = "";
+  for (const source of state.watchSources) {
+    const item = document.createElement("a");
+    item.href = source.url;
+    item.target = "_blank";
+    item.rel = "noreferrer";
+    item.className = "watch-source";
+    item.innerHTML = `
+      <strong>${source.name}</strong>
+      <span>${source.focus}</span>
+    `;
+    els.watchSources.append(item);
+  }
 }
 
 function renderCategoryOptions() {
@@ -155,7 +205,17 @@ function renderCategoryList() {
   [...counts.entries()].sort((a, b) => b[1] - a[1]).forEach(([category, count]) => {
     const div = document.createElement("div");
     div.className = "cat-row";
+    if (category === state.category) div.classList.add("active");
+    div.role = "button";
+    div.tabIndex = 0;
     div.innerHTML = `<span>${category}</span><b>${count}</b>`;
+    div.addEventListener("click", () => activateCategory(category));
+    div.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        activateCategory(category);
+      }
+    });
     els.categoryList.append(div);
   });
 }
@@ -169,7 +229,17 @@ function renderSourceList() {
   [...counts.entries()].sort((a, b) => b[1] - a[1]).forEach(([source, count]) => {
     const div = document.createElement("div");
     div.className = "cat-row";
+    if (source === state.source) div.classList.add("active");
+    div.role = "button";
+    div.tabIndex = 0;
     div.innerHTML = `<span>${source}</span><b>${count}</b>`;
+    div.addEventListener("click", () => activateSource(source));
+    div.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        activateSource(source);
+      }
+    });
     els.sourceList.append(div);
   });
 }
@@ -184,6 +254,7 @@ function renderCards() {
     const avatar = node.querySelector(".avatar");
     const title = node.querySelector("h3");
     const desc = node.querySelector(".desc");
+    const brief = node.querySelector(".brief");
     const meta = node.querySelector(".meta");
     const topics = node.querySelector(".topics");
     const github = node.querySelector(".github");
@@ -193,7 +264,8 @@ function renderCards() {
     card.classList.toggle("saved", state.saved.has(row.repo));
     avatar.src = row.avatar_url || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88'%3E%3Crect width='88' height='88' fill='%23222b36'/%3E%3Cpath d='M18 56 44 20l26 36z' fill='%2353c7a2'/%3E%3C/svg%3E";
     title.textContent = row.repo || "Repositorio";
-    desc.textContent = row.descripcion_es || row.description || "Sin descripción disponible.";
+    desc.textContent = row.description || row.descripcion_es || "Sin descripción disponible.";
+    brief.textContent = row.descripcion_es && row.descripcion_es !== row.description ? row.descripcion_es : "";
     meta.innerHTML = [
       `<span class="pill category">${row.category}</span>`,
       `<span class="pill source">${(row.sources || [row.source]).length} fuente${(row.sources || [row.source]).length === 1 ? "" : "s"}</span>`,
@@ -233,18 +305,20 @@ async function boot() {
   const response = await fetch("data/georepositorio.json", { cache: "no-store" });
   const payload = await response.json();
   state.rows = payload.rows || [];
+  state.watchSources = payload.watch_sources || [];
   els.total.textContent = state.rows.length;
   els.updated.textContent = fmtDate(payload.generated_at);
   renderCategoryOptions();
   renderSourceOptions();
   renderCategoryList();
   renderSourceList();
+  renderWatchSources();
   render();
 }
 
 els.search.addEventListener("input", event => { state.query = event.target.value; render(); });
-els.category.addEventListener("change", event => { state.category = event.target.value; render(); });
-els.source.addEventListener("change", event => { state.source = event.target.value; render(); });
+els.category.addEventListener("change", event => { state.category = event.target.value; renderCategoryList(); render(); });
+els.source.addEventListener("change", event => { state.source = event.target.value; renderSourceList(); render(); });
 els.sort.addEventListener("change", event => { state.sort = event.target.value; render(); });
 els.savedOnly.addEventListener("change", event => { state.savedOnly = event.target.checked; render(); });
 

@@ -40,6 +40,11 @@ h1 {
   font-size: clamp(28px, 4vw, 46px);
   letter-spacing: 0;
 }
+.subtitle {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
 nav {
   display: flex;
   gap: 10px;
@@ -126,6 +131,14 @@ input, select {
   gap: 11px;
 }
 .bar-chart.compact { gap: 9px; }
+.bar-row[role="button"] {
+  cursor: pointer;
+  border-radius: 6px;
+}
+.bar-row[role="button"]:hover,
+.bar-row[role="button"].active {
+  background: rgba(83,199,162,.08);
+}
 .bar-label {
   display: flex;
   justify-content: space-between;
@@ -198,6 +211,30 @@ input, select {
   color: var(--muted);
   font-size: 12px;
 }
+.watch-sources {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.watch-source {
+  display: grid;
+  gap: 5px;
+  min-height: 78px;
+  padding: 11px;
+  text-decoration: none;
+  background: #0d1117;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.watch-source strong {
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+.watch-source span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
 .layout {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
@@ -223,6 +260,16 @@ aside h2 {
   color: var(--muted);
   padding: 7px 0;
   border-top: 1px solid rgba(255,255,255,.05);
+}
+.cat-row[role="button"] {
+  cursor: pointer;
+  padding-inline: 6px;
+  border-radius: 6px;
+}
+.cat-row[role="button"]:hover,
+.cat-row.active {
+  color: var(--text);
+  background: rgba(83,199,162,.08);
 }
 .cards {
   display: grid;
@@ -259,6 +306,12 @@ h3 {
 .desc {
   margin: 0;
   color: var(--muted);
+  line-height: 1.35;
+}
+.brief {
+  margin: 5px 0 0;
+  color: #bdd6cb;
+  font-size: 12px;
   line-height: 1.35;
 }
 .meta {
@@ -301,6 +354,7 @@ h3 {
   main { padding: 18px 20px 32px; }
   .controls, .metrics, .dashboard, .layout { grid-template-columns: 1fr; }
   .widget.wide { grid-column: span 1; }
+  .watch-sources { grid-template-columns: 1fr; }
   .rank-row { grid-template-columns: 24px minmax(0, 1fr); }
   .rank-row small { grid-column: 2; }
   aside { position: static; }

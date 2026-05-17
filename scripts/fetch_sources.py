@@ -24,11 +24,51 @@ OUT_JSON = DATA / "georepositorio.json"
 OUT_CSV = DATA / "georepositorio.csv"
 MAGI_JSON = DATA / "magi_repos.json"
 MAGI_CSV = DATA / "magi_repos.csv"
+WATCHLIST_JSON = DATA / "source_watchlist.json"
 
 MAGI_INDEX_URL = "https://tom-doerr.github.io/repo_posts/assets/search-index.json"
 GITHUB_API = "https://api.github.com"
 HF_SPACES_API = "https://huggingface.co/api/spaces"
 PWC_REPOS_API = "https://paperswithcode.com/api/v1/repositories/"
+
+WATCH_SOURCES = [
+    {
+        "name": "DeepTechTR",
+        "url": "https://x.com/DeepTechTR",
+        "kind": "X / Twitter",
+        "focus": "Deep tech, IA, investigación aplicada y repositorios emergentes.",
+    },
+    {
+        "name": "R Markdown",
+        "url": "https://x.com/rmarkdown",
+        "kind": "X / Twitter",
+        "focus": "Escritura académica reproducible con R Markdown, Quarto y documentos técnicos.",
+    },
+    {
+        "name": "Estación R",
+        "url": "https://x.com/estacion_erre",
+        "kind": "X / Twitter",
+        "focus": "R en español, análisis de datos, visualización y materiales de aprendizaje.",
+    },
+    {
+        "name": "Google Maps Platform",
+        "url": "https://x.com/GMapsPlatform",
+        "kind": "X / Twitter",
+        "focus": "APIs, herramientas y novedades para mapas, rutas y datos geoespaciales.",
+    },
+    {
+        "name": "MappingGIS",
+        "url": "https://x.com/MappingGIS",
+        "kind": "X / Twitter",
+        "focus": "GIS, cartografía, QGIS, teledetección y formación geoespacial.",
+    },
+    {
+        "name": "Google Earth",
+        "url": "https://x.com/googleearth",
+        "kind": "X / Twitter",
+        "focus": "Google Earth, exploración territorial, imágenes satelitales y recursos geográficos.",
+    },
+]
 
 TOPIC_QUERIES = [
     "geospatial", "gis", "remote-sensing", "qgis", "leaflet", "deckgl",
@@ -393,10 +433,16 @@ def write_outputs(rows: list[dict[str, Any]], source_counts: dict[str, int], err
         "count": len(rows),
         "source_counts": source_counts,
         "source_errors": errors,
+        "watch_sources": WATCH_SOURCES,
         "rows": rows,
     }
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     MAGI_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    WATCHLIST_JSON.write_text(json.dumps({
+        "generated_at": payload["generated_at"],
+        "count": len(WATCH_SOURCES),
+        "sources": WATCH_SOURCES,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
     fields = [
         "repo", "source", "description", "category", "language", "stars", "forks",
         "descripcion_es",

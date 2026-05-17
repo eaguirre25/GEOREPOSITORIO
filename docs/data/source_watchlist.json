@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-05-17T23:01:56.657434+00:00",
+  "count": 6,
+  "sources": [
+    {
+      "name": "DeepTechTR",
+      "url": "https://x.com/DeepTechTR",
+      "kind": "X / Twitter",
+      "focus": "Deep tech, IA, investigación aplicada y repositorios emergentes."
+    },
+    {
+      "name": "R Markdown",
+      "url": "https://x.com/rmarkdown",
+      "kind": "X / Twitter",
+      "focus": "Escritura académica reproducible con R Markdown, Quarto y documentos técnicos."
+    },
+    {
+      "name": "Estación R",
+      "url": "https://x.com/estacion_erre",
+      "kind": "X / Twitter",
+      "focus": "R en español, análisis de datos, visualización y materiales de aprendizaje."
+    },
+    {
+      "name": "Google Maps Platform",
+      "url": "https://x.com/GMapsPlatform",
+      "kind": "X / Twitter",
+      "focus": "APIs, herramientas y novedades para mapas, rutas y datos geoespaciales."
+    },
+    {
+      "name": "MappingGIS",
+      "url": "https://x.com/MappingGIS",
+      "kind": "X / Twitter",
+      "focus": "GIS, cartografía, QGIS, teledetección y formación geoespacial."
+    },
+    {
+      "name": "Google Earth",
+      "url": "https://x.com/googleearth",
+      "kind": "X / Twitter",
+      "focus": "Google Earth, exploración territorial, imágenes satelitales y recursos geográficos."
+    }
+  ]
+}

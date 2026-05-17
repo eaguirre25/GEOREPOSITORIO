@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GEOREPOSITORIO</title>
+  <title>Radar I+D de Repositorios</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
     <div>
       <p class="eyebrow">Radar personal de repositorios</p>
-      <h1>GEOREPOSITORIO</h1>
+      <h1>Radar I+D de Repositorios</h1>
+      <p class="subtitle">Geo, IA, escritura académica y análisis cualitativo</p>
     </div>
     <nav>
       <a href="data/magi_repos.csv">CSV</a>
@@ -26,7 +27,7 @@
       <select id="category"></select>
       <select id="sort">
         <option value="date">Más recientes</option>
-        <option value="score">Mayor señal</option>
+        <option value="score">Más tracción</option>
         <option value="stars">Más estrellas</option>
         <option value="name">Nombre</option>
       </select>
@@ -65,8 +66,8 @@
       </article>
       <article class="widget wide">
         <div class="widget-head">
-          <h2>Mayor señal</h2>
-          <small>estrellas + forks ponderados</small>
+          <h2>Repositorios destacados</h2>
+          <small>estrellas + forks x3</small>
         </div>
         <div id="topRepos" class="leaderboard"></div>
       </article>
@@ -76,6 +77,13 @@
           <small>lectura operativa</small>
         </div>
         <div id="radarFacts" class="facts"></div>
+      </article>
+      <article class="widget wide">
+        <div class="widget-head">
+          <h2>Fuentes curadas</h2>
+          <small>X / Twitter</small>
+        </div>
+        <div id="watchSources" class="watch-sources"></div>
       </article>
     </section>
 
@@ -99,6 +107,7 @@
         <div>
           <h3></h3>
           <p class="desc"></p>
+          <p class="brief"></p>
         </div>
       </div>
       <div class="meta"></div>
