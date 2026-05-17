@@ -70,6 +70,49 @@ WATCH_SOURCES = [
     },
 ]
 
+CURATED_PROFILE_REPOS = [
+    # DeepTechTR difunde proyectos emergentes de IA/deep tech. Estos repos
+    # se detectaron en menciones indexadas de su perfil y quedan como semilla
+    # curada para que el radar los trate como una fuente propia.
+    ("DeepTechTR", "microsoft", "TRELLIS", "Modelo abierto de Microsoft para generación 3D a partir de texto o imagen.", "LLM / GenAI", ["3d-generation", "computer-vision", "ai"]),
+    ("DeepTechTR", "taracodlabs", "aiden", "Sistema local-first para operar herramientas de IA en Windows.", "AI agents", ["local-first", "ai-agents", "windows"]),
+    # R Markdown / Posit: herramientas centrales de escritura reproducible.
+    ("R Markdown", "rstudio", "rmarkdown", "Paquete R para crear documentos dinámicos y reproducibles.", "Academic writing", ["r", "rmarkdown", "reproducible-research"]),
+    ("R Markdown", "yihui", "knitr", "Motor R para integrar código, resultados y texto en documentos reproducibles.", "Academic writing", ["r", "markdown", "latex"]),
+    ("R Markdown", "rstudio", "bookdown", "Herramientas para escribir libros, tesis y documentos largos con R Markdown.", "Academic writing", ["r", "book", "writing"]),
+    ("R Markdown", "rstudio", "blogdown", "Publicación de sitios y blogs reproducibles desde R Markdown.", "Academic writing", ["r", "blog", "hugo"]),
+    ("R Markdown", "rstudio", "flexdashboard", "Creación de dashboards con R Markdown.", "Dashboard / UI", ["r", "dashboard", "rmarkdown"]),
+    ("R Markdown", "quarto-dev", "quarto-cli", "Sistema de publicación científica y técnica para documentos, libros, sitios y presentaciones.", "Academic writing", ["quarto", "markdown", "publishing"]),
+    # Estacion R comparte recursos en español para aprender y trabajar con R.
+    ("Estación R", "jfulponi", "istatR", "Paquete R para consultar datos abiertos del instituto estadístico italiano ISTAT.", "Data / ETL", ["r", "open-data", "statistics"]),
+    # Google Maps Platform: librerias y muestras oficiales.
+    ("Google Maps Platform", "googlemaps", "google-maps-services-python", "Cliente Python para servicios web de Google Maps Platform.", "Geospatial", ["google-maps", "python", "geocoding"]),
+    ("Google Maps Platform", "googlemaps", "google-maps-services-js", "Cliente Node.js/TypeScript para servicios web de Google Maps Platform.", "Geospatial", ["google-maps", "typescript", "geocoding"]),
+    ("Google Maps Platform", "googlemaps", "android-maps-compose", "Componentes Jetpack Compose para integrar Google Maps en Android.", "Geospatial", ["android", "maps", "compose"]),
+    ("Google Maps Platform", "googlemaps", "js-api-loader", "Carga dinámica de la API JavaScript de Google Maps.", "Geospatial", ["javascript", "google-maps", "loader"]),
+    ("Google Maps Platform", "googlemaps", "js-markerclusterer", "Agrupamiento de marcadores para mapas con muchos puntos.", "Geospatial", ["javascript", "marker-clustering", "maps"]),
+    ("Google Maps Platform", "googlemaps", "extended-component-library", "Web Components para construir experiencias con Google Maps Platform.", "Geospatial", ["web-components", "google-maps", "places"]),
+    ("Google Maps Platform", "googlemaps-samples", "js-samples", "Muestras oficiales para la API JavaScript de Google Maps.", "Geospatial", ["samples", "javascript", "maps"]),
+    # MappingGIS suele curar herramientas QGIS/GIS abiertas.
+    ("MappingGIS", "qgis", "QGIS", "Sistema de información geográfica libre y multiplataforma.", "Geospatial", ["qgis", "gis", "maps"]),
+    ("MappingGIS", "qgis", "QGIS-Documentation", "Documentación oficial de QGIS.", "Geospatial", ["qgis", "documentation", "gis"]),
+    ("MappingGIS", "qgis", "qwc2", "Cliente web para publicar proyectos QGIS en la web.", "Geospatial", ["qgis", "web-map", "gis"]),
+    ("MappingGIS", "nextgis", "quickmapservices", "Plugin QGIS para agregar capas base de servicios como Google, ESRI y OpenStreetMap.", "Geospatial", ["qgis", "plugin", "basemaps"]),
+    # Google Earth / Earth Engine.
+    ("Google Earth", "google", "earthengine-api", "Bindings Python y JavaScript para usar Google Earth Engine.", "Geospatial", ["earth-engine", "remote-sensing", "python"]),
+    ("Google Earth", "gee-community", "geemap", "Herramienta Python para análisis interactivo con Google Earth Engine.", "Geospatial", ["earth-engine", "python", "mapping"]),
+    ("Google Earth", "opengeos", "Awesome-GEE", "Lista curada de recursos para Google Earth Engine.", "Geospatial", ["earth-engine", "awesome-list", "remote-sensing"]),
+]
+
+X_HANDLES = {
+    "DeepTechTR": "DeepTechTR",
+    "R Markdown": "rmarkdown",
+    "Estación R": "estacion_erre",
+    "Google Maps Platform": "GMapsPlatform",
+    "MappingGIS": "MappingGIS",
+    "Google Earth": "googleearth",
+}
+
 TOPIC_QUERIES = [
     "geospatial", "gis", "remote-sensing", "qgis", "leaflet", "deckgl",
     "dashboard", "data-visualization", "open-data", "scraper",
@@ -285,6 +328,50 @@ def fetch_github_topics(token: str, per_topic: int) -> list[dict[str, Any]]:
     return rows
 
 
+def fallback_curated_row(profile: str, owner: str, repo: str, description: str, category: str, topics: list[str]) -> dict[str, Any]:
+    full = f"{owner}/{repo}"
+    row = {
+        "id": f"x-curated:{full}",
+        "source": f"X curado:{profile}",
+        "repo": full,
+        "owner": owner,
+        "name": repo,
+        "description": description,
+        "category": category,
+        "language": "",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "license": "",
+        "topics": topics,
+        "created_at": "",
+        "updated_at": "",
+        "pushed_at": "",
+        "discovered_at": datetime.now(timezone.utc).date().isoformat(),
+        "source_url": f"https://x.com/{X_HANDLES.get(profile, profile.replace(' ', ''))}",
+        "github_url": f"https://github.com/{full}",
+        "avatar_url": "",
+        "score": 0,
+    }
+    row["descripcion_es"] = spanish_brief(row)
+    return row
+
+
+def fetch_curated_profile_repos(token: str) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for profile, owner, repo, description, category, topics in CURATED_PROFILE_REPOS:
+        gh = github_repo(owner, repo, token)
+        if gh:
+            rows.append(row_from_github(
+                gh,
+                source=f"X curado:{profile}",
+                source_url=f"https://github.com/{owner}/{repo}",
+            ))
+        else:
+            rows.append(fallback_curated_row(profile, owner, repo, description, category, topics))
+    return rows
+
+
 def fetch_github_trending() -> list[dict[str, Any]]:
     url = "https://github.com/trending?since=weekly"
     text = request_text(url, accept="text/html")
@@ -480,6 +567,7 @@ def main() -> None:
     groups = [
         guarded("MAGI//ARCHIVE", lambda: fetch_magi(token, magi_limit), errors),
         guarded("GitHub topics", lambda: fetch_github_topics(token, topic_limit), errors),
+        guarded("X curated profile repos", lambda: fetch_curated_profile_repos(token), errors),
         guarded("GitHub Trending", fetch_github_trending, errors),
         guarded("Hugging Face Spaces", lambda: fetch_hf_spaces(hf_limit), errors),
         guarded("Papers with Code", lambda: fetch_paperswithcode(pwc_limit), errors),
@@ -487,9 +575,10 @@ def main() -> None:
     source_counts = {
         "MAGI//ARCHIVE": len(groups[0]),
         "GitHub topics": len(groups[1]),
-        "GitHub Trending": len(groups[2]),
-        "Hugging Face Spaces": len(groups[3]),
-        "Papers with Code": len(groups[4]),
+        "X curated profile repos": len(groups[2]),
+        "GitHub Trending": len(groups[3]),
+        "Hugging Face Spaces": len(groups[4]),
+        "Papers with Code": len(groups[5]),
     }
     rows = merge_rows(groups)
     write_outputs(rows, source_counts, errors)

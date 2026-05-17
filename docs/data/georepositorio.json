@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-05-17T23:01:56.657434+00:00",
-  "count": 156,
+  "generated_at": "2026-05-17T23:16:29.319908+00:00",
+  "count": 178,
   "source_counts": {
     "MAGI//ARCHIVE": 80,
     "GitHub topics": 40,
+    "X curated profile repos": 23,
     "GitHub Trending": 0,
     "Hugging Face Spaces": 40,
     "Papers with Code": 0
@@ -50,6 +51,51 @@
     }
   ],
   "rows": [
+    {
+      "id": "github:metabase/metabase",
+      "source": "GitHub topic:dashboard + GitHub topic:data-visualization",
+      "repo": "metabase/metabase",
+      "owner": "metabase",
+      "name": "metabase",
+      "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+      "category": "Data / ETL",
+      "language": "Clojure",
+      "stars": 47350,
+      "forks": 6467,
+      "open_issues": 4135,
+      "license": "NOASSERTION",
+      "topics": [
+        "analytics",
+        "bi",
+        "business-intelligence",
+        "businessintelligence",
+        "clojure",
+        "dashboard",
+        "data",
+        "data-analysis",
+        "data-visualization",
+        "database",
+        "metabase",
+        "mysql",
+        "postgres",
+        "postgresql",
+        "reporting",
+        "slack"
+      ],
+      "created_at": "2015-02-02T19:25:47Z",
+      "updated_at": "2026-05-17T23:10:08Z",
+      "pushed_at": "2026-05-17T23:01:45Z",
+      "discovered_at": "",
+      "source_url": "https://github.com/topics/dashboard",
+      "github_url": "https://github.com/metabase/metabase",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10520629?v=4",
+      "descripcion_es": "Recurso para herramienta de código abierto, panel de control, visualización de datos.",
+      "score": 66751,
+      "sources": [
+        "GitHub topic:dashboard",
+        "GitHub topic:data-visualization"
+      ]
+    },
     {
       "id": "github:keplergl/kepler.gl",
       "source": "GitHub topic:geospatial",
@@ -298,8 +344,8 @@
         "voice"
       ],
       "created_at": "2017-05-05T15:53:07Z",
-      "updated_at": "2026-05-17T23:00:31Z",
-      "pushed_at": "2026-05-17T23:00:27Z",
+      "updated_at": "2026-05-17T23:10:30Z",
+      "pushed_at": "2026-05-17T23:10:26Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/common-voice/common-voice",
@@ -855,7 +901,7 @@
       "description": "A Weather app for android 🌦🌞☔",
       "category": "Geospatial",
       "language": "Kotlin",
-      "stars": 2756,
+      "stars": 2757,
       "forks": 114,
       "open_issues": 99,
       "license": "",
@@ -876,14 +922,14 @@
         "webview"
       ],
       "created_at": "2024-06-16T13:19:44Z",
-      "updated_at": "2026-05-17T17:10:41Z",
+      "updated_at": "2026-05-17T23:07:31Z",
       "pushed_at": "2026-05-17T17:15:14Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/PranshulGG/WeatherMaster",
       "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
       "descripcion_es": "Recurso para herramienta de código abierto, información geoespacial y mapas.",
-      "score": 3098,
+      "score": 3099,
       "sources": [
         "GitHub topic:leaflet"
       ]
@@ -1795,8 +1841,8 @@
         "webcomic"
       ],
       "created_at": "2015-03-31T19:40:19Z",
-      "updated_at": "2026-05-17T22:52:29Z",
-      "pushed_at": "2026-05-17T22:52:27Z",
+      "updated_at": "2026-05-17T23:07:43Z",
+      "pushed_at": "2026-05-17T23:07:40Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/webcomics/dosage",
@@ -1840,6 +1886,47 @@
       "score": 233,
       "sources": [
         "GitHub topic:deckgl"
+      ]
+    },
+    {
+      "id": "github:pavlovtech/WebReaper",
+      "source": "GitHub topic:scraper",
+      "repo": "pavlovtech/WebReaper",
+      "owner": "pavlovtech",
+      "name": "WebReaper",
+      "description": "Web scraper, crawler and parser in C#. Designed as simple, declarative and scalable web scraping solution.",
+      "category": "Data / ETL",
+      "language": "C#",
+      "stars": 135,
+      "forks": 32,
+      "open_issues": 0,
+      "license": "GPL-3.0",
+      "topics": [
+        "crawler",
+        "datamining",
+        "parser",
+        "parsing",
+        "scraper",
+        "scraping",
+        "scraping-api",
+        "scraping-data",
+        "scraping-tool",
+        "scraping-web",
+        "scraping-websites",
+        "webcrawler",
+        "webscraping"
+      ],
+      "created_at": "2022-04-12T21:59:25Z",
+      "updated_at": "2026-05-17T23:08:55Z",
+      "pushed_at": "2026-05-17T23:08:51Z",
+      "discovered_at": "",
+      "source_url": "https://github.com/topics/scraper",
+      "github_url": "https://github.com/pavlovtech/WebReaper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6662454?v=4",
+      "descripcion_es": "Recurso para datos, recolección automatizada.",
+      "score": 231,
+      "sources": [
+        "GitHub topic:scraper"
       ]
     },
     {
@@ -1972,8 +2059,8 @@
         "scraper"
       ],
       "created_at": "2025-06-13T01:56:16Z",
-      "updated_at": "2026-05-17T22:37:27Z",
-      "pushed_at": "2026-05-17T22:37:23Z",
+      "updated_at": "2026-05-17T23:09:31Z",
+      "pushed_at": "2026-05-17T23:09:27Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/Skillter/ProxyGather",
@@ -2014,51 +2101,6 @@
       "score": 132,
       "sources": [
         "GitHub topic:qgis"
-      ]
-    },
-    {
-      "id": "github:ipitio/backage",
-      "source": "GitHub topic:scraper",
-      "repo": "ipitio/backage",
-      "owner": "ipitio",
-      "name": "backage",
-      "description": "Endpoint behind badges for GitHub Packages",
-      "category": "Data / ETL",
-      "language": "Shell",
-      "stars": 55,
-      "forks": 14,
-      "open_issues": 0,
-      "license": "MIT",
-      "topics": [
-        "api",
-        "automation",
-        "docker",
-        "ghcr",
-        "github-actions",
-        "gnu-parallel",
-        "gradle",
-        "json2xml",
-        "maven",
-        "monitoring",
-        "npm",
-        "nuget",
-        "proxy",
-        "rubygems",
-        "scraper",
-        "time-series",
-        "yq"
-      ],
-      "created_at": "2024-06-08T09:11:40Z",
-      "updated_at": "2026-05-17T22:06:57Z",
-      "pushed_at": "2026-05-17T22:06:53Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/scraper",
-      "github_url": "https://github.com/ipitio/backage",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21136719?v=4",
-      "descripcion_es": "Recurso para datos, recolección automatizada.",
-      "score": 97,
-      "sources": [
-        "GitHub topic:scraper"
       ]
     },
     {
@@ -2304,7 +2346,7 @@
       "description": "🦦 ADHDev — Agent Dashboard Hub. Monitor & control AI coding agents from a single dashboard. Self-hosted, open-source.",
       "category": "Qualitative analysis",
       "language": "TypeScript",
-      "stars": 23,
+      "stars": 24,
       "forks": 6,
       "open_issues": 0,
       "license": "AGPL-3.0",
@@ -2321,61 +2363,16 @@
         "remote-control"
       ],
       "created_at": "2026-03-17T16:55:03Z",
-      "updated_at": "2026-05-17T22:49:27Z",
+      "updated_at": "2026-05-17T23:07:57Z",
       "pushed_at": "2026-05-17T22:49:23Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/dashboard",
       "github_url": "https://github.com/vilmire/adhdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/5513793?v=4",
       "descripcion_es": "Recurso para herramienta de código abierto, panel de control, agentes de IA.",
-      "score": 41,
+      "score": 42,
       "sources": [
         "GitHub topic:dashboard"
-      ]
-    },
-    {
-      "id": "github:denesdata/roem",
-      "source": "GitHub topic:dashboard + GitHub topic:data-visualization",
-      "repo": "denesdata/roem",
-      "owner": "denesdata",
-      "name": "roem",
-      "description": "🇷🇴💹📉📊 Romanian Economic Monitor",
-      "category": "Data / ETL",
-      "language": "CSS",
-      "stars": 23,
-      "forks": 5,
-      "open_issues": 11,
-      "license": "NOASSERTION",
-      "topics": [
-        "covid-19",
-        "covid19",
-        "covid19-data",
-        "covid19-live-tracker",
-        "d3js",
-        "d3plus",
-        "dashboard",
-        "data-visualization",
-        "dataviz",
-        "docker",
-        "docker-compose",
-        "economics",
-        "golang",
-        "grafana",
-        "grafana-dashboard",
-        "grafana-influxdb"
-      ],
-      "created_at": "2020-04-03T08:55:25Z",
-      "updated_at": "2026-05-17T22:42:41Z",
-      "pushed_at": "2026-05-17T22:42:38Z",
-      "discovered_at": "",
-      "source_url": "https://github.com/topics/dashboard",
-      "github_url": "https://github.com/denesdata/roem",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45861308?v=4",
-      "descripcion_es": "Recurso para panel de control, visualización de datos, datos.",
-      "score": 38,
-      "sources": [
-        "GitHub topic:dashboard",
-        "GitHub topic:data-visualization"
       ]
     },
     {
@@ -2644,6 +2641,688 @@
       "score": 27,
       "sources": [
         "GitHub topic:dashboard"
+      ]
+    },
+    {
+      "id": "x-curated:microsoft/TRELLIS",
+      "source": "X curado:DeepTechTR",
+      "repo": "microsoft/TRELLIS",
+      "owner": "microsoft",
+      "name": "TRELLIS",
+      "description": "Modelo abierto de Microsoft para generación 3D a partir de texto o imagen.",
+      "category": "LLM / GenAI",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "3d-generation",
+        "computer-vision",
+        "ai"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/DeepTechTR",
+      "github_url": "https://github.com/microsoft/TRELLIS",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "sources": [
+        "X curado:DeepTechTR"
+      ]
+    },
+    {
+      "id": "x-curated:taracodlabs/aiden",
+      "source": "X curado:DeepTechTR",
+      "repo": "taracodlabs/aiden",
+      "owner": "taracodlabs",
+      "name": "aiden",
+      "description": "Sistema local-first para operar herramientas de IA en Windows.",
+      "category": "AI agents",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "local-first",
+        "ai-agents",
+        "windows"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/DeepTechTR",
+      "github_url": "https://github.com/taracodlabs/aiden",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para agentes de IA.",
+      "sources": [
+        "X curado:DeepTechTR"
+      ]
+    },
+    {
+      "id": "x-curated:rstudio/rmarkdown",
+      "source": "X curado:R Markdown",
+      "repo": "rstudio/rmarkdown",
+      "owner": "rstudio",
+      "name": "rmarkdown",
+      "description": "Paquete R para crear documentos dinámicos y reproducibles.",
+      "category": "Academic writing",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "r",
+        "rmarkdown",
+        "reproducible-research"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/rmarkdown",
+      "github_url": "https://github.com/rstudio/rmarkdown",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para escritura académica.",
+      "sources": [
+        "X curado:R Markdown"
+      ]
+    },
+    {
+      "id": "x-curated:yihui/knitr",
+      "source": "X curado:R Markdown",
+      "repo": "yihui/knitr",
+      "owner": "yihui",
+      "name": "knitr",
+      "description": "Motor R para integrar código, resultados y texto en documentos reproducibles.",
+      "category": "Academic writing",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "r",
+        "markdown",
+        "latex"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/rmarkdown",
+      "github_url": "https://github.com/yihui/knitr",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para escritura académica.",
+      "sources": [
+        "X curado:R Markdown"
+      ]
+    },
+    {
+      "id": "x-curated:rstudio/bookdown",
+      "source": "X curado:R Markdown",
+      "repo": "rstudio/bookdown",
+      "owner": "rstudio",
+      "name": "bookdown",
+      "description": "Herramientas para escribir libros, tesis y documentos largos con R Markdown.",
+      "category": "Academic writing",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "r",
+        "book",
+        "writing"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/rmarkdown",
+      "github_url": "https://github.com/rstudio/bookdown",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para escritura académica.",
+      "sources": [
+        "X curado:R Markdown"
+      ]
+    },
+    {
+      "id": "x-curated:rstudio/blogdown",
+      "source": "X curado:R Markdown",
+      "repo": "rstudio/blogdown",
+      "owner": "rstudio",
+      "name": "blogdown",
+      "description": "Publicación de sitios y blogs reproducibles desde R Markdown.",
+      "category": "Academic writing",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "r",
+        "blog",
+        "hugo"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/rmarkdown",
+      "github_url": "https://github.com/rstudio/blogdown",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para escritura académica.",
+      "sources": [
+        "X curado:R Markdown"
+      ]
+    },
+    {
+      "id": "x-curated:rstudio/flexdashboard",
+      "source": "X curado:R Markdown",
+      "repo": "rstudio/flexdashboard",
+      "owner": "rstudio",
+      "name": "flexdashboard",
+      "description": "Creación de dashboards con R Markdown.",
+      "category": "Dashboard / UI",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "r",
+        "dashboard",
+        "rmarkdown"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/rmarkdown",
+      "github_url": "https://github.com/rstudio/flexdashboard",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para panel de control.",
+      "sources": [
+        "X curado:R Markdown"
+      ]
+    },
+    {
+      "id": "x-curated:quarto-dev/quarto-cli",
+      "source": "X curado:R Markdown",
+      "repo": "quarto-dev/quarto-cli",
+      "owner": "quarto-dev",
+      "name": "quarto-cli",
+      "description": "Sistema de publicación científica y técnica para documentos, libros, sitios y presentaciones.",
+      "category": "Academic writing",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "quarto",
+        "markdown",
+        "publishing"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/rmarkdown",
+      "github_url": "https://github.com/quarto-dev/quarto-cli",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para escritura académica.",
+      "sources": [
+        "X curado:R Markdown"
+      ]
+    },
+    {
+      "id": "x-curated:jfulponi/istatR",
+      "source": "X curado:Estación R",
+      "repo": "jfulponi/istatR",
+      "owner": "jfulponi",
+      "name": "istatR",
+      "description": "Paquete R para consultar datos abiertos del instituto estadístico italiano ISTAT.",
+      "category": "Data / ETL",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "r",
+        "open-data",
+        "statistics"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/estacion_erre",
+      "github_url": "https://github.com/jfulponi/istatR",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para datos.",
+      "sources": [
+        "X curado:Estación R"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps/google-maps-services-python",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps/google-maps-services-python",
+      "owner": "googlemaps",
+      "name": "google-maps-services-python",
+      "description": "Cliente Python para servicios web de Google Maps Platform.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "google-maps",
+        "python",
+        "geocoding"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps/google-maps-services-python",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps/google-maps-services-js",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps/google-maps-services-js",
+      "owner": "googlemaps",
+      "name": "google-maps-services-js",
+      "description": "Cliente Node.js/TypeScript para servicios web de Google Maps Platform.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "google-maps",
+        "typescript",
+        "geocoding"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps/google-maps-services-js",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps/android-maps-compose",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps/android-maps-compose",
+      "owner": "googlemaps",
+      "name": "android-maps-compose",
+      "description": "Componentes Jetpack Compose para integrar Google Maps en Android.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "android",
+        "maps",
+        "compose"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps/android-maps-compose",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps/js-api-loader",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps/js-api-loader",
+      "owner": "googlemaps",
+      "name": "js-api-loader",
+      "description": "Carga dinámica de la API JavaScript de Google Maps.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "javascript",
+        "google-maps",
+        "loader"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps/js-api-loader",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps/js-markerclusterer",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps/js-markerclusterer",
+      "owner": "googlemaps",
+      "name": "js-markerclusterer",
+      "description": "Agrupamiento de marcadores para mapas con muchos puntos.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "javascript",
+        "marker-clustering",
+        "maps"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps/js-markerclusterer",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps/extended-component-library",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps/extended-component-library",
+      "owner": "googlemaps",
+      "name": "extended-component-library",
+      "description": "Web Components para construir experiencias con Google Maps Platform.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "web-components",
+        "google-maps",
+        "places"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps/extended-component-library",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:googlemaps-samples/js-samples",
+      "source": "X curado:Google Maps Platform",
+      "repo": "googlemaps-samples/js-samples",
+      "owner": "googlemaps-samples",
+      "name": "js-samples",
+      "description": "Muestras oficiales para la API JavaScript de Google Maps.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "samples",
+        "javascript",
+        "maps"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/GMapsPlatform",
+      "github_url": "https://github.com/googlemaps-samples/js-samples",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Maps Platform"
+      ]
+    },
+    {
+      "id": "x-curated:qgis/QGIS",
+      "source": "X curado:MappingGIS",
+      "repo": "qgis/QGIS",
+      "owner": "qgis",
+      "name": "QGIS",
+      "description": "Sistema de información geográfica libre y multiplataforma.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "qgis",
+        "gis",
+        "maps"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/MappingGIS",
+      "github_url": "https://github.com/qgis/QGIS",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:MappingGIS"
+      ]
+    },
+    {
+      "id": "x-curated:qgis/QGIS-Documentation",
+      "source": "X curado:MappingGIS",
+      "repo": "qgis/QGIS-Documentation",
+      "owner": "qgis",
+      "name": "QGIS-Documentation",
+      "description": "Documentación oficial de QGIS.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "qgis",
+        "documentation",
+        "gis"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/MappingGIS",
+      "github_url": "https://github.com/qgis/QGIS-Documentation",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:MappingGIS"
+      ]
+    },
+    {
+      "id": "x-curated:nextgis/quickmapservices",
+      "source": "X curado:MappingGIS",
+      "repo": "nextgis/quickmapservices",
+      "owner": "nextgis",
+      "name": "quickmapservices",
+      "description": "Plugin QGIS para agregar capas base de servicios como Google, ESRI y OpenStreetMap.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "qgis",
+        "plugin",
+        "basemaps"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/MappingGIS",
+      "github_url": "https://github.com/nextgis/quickmapservices",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:MappingGIS"
+      ]
+    },
+    {
+      "id": "x-curated:google/earthengine-api",
+      "source": "X curado:Google Earth",
+      "repo": "google/earthengine-api",
+      "owner": "google",
+      "name": "earthengine-api",
+      "description": "Bindings Python y JavaScript para usar Google Earth Engine.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "earth-engine",
+        "remote-sensing",
+        "python"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/googleearth",
+      "github_url": "https://github.com/google/earthengine-api",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Earth"
+      ]
+    },
+    {
+      "id": "x-curated:gee-community/geemap",
+      "source": "X curado:Google Earth",
+      "repo": "gee-community/geemap",
+      "owner": "gee-community",
+      "name": "geemap",
+      "description": "Herramienta Python para análisis interactivo con Google Earth Engine.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "earth-engine",
+        "python",
+        "mapping"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/googleearth",
+      "github_url": "https://github.com/gee-community/geemap",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Earth"
+      ]
+    },
+    {
+      "id": "x-curated:opengeos/Awesome-GEE",
+      "source": "X curado:Google Earth",
+      "repo": "opengeos/Awesome-GEE",
+      "owner": "opengeos",
+      "name": "Awesome-GEE",
+      "description": "Lista curada de recursos para Google Earth Engine.",
+      "category": "Geospatial",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "license": "",
+      "topics": [
+        "earth-engine",
+        "awesome-list",
+        "remote-sensing"
+      ],
+      "created_at": "",
+      "updated_at": "",
+      "pushed_at": "",
+      "discovered_at": "2026-05-17",
+      "source_url": "https://x.com/googleearth",
+      "github_url": "https://github.com/opengeos/Awesome-GEE",
+      "avatar_url": "",
+      "score": 0,
+      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "sources": [
+        "X curado:Google Earth"
       ]
     },
     {
@@ -3350,7 +4029,7 @@
     },
     {
       "id": "magi:qgis/qwc2",
-      "source": "MAGI//ARCHIVE",
+      "source": "MAGI//ARCHIVE + X curado:MappingGIS",
       "repo": "qgis/qwc2",
       "owner": "qgis",
       "name": "qwc2",
@@ -3361,7 +4040,11 @@
       "forks": 0,
       "open_issues": 0,
       "license": "",
-      "topics": [],
+      "topics": [
+        "qgis",
+        "web-map",
+        "gis"
+      ],
       "created_at": "",
       "updated_at": "",
       "pushed_at": "",
@@ -3372,7 +4055,8 @@
       "score": 0,
       "descripcion_es": "Recurso para información geoespacial y mapas.",
       "sources": [
-        "MAGI//ARCHIVE"
+        "MAGI//ARCHIVE",
+        "X curado:MappingGIS"
       ]
     },
     {

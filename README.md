@@ -28,8 +28,10 @@ lunes y tambien puede ejecutarse manualmente desde GitHub Actions.
 - Papers with Code
 - Busquedas GitHub sobre escritura academica, revision bibliografica,
   gestion de citas y analisis cualitativo.
-- Fuentes curadas de X / Twitter: DeepTechTR, R Markdown, Estacion R,
-  Google Maps Platform, MappingGIS y Google Earth.
+- Repositorios curados desde perfiles de X / Twitter: DeepTechTR, R Markdown,
+  Estacion R, Google Maps Platform, MappingGIS y Google Earth. Cuando el perfil
+  comparte proyectos con repositorio GitHub, se incorporan como registros del
+  radar bajo la fuente `X curado`.
 
 Este proyecto no copia imagenes ni textos extensos de terceros. Usa metadatos
 minimos, enlaces y enriquecimiento desde APIs o paginas publicas.
