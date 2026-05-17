@@ -95,6 +95,109 @@ input, select {
   font-weight: 750;
 }
 .metrics small { color: var(--muted); }
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.widget {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 230px;
+}
+.widget.wide { grid-column: span 2; }
+.widget-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.widget h2 {
+  margin: 0;
+  font-size: 15px;
+}
+.widget small { color: var(--muted); }
+.bar-chart {
+  display: grid;
+  gap: 11px;
+}
+.bar-chart.compact { gap: 9px; }
+.bar-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.bar-label span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bar-label b { color: var(--text); }
+.bar-track {
+  height: 8px;
+  background: #0b0f14;
+  border: 1px solid rgba(255,255,255,.04);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+.bar-track span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+.leaderboard {
+  display: grid;
+  gap: 8px;
+}
+.rank-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text);
+  padding: 8px;
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 6px;
+  background: rgba(255,255,255,.02);
+}
+.rank-row span {
+  color: var(--accent);
+  font-weight: 800;
+}
+.rank-row strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rank-row small { color: var(--muted); white-space: nowrap; }
+.facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.facts div {
+  background: #0d1117;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 13px;
+}
+.facts b {
+  display: block;
+  font-size: 24px;
+  color: var(--accent);
+}
+.facts span {
+  color: var(--muted);
+  font-size: 12px;
+}
 .layout {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
@@ -196,6 +299,9 @@ h3 {
 @media (max-width: 820px) {
   .topbar { align-items: start; flex-direction: column; padding: 20px; }
   main { padding: 18px 20px 32px; }
-  .controls, .metrics, .layout { grid-template-columns: 1fr; }
+  .controls, .metrics, .dashboard, .layout { grid-template-columns: 1fr; }
+  .widget.wide { grid-column: span 1; }
+  .rank-row { grid-template-columns: 24px minmax(0, 1fr); }
+  .rank-row small { grid-column: 2; }
   aside { position: static; }
 }

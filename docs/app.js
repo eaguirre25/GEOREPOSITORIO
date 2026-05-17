@@ -20,6 +20,11 @@ const els = {
   savedCount: document.querySelector("#savedCount"),
   sourcesCount: document.querySelector("#sourcesCount"),
   updated: document.querySelector("#updated"),
+  sourceChart: document.querySelector("#sourceChart"),
+  categoryChart: document.querySelector("#categoryChart"),
+  languageChart: document.querySelector("#languageChart"),
+  topRepos: document.querySelector("#topRepos"),
+  radarFacts: document.querySelector("#radarFacts"),
   categoryList: document.querySelector("#categoryList"),
   sourceList: document.querySelector("#sourceList"),
   template: document.querySelector("#cardTemplate"),
@@ -56,6 +61,66 @@ function filteredRows() {
     return String(b.magi_date || "").localeCompare(String(a.magi_date || ""));
   });
   return rows;
+}
+
+function countBy(rows, getter) {
+  const counts = new Map();
+  for (const row of rows) {
+    const values = getter(row);
+    for (const raw of Array.isArray(values) ? values : [values]) {
+      const value = raw || "n/d";
+      counts.set(value, (counts.get(value) || 0) + 1);
+    }
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+function renderBars(target, entries, limit = 8) {
+  const rows = entries.slice(0, limit);
+  const max = Math.max(1, ...rows.map(([, count]) => count));
+  target.innerHTML = "";
+  for (const [label, count] of rows) {
+    const div = document.createElement("div");
+    div.className = "bar-row";
+    div.innerHTML = `
+      <div class="bar-label"><span>${label}</span><b>${count}</b></div>
+      <div class="bar-track"><span style="width:${Math.max(4, (count / max) * 100)}%"></span></div>
+    `;
+    target.append(div);
+  }
+}
+
+function renderDashboard(rows) {
+  renderBars(els.sourceChart, countBy(rows, row => row.sources || [row.source]), 10);
+  renderBars(els.categoryChart, countBy(rows, row => row.category), 8);
+  renderBars(els.languageChart, countBy(rows, row => row.language || "n/d"), 8);
+
+  const top = [...rows].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 8);
+  els.topRepos.innerHTML = "";
+  top.forEach((row, index) => {
+    const item = document.createElement("a");
+    item.className = "rank-row";
+    item.href = row.github_url || row.source_url || "#";
+    item.target = "_blank";
+    item.rel = "noreferrer";
+    item.innerHTML = `
+      <span>${index + 1}</span>
+      <strong>${row.repo}</strong>
+      <small>★ ${row.stars || 0} · forks ${row.forks || 0}</small>
+    `;
+    els.topRepos.append(item);
+  });
+
+  const geospatial = rows.filter(row => row.category === "Geospatial").length;
+  const ai = rows.filter(row => ["AI agents", "LLM / GenAI"].includes(row.category)).length;
+  const fresh = rows.filter(row => String(row.updated_at || row.pushed_at || row.discovered_at).slice(0, 4) >= "2026").length;
+  const multi = rows.filter(row => (row.sources || [row.source]).length > 1).length;
+  els.radarFacts.innerHTML = `
+    <div><b>${geospatial}</b><span>geo / mapas</span></div>
+    <div><b>${ai}</b><span>IA / agentes</span></div>
+    <div><b>${fresh}</b><span>actualizados 2026</span></div>
+    <div><b>${multi}</b><span>aparecen en varias fuentes</span></div>
+  `;
 }
 
 function renderCategoryOptions() {
@@ -111,6 +176,7 @@ function renderSourceList() {
 
 function renderCards() {
   const rows = filteredRows();
+  renderDashboard(rows);
   els.cards.innerHTML = "";
   for (const row of rows) {
     const node = els.template.content.cloneNode(true);
