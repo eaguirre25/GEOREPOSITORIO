@@ -264,8 +264,8 @@ function renderCards() {
     card.classList.toggle("saved", state.saved.has(row.repo));
     avatar.src = row.avatar_url || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88'%3E%3Crect width='88' height='88' fill='%23222b36'/%3E%3Cpath d='M18 56 44 20l26 36z' fill='%2353c7a2'/%3E%3C/svg%3E";
     title.textContent = row.repo || "Repositorio";
-    desc.textContent = row.description || row.descripcion_es || "Sin descripción disponible.";
-    brief.textContent = row.descripcion_es && row.descripcion_es !== row.description ? row.descripcion_es : "";
+    desc.textContent = row.descripcion_es || row.description || "Sin descripción disponible.";
+    brief.textContent = row.description && row.description !== row.descripcion_es ? `Original: ${row.description}` : "";
     meta.innerHTML = [
       `<span class="pill category">${row.category}</span>`,
       `<span class="pill source">${(row.sources || [row.source]).length} fuente${(row.sources || [row.source]).length === 1 ? "" : "s"}</span>`,

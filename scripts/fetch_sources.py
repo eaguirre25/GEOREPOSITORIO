@@ -99,7 +99,7 @@ CURATED_PROFILE_REPOS = [
     ("MappingGIS", "qgis", "qwc2", "Cliente web para publicar proyectos QGIS en la web.", "Geospatial", ["qgis", "web-map", "gis"]),
     ("MappingGIS", "nextgis", "quickmapservices", "Plugin QGIS para agregar capas base de servicios como Google, ESRI y OpenStreetMap.", "Geospatial", ["qgis", "plugin", "basemaps"]),
     # Google Earth / Earth Engine.
-    ("Google Earth", "google", "earthengine-api", "Bindings Python y JavaScript para usar Google Earth Engine.", "Geospatial", ["earth-engine", "remote-sensing", "python"]),
+    ("Google Earth", "google", "earthengine-api", "Biblioteca cliente en Python y JavaScript para usar Google Earth Engine.", "Geospatial", ["earth-engine", "remote-sensing", "python"]),
     ("Google Earth", "gee-community", "geemap", "Herramienta Python para análisis interactivo con Google Earth Engine.", "Geospatial", ["earth-engine", "python", "mapping"]),
     ("Google Earth", "opengeos", "Awesome-GEE", "Lista curada de recursos para Google Earth Engine.", "Geospatial", ["earth-engine", "awesome-list", "remote-sensing"]),
 ]
@@ -154,6 +154,43 @@ SPANISH_PATTERNS: list[tuple[str, str]] = [
     (r"\btranscription\b|\binterview\b", "trabajo con entrevistas y transcripciones"),
 ]
 
+SPECIFIC_SPANISH_RULES: list[tuple[str, str]] = [
+    (r"photo.*video|video.*photo|google photos", "Gestiona fotos y videos en un servidor propio o en una app especializada."),
+    (r"documentation sites?.*markdown|markdown.*documentation", "Genera sitios de documentación a partir de archivos Markdown."),
+    (r"dynamic documents?|r markdown", "Crea documentos dinámicos y reproducibles combinando texto, código y resultados."),
+    (r"book|thesis|manuscript", "Ayuda a escribir y publicar libros, tesis o documentos académicos extensos."),
+    (r"citation|citations|bibliography|zotero|bibtex", "Ayuda a gestionar citas, bibliografía y escritura académica reproducible."),
+    (r"literature review", "Apoya revisiones bibliográficas y organización de literatura académica."),
+    (r"qualitative|qda|thematic analysis|interview|transcription", "Sirve para organizar, codificar o analizar materiales cualitativos."),
+    (r"geospatial analysis|gis|qgis|spatial data", "Permite visualizar, gestionar o analizar datos geoespaciales."),
+    (r"google maps|maps sdk|marker cluster|geocoding|routes?", "Facilita integrar mapas, geocodificación, rutas o marcadores con Google Maps."),
+    (r"earth engine|satellite|remote sensing", "Permite trabajar con Google Earth Engine, imágenes satelitales o análisis territorial."),
+    (r"dashboard|leaderboard", "Construye o muestra paneles de control para comparar resultados, métricas o modelos."),
+    (r"llm|large language model|rag|embedding|prompt", "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa."),
+    (r"agent|agents|autonomous", "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados."),
+    (r"scraper|crawler|extract", "Extrae datos de sitios o fuentes públicas mediante recolección automatizada."),
+    (r"api client|client library|bindings", "Ofrece una biblioteca cliente para conectarse a una API desde código."),
+    (r"web components?", "Ofrece componentes web reutilizables para construir interfaces."),
+    (r"command line|cli|terminal", "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo."),
+    (r"database|postgres|redis|vector search|indexing", "Gestiona, indexa o consulta datos en bases de datos y motores de búsqueda."),
+    (r"visualization|visualisation|chart|plot", "Crea visualizaciones para explorar datos y comunicar resultados."),
+    (r"open data|dataset|statistics", "Facilita acceder, descargar o procesar datos abiertos y estadísticos."),
+    (r"3d|three|gaussian|mesh", "Genera, procesa o visualiza recursos 3D."),
+]
+
+CATEGORY_FALLBACKS = {
+    "Academic writing": "Ayuda a producir, organizar o publicar escritura académica reproducible.",
+    "Qualitative analysis": "Ayuda a organizar, codificar o analizar materiales cualitativos.",
+    "AI agents": "Permite crear o ejecutar agentes de IA con herramientas conectadas.",
+    "LLM / GenAI": "Trabaja con modelos de lenguaje, prompts, embeddings o generación de contenido.",
+    "Geospatial": "Permite trabajar con mapas, GIS, datos espaciales o análisis territorial.",
+    "Data / ETL": "Ayuda a extraer, transformar, consultar o organizar datos.",
+    "Research": "Apoya investigación, experimentación, evaluación o revisión de literatura.",
+    "Security": "Sirve para auditoría, análisis o protección de sistemas.",
+    "Dashboard / UI": "Permite construir interfaces o paneles para explorar información.",
+    "Dev tools": "Agrega herramientas para programar, automatizar o mantener proyectos.",
+}
+
 
 def insecure_ssl() -> bool:
     return os.getenv("GEOREPOSITORIO_INSECURE_SSL", "").strip().lower() in {"1", "true", "yes", "si"}
@@ -200,23 +237,48 @@ def classify(row: dict[str, Any]) -> str:
     return "Other"
 
 
+def looks_spanish(value: str) -> bool:
+    text = value.casefold()
+    markers = [" para ", " con ", " datos ", " herramienta ", " permite ", " sistema ", " análisis ", " código "]
+    return any(marker in text for marker in markers) or any(ch in text for ch in "áéíóúñ")
+
+
+def polish_sentence(value: str) -> str:
+    text = re.sub(r"\s+", " ", value).strip(" .")
+    if not text:
+        return ""
+    return text[0].upper() + text[1:] + "."
+
+
 def spanish_brief(row: dict[str, Any]) -> str:
+    description = str(row.get("description") or "").strip()
+    if description and looks_spanish(description):
+        return polish_sentence(description)
+
     text = " ".join([
         str(row.get("repo", "")),
-        str(row.get("description", "")),
+        description,
         str(row.get("category", "")),
         " ".join(row.get("topics") or []),
     ]).casefold()
+
+    for pattern, sentence in SPECIFIC_SPANISH_RULES:
+        if re.search(pattern, text):
+            return sentence
+
     hits: list[str] = []
     for pattern, phrase in SPANISH_PATTERNS:
         if re.search(pattern, text) and phrase not in hits:
             hits.append(phrase)
     if hits:
-        return "Recurso para " + ", ".join(hits[:3]) + "."
-    category = str(row.get("category") or "repositorios").lower()
-    if category == "other":
-        return "Repositorio potencialmente útil para explorar y clasificar."
-    return f"Repositorio vinculado a {category}."
+        return "Sirve para trabajar con " + ", ".join(hits[:3]) + "."
+
+    category = str(row.get("category") or "Other")
+    if category in CATEGORY_FALLBACKS:
+        return CATEGORY_FALLBACKS[category]
+    if description:
+        return "Repositorio para revisar: " + polish_sentence(description).lower()
+    return "Repositorio para explorar y clasificar manualmente."
 
 
 def github_repo(owner: str, repo: str, token: str) -> dict[str, Any]:
@@ -362,11 +424,19 @@ def fetch_curated_profile_repos(token: str) -> list[dict[str, Any]]:
     for profile, owner, repo, description, category, topics in CURATED_PROFILE_REPOS:
         gh = github_repo(owner, repo, token)
         if gh:
-            rows.append(row_from_github(
+            row = row_from_github(
                 gh,
                 source=f"X curado:{profile}",
                 source_url=f"https://github.com/{owner}/{repo}",
-            ))
+            )
+            github_description = str(row.get("description") or "").strip().casefold()
+            weak_description = not github_description or len(github_description) < 24 or github_description in {repo.casefold(), f"{owner}/{repo}".casefold()}
+            if weak_description:
+                row["description"] = description
+                row["category"] = category
+                row["topics"] = list(dict.fromkeys(topics + (row.get("topics") or [])))[:16]
+                row["descripcion_es"] = spanish_brief(row)
+            rows.append(row)
         else:
             rows.append(fallback_curated_row(profile, owner, repo, description, category, topics))
     return rows

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T23:16:29.319908+00:00",
+  "generated_at": "2026-05-17T23:22:04.039902+00:00",
   "count": 178,
   "source_counts": {
     "MAGI//ARCHIVE": 80,
@@ -89,7 +89,7 @@
       "source_url": "https://github.com/topics/dashboard",
       "github_url": "https://github.com/metabase/metabase",
       "avatar_url": "https://avatars.githubusercontent.com/u/10520629?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, panel de control, visualización de datos.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "score": 66751,
       "sources": [
         "GitHub topic:dashboard",
@@ -123,7 +123,7 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/keplergl/kepler.gl",
       "avatar_url": "https://avatars.githubusercontent.com/u/49567843?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, visualización de datos, datos.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 17644,
       "sources": [
         "GitHub topic:geospatial"
@@ -161,7 +161,7 @@
       "github_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
       "avatar_url": "",
       "score": 13981,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -191,7 +191,7 @@
       "github_url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
       "avatar_url": "",
       "score": 11084,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: ai comic factory.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -221,7 +221,7 @@
       "github_url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
       "avatar_url": "",
       "score": 10076,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: kolors virtual try-on.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -251,7 +251,7 @@
       "github_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
       "avatar_url": "",
       "score": 9452,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: flux.1 [dev].",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -267,7 +267,7 @@
       "language": "C",
       "stars": 6137,
       "forks": 588,
-      "open_issues": 643,
+      "open_issues": 642,
       "license": "NOASSERTION",
       "topics": [
         "fulltext",
@@ -282,12 +282,12 @@
       ],
       "created_at": "2016-05-05T13:25:43Z",
       "updated_at": "2026-05-17T16:47:40Z",
-      "pushed_at": "2026-05-17T22:45:35Z",
+      "pushed_at": "2026-05-17T23:17:50Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/gis",
       "github_url": "https://github.com/RediSearch/RediSearch",
       "avatar_url": "https://avatars.githubusercontent.com/u/46899501?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 7901,
       "sources": [
         "GitHub topic:gis"
@@ -319,7 +319,7 @@
       "github_url": "https://huggingface.co/spaces/mteb/leaderboard",
       "avatar_url": "",
       "score": 7382,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -350,7 +350,7 @@
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/common-voice/common-voice",
       "avatar_url": "https://avatars.githubusercontent.com/u/38791515?v=4",
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Sirve para trabajar con datos.",
       "score": 6085,
       "sources": [
         "GitHub topic:open-data"
@@ -381,7 +381,7 @@
       "github_url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
       "avatar_url": "",
       "score": 5683,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: dall·e mini.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -411,7 +411,7 @@
       "github_url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
       "avatar_url": "",
       "score": 5402,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -441,7 +441,7 @@
       "github_url": "https://huggingface.co/spaces/Wan-AI/Wan2.2-Animate",
       "avatar_url": "",
       "score": 5118,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: wan2.2 animate.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -474,7 +474,7 @@
       "github_url": "https://huggingface.co/spaces/facebook/MusicGen",
       "avatar_url": "",
       "score": 5068,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Ayuda a escribir y publicar libros, tesis o documentos académicos extensos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -504,7 +504,7 @@
       "github_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell",
       "avatar_url": "",
       "score": 5061,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: flux.1 [schnell].",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -535,7 +535,7 @@
       "github_url": "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard",
       "avatar_url": "",
       "score": 4886,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -565,7 +565,7 @@
       "github_url": "https://huggingface.co/spaces/microsoft/TRELLIS",
       "avatar_url": "",
       "score": 4776,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: trellis.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -604,7 +604,7 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/opengeos/geoai",
       "avatar_url": "https://avatars.githubusercontent.com/u/129896036?v=4",
-      "descripcion_es": "Recurso para datos, información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 4348,
       "sources": [
         "GitHub topic:geospatial",
@@ -636,7 +636,7 @@
       "github_url": "https://huggingface.co/spaces/KingNish/OpenGPT-4o",
       "avatar_url": "",
       "score": 4310,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -666,7 +666,7 @@
       "github_url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
       "avatar_url": "",
       "score": 3845,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Ayuda a escribir y publicar libros, tesis o documentos académicos extensos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -702,7 +702,7 @@
       "github_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait",
       "avatar_url": "",
       "score": 3741,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -732,7 +732,7 @@
       "github_url": "https://huggingface.co/spaces/InstantX/InstantID",
       "avatar_url": "",
       "score": 3604,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: instantid.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -762,7 +762,7 @@
       "github_url": "https://huggingface.co/spaces/hexgrad/Kokoro-TTS",
       "avatar_url": "",
       "score": 3316,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: kokoro tts.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -792,7 +792,7 @@
       "github_url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2",
       "avatar_url": "",
       "score": 3277,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Genera, procesa o visualiza recursos 3D.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -822,7 +822,7 @@
       "github_url": "https://huggingface.co/spaces/akhaliq/anycoder",
       "avatar_url": "",
       "score": 3268,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -856,7 +856,7 @@
       "github_url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook",
       "avatar_url": "",
       "score": 3176,
-      "descripcion_es": "Recurso para visualización de datos, datos.",
+      "descripcion_es": "Ayuda a escribir y publicar libros, tesis o documentos académicos extensos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -887,7 +887,7 @@
       "github_url": "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo",
       "avatar_url": "",
       "score": 3172,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -928,7 +928,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/PranshulGG/WeatherMaster",
       "avatar_url": "https://avatars.githubusercontent.com/u/134786144?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con herramienta de código abierto, información geoespacial y mapas.",
       "score": 3099,
       "sources": [
         "GitHub topic:leaflet"
@@ -960,7 +960,7 @@
       "github_url": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster",
       "avatar_url": "",
       "score": 3078,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -990,7 +990,7 @@
       "github_url": "https://huggingface.co/spaces/mukaist/Midjourney",
       "avatar_url": "",
       "score": 2976,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: midjourney.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1020,7 +1020,7 @@
       "github_url": "https://huggingface.co/spaces/pharmapsychotic/CLIP-Interrogator",
       "avatar_url": "",
       "score": 2971,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1050,7 +1050,7 @@
       "github_url": "https://huggingface.co/spaces/mrfakename/E2-F5-TTS",
       "avatar_url": "",
       "score": 2862,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: f5-tts.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1081,7 +1081,7 @@
       "github_url": "https://huggingface.co/spaces/not-lain/background-removal",
       "avatar_url": "",
       "score": 2835,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1111,7 +1111,7 @@
       "github_url": "https://huggingface.co/spaces/sanchit-gandhi/whisper-jax",
       "avatar_url": "",
       "score": 2830,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1141,7 +1141,7 @@
       "github_url": "https://huggingface.co/spaces/HumanAIGC/OutfitAnyone",
       "avatar_url": "",
       "score": 2806,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: outfitanyone.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1171,7 +1171,7 @@
       "github_url": "https://huggingface.co/spaces/coqui/xtts",
       "avatar_url": "",
       "score": 2767,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: xtts.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1201,7 +1201,7 @@
       "github_url": "https://huggingface.co/spaces/openai/whisper",
       "avatar_url": "",
       "score": 2757,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1231,7 +1231,7 @@
       "github_url": "https://huggingface.co/spaces/tonyassi/voice-clone",
       "avatar_url": "",
       "score": 2642,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: voice clone.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1262,7 +1262,7 @@
       "github_url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview",
       "avatar_url": "",
       "score": 2607,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1293,7 +1293,7 @@
       "github_url": "https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint",
       "avatar_url": "",
       "score": 2528,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1323,7 +1323,7 @@
       "github_url": "https://huggingface.co/spaces/multimodalart/qwen-image-multiple-angles-3d-camera",
       "avatar_url": "",
       "score": 2474,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Genera, procesa o visualiza recursos 3D.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1353,7 +1353,7 @@
       "github_url": "https://huggingface.co/spaces/sczhou/CodeFormer",
       "avatar_url": "",
       "score": 2380,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1383,7 +1383,7 @@
       "github_url": "https://huggingface.co/spaces/suno/bark",
       "avatar_url": "",
       "score": 2370,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: bark.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1413,7 +1413,7 @@
       "github_url": "https://huggingface.co/spaces/microsoft/HuggingGPT",
       "avatar_url": "",
       "score": 2273,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1443,7 +1443,7 @@
       "github_url": "https://huggingface.co/spaces/AI4Editing/MagicQuill",
       "avatar_url": "",
       "score": 2246,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: magicquill.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1480,7 +1480,7 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/opengisch/QField",
       "avatar_url": "https://avatars.githubusercontent.com/u/8892251?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 2219,
       "sources": [
         "GitHub topic:qgis"
@@ -1512,7 +1512,7 @@
       "github_url": "https://huggingface.co/spaces/linoyts/Qwen-Image-Edit-Angles",
       "avatar_url": "",
       "score": 2217,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1542,7 +1542,7 @@
       "github_url": "https://huggingface.co/spaces/jbilcke-hf/FacePoke_CLONE-THIS-REPO-TO-USE-IT",
       "avatar_url": "",
       "score": 2210,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: facepoke.",
       "sources": [
         "Hugging Face Spaces"
       ]
@@ -1575,7 +1575,7 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/GenericMappingTools/gmt",
       "avatar_url": "https://avatars.githubusercontent.com/u/25944590?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con información geoespacial y mapas.",
       "score": 2180,
       "sources": [
         "GitHub topic:geospatial"
@@ -1615,7 +1615,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/SamR1/FitTrackee",
       "avatar_url": "https://avatars.githubusercontent.com/u/3525167?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "score": 1348,
       "sources": [
         "GitHub topic:leaflet"
@@ -1657,7 +1657,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/JamesLMilner/terra-draw",
       "avatar_url": "https://avatars.githubusercontent.com/u/8822075?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Facilita integrar mapas, geocodificación, rutas o marcadores con Google Maps.",
       "score": 1341,
       "sources": [
         "GitHub topic:leaflet"
@@ -1705,7 +1705,7 @@
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/catalyst-cooperative/pudl",
       "avatar_url": "https://avatars.githubusercontent.com/u/25487946?v=4",
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "score": 997,
       "sources": [
         "GitHub topic:open-data"
@@ -1739,7 +1739,7 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/3liz/lizmap-web-client",
       "avatar_url": "https://avatars.githubusercontent.com/u/3490073?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 786,
       "sources": [
         "GitHub topic:qgis"
@@ -1776,7 +1776,7 @@
       "source_url": "https://github.com/topics/remote-sensing",
       "github_url": "https://github.com/senbox-org/snap-engine",
       "avatar_url": "https://avatars.githubusercontent.com/u/7795191?v=4",
-      "descripcion_es": "Recurso para visualización de datos, datos.",
+      "descripcion_es": "Crea visualizaciones para explorar datos y comunicar resultados.",
       "score": 519,
       "sources": [
         "GitHub topic:remote-sensing",
@@ -1815,7 +1815,7 @@
       "source_url": "https://github.com/topics/remote-sensing",
       "github_url": "https://github.com/Climate-Vision/ClimateVision",
       "avatar_url": "https://avatars.githubusercontent.com/u/260084709?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, información geoespacial y mapas.",
+      "descripcion_es": "Permite trabajar con Google Earth Engine, imágenes satelitales o análisis territorial.",
       "score": 391,
       "sources": [
         "GitHub topic:remote-sensing"
@@ -1847,7 +1847,7 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/webcomics/dosage",
       "avatar_url": "https://avatars.githubusercontent.com/u/11672627?v=4",
-      "descripcion_es": "Recurso para datos, recolección automatizada.",
+      "descripcion_es": "Extrae datos de sitios o fuentes públicas mediante recolección automatizada.",
       "score": 334,
       "sources": [
         "GitHub topic:scraper"
@@ -1882,7 +1882,7 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/Juliusolsson05/pharos-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/134848912?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con información geoespacial y mapas.",
       "score": 233,
       "sources": [
         "GitHub topic:deckgl"
@@ -1923,7 +1923,7 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/pavlovtech/WebReaper",
       "avatar_url": "https://avatars.githubusercontent.com/u/6662454?v=4",
-      "descripcion_es": "Recurso para datos, recolección automatizada.",
+      "descripcion_es": "Extrae datos de sitios o fuentes públicas mediante recolección automatizada.",
       "score": 231,
       "sources": [
         "GitHub topic:scraper"
@@ -1957,77 +1957,86 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/theosanderson/taxonium",
       "avatar_url": "https://avatars.githubusercontent.com/u/19732295?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con información geoespacial y mapas.",
       "score": 216,
       "sources": [
         "GitHub topic:deckgl"
       ]
     },
     {
-      "id": "github:awesomestvi/navet",
+      "id": "github:superdingo101/daylight-calendar-card",
       "source": "GitHub topic:dashboard",
-      "repo": "awesomestvi/navet",
-      "owner": "awesomestvi",
-      "name": "navet",
-      "description": "Navet (Swedish for \"the hub\") is a modern, responsive smart home dashboard with intuitive editing and a frosted-glass UI inspired by iOS widgets.",
+      "repo": "superdingo101/daylight-calendar-card",
+      "owner": "superdingo101",
+      "name": "daylight-calendar-card",
+      "description": "A beautiful, custom Home Assistant calendar card",
       "category": "Dashboard / UI",
-      "language": "TypeScript",
-      "stars": 159,
-      "forks": 3,
-      "open_issues": 8,
-      "license": "NOASSERTION",
+      "language": "JavaScript",
+      "stars": 138,
+      "forks": 16,
+      "open_issues": 3,
+      "license": "MIT",
       "topics": [
+        "calendar",
+        "custom-card",
         "dashboard",
-        "homeassistant",
-        "homeassistant-addons",
-        "homeassistant-frontend"
+        "hacs",
+        "home-assistant",
+        "home-assistant-frontend",
+        "lovelace"
       ],
-      "created_at": "2026-03-06T20:18:16Z",
-      "updated_at": "2026-05-17T22:59:53Z",
-      "pushed_at": "2026-05-17T22:47:21Z",
+      "created_at": "2026-01-28T06:02:33Z",
+      "updated_at": "2026-05-17T23:17:20Z",
+      "pushed_at": "2026-05-17T23:17:03Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/dashboard",
-      "github_url": "https://github.com/awesomestvi/navet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8188954?v=4",
-      "descripcion_es": "Recurso para panel de control.",
-      "score": 168,
+      "github_url": "https://github.com/superdingo101/daylight-calendar-card",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103346430?v=4",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
+      "score": 186,
       "sources": [
         "GitHub topic:dashboard"
       ]
     },
     {
-      "id": "github:malloydata/publisher",
+      "id": "github:banisterious/obsidian-charted-roots",
       "source": "GitHub topic:data-visualization",
-      "repo": "malloydata/publisher",
-      "owner": "malloydata",
-      "name": "publisher",
-      "description": "Publisher is the open-source semantic model server for the Malloy data language. It lets you define semantic models once — and use them everywhere.",
-      "category": "Data / ETL",
+      "repo": "banisterious/obsidian-charted-roots",
+      "owner": "banisterious",
+      "name": "obsidian-charted-roots",
+      "description": "Professional genealogical tools for Obsidian. Interactive family charts, geographic maps, PDF reports, GEDCOM/Gramps import-export, evidence tracking, and fictional calendar support. Built for genealogists, historians, and worldbuilders.",
+      "category": "Geospatial",
       "language": "TypeScript",
-      "stars": 89,
-      "forks": 18,
-      "open_issues": 49,
+      "stars": 118,
+      "forks": 8,
+      "open_issues": 55,
       "license": "MIT",
       "topics": [
-        "analytics",
-        "business-intelligence",
-        "data",
-        "data-modeling",
-        "data-transformation",
+        "ancestry",
+        "d3js",
         "data-visualization",
-        "database",
-        "semantic-modeling",
-        "transformation"
+        "family-chart",
+        "family-history",
+        "family-tree",
+        "gedcom",
+        "genealogy",
+        "gramps",
+        "kinship",
+        "obsidian",
+        "obsidian-bases",
+        "obsidian-canvas",
+        "obsidian-plugin",
+        "worldbuilding"
       ],
-      "created_at": "2024-09-16T18:29:09Z",
-      "updated_at": "2026-05-17T22:42:51Z",
-      "pushed_at": "2026-05-17T22:42:50Z",
+      "created_at": "2025-11-17T18:27:46Z",
+      "updated_at": "2026-05-17T23:19:06Z",
+      "pushed_at": "2026-05-17T23:19:01Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/data-visualization",
-      "github_url": "https://github.com/malloydata/publisher",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115666028?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, visualización de datos, datos.",
-      "score": 143,
+      "github_url": "https://github.com/banisterious/obsidian-charted-roots",
+      "avatar_url": "https://avatars.githubusercontent.com/u/168257192?v=4",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
+      "score": 142,
       "sources": [
         "GitHub topic:data-visualization"
       ]
@@ -2065,7 +2074,7 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/Skillter/ProxyGather",
       "avatar_url": "https://avatars.githubusercontent.com/u/57605954?v=4",
-      "descripcion_es": "Recurso para datos, recolección automatizada.",
+      "descripcion_es": "Extrae datos de sitios o fuentes públicas mediante recolección automatizada.",
       "score": 140,
       "sources": [
         "GitHub topic:scraper"
@@ -2097,7 +2106,7 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/opengisch/qgis-plugin-ci",
       "avatar_url": "https://avatars.githubusercontent.com/u/8892251?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 132,
       "sources": [
         "GitHub topic:qgis"
@@ -2138,7 +2147,7 @@
       "source_url": "https://github.com/topics/scraper",
       "github_url": "https://github.com/berkay-digital/Proxy-Scraper",
       "avatar_url": "https://avatars.githubusercontent.com/u/46861579?v=4",
-      "descripcion_es": "Recurso para datos, recolección automatizada.",
+      "descripcion_es": "Extrae datos de sitios o fuentes públicas mediante recolección automatizada.",
       "score": 92,
       "sources": [
         "GitHub topic:scraper"
@@ -2175,7 +2184,7 @@
       "source_url": "https://github.com/topics/leaflet",
       "github_url": "https://github.com/Yizack/mappedlove",
       "avatar_url": "https://avatars.githubusercontent.com/u/16264115?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con información geoespacial y mapas.",
       "score": 87,
       "sources": [
         "GitHub topic:leaflet"
@@ -2210,7 +2219,7 @@
       "source_url": "https://github.com/topics/geospatial",
       "github_url": "https://github.com/firelab/gdalraster",
       "avatar_url": "https://avatars.githubusercontent.com/u/3028309?v=4",
-      "descripcion_es": "Recurso para datos, información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 86,
       "sources": [
         "GitHub topic:geospatial",
@@ -2247,13 +2256,13 @@
         "woocommerce"
       ],
       "created_at": "2026-01-27T09:08:44Z",
-      "updated_at": "2026-05-17T23:01:45Z",
-      "pushed_at": "2026-05-17T23:01:41Z",
+      "updated_at": "2026-05-17T23:16:47Z",
+      "pushed_at": "2026-05-17T23:16:42Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/leadita/tech-stack-datasets",
       "avatar_url": "https://avatars.githubusercontent.com/u/213343898?v=4",
-      "descripcion_es": "Recurso para datos, recolección automatizada.",
+      "descripcion_es": "Extrae datos de sitios o fuentes públicas mediante recolección automatizada.",
       "score": 76,
       "sources": [
         "GitHub topic:open-data"
@@ -2288,7 +2297,7 @@
       "source_url": "https://github.com/topics/gis",
       "github_url": "https://github.com/geoql/v-maplibre",
       "avatar_url": "https://avatars.githubusercontent.com/u/74910433?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 54,
       "sources": [
         "GitHub topic:gis"
@@ -2331,46 +2340,46 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/mountayaapp/insight-editor",
       "avatar_url": "https://avatars.githubusercontent.com/u/183229617?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, datos, información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 54,
       "sources": [
         "GitHub topic:deckgl"
       ]
     },
     {
-      "id": "github:vilmire/adhdev",
+      "id": "github:amirfish1/claude-command-center",
       "source": "GitHub topic:dashboard",
-      "repo": "vilmire/adhdev",
-      "owner": "vilmire",
-      "name": "adhdev",
-      "description": "🦦 ADHDev — Agent Dashboard Hub. Monitor & control AI coding agents from a single dashboard. Self-hosted, open-source.",
-      "category": "Qualitative analysis",
-      "language": "TypeScript",
-      "stars": 24,
-      "forks": 6,
-      "open_issues": 0,
-      "license": "AGPL-3.0",
+      "repo": "amirfish1/claude-command-center",
+      "owner": "amirfish1",
+      "name": "claude-command-center",
+      "description": "Local kanban for Claude Code. Attaches to every session — terminal, headless, dashboard-spawned — instead of owning launch.",
+      "category": "AI agents",
+      "language": "Python",
+      "stars": 45,
+      "forks": 1,
+      "open_issues": 2,
+      "license": "MIT",
       "topics": [
-        "acp",
-        "adhdev",
-        "agent",
-        "cli",
+        "agents",
+        "claude",
+        "claude-code",
         "dashboard",
-        "development",
-        "hub",
-        "ide",
-        "open-source",
-        "remote-control"
+        "developer-tools",
+        "headless",
+        "kanban",
+        "llm-tools",
+        "local-first",
+        "python"
       ],
-      "created_at": "2026-03-17T16:55:03Z",
-      "updated_at": "2026-05-17T23:07:57Z",
-      "pushed_at": "2026-05-17T22:49:23Z",
+      "created_at": "2026-04-13T16:16:04Z",
+      "updated_at": "2026-05-17T23:21:03Z",
+      "pushed_at": "2026-05-17T23:21:00Z",
       "discovered_at": "",
       "source_url": "https://github.com/topics/dashboard",
-      "github_url": "https://github.com/vilmire/adhdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5513793?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, panel de control, agentes de IA.",
-      "score": 42,
+      "github_url": "https://github.com/amirfish1/claude-command-center",
+      "avatar_url": "https://avatars.githubusercontent.com/u/255024423?v=4",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
+      "score": 48,
       "sources": [
         "GitHub topic:dashboard"
       ]
@@ -2411,7 +2420,7 @@
       "source_url": "https://github.com/topics/qgis",
       "github_url": "https://github.com/b-data/jupyterlab-qgis-docker-stack",
       "avatar_url": "https://avatars.githubusercontent.com/u/23398153?v=4",
-      "descripcion_es": "Recurso para datos, información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 38,
       "sources": [
         "GitHub topic:qgis"
@@ -2449,7 +2458,7 @@
       "source_url": "https://github.com/topics/deckgl",
       "github_url": "https://github.com/GlobalFishingWatch/frontend",
       "avatar_url": "https://avatars.githubusercontent.com/u/9467707?v=4",
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con información geoespacial y mapas.",
       "score": 37,
       "sources": [
         "GitHub topic:deckgl"
@@ -2483,7 +2492,7 @@
       "source_url": "https://github.com/topics/open-data",
       "github_url": "https://github.com/ironlam/poligraph",
       "avatar_url": "https://avatars.githubusercontent.com/u/1285291?v=4",
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Sirve para trabajar con datos.",
       "score": 34,
       "sources": [
         "GitHub topic:open-data"
@@ -2521,7 +2530,7 @@
       "source_url": "https://github.com/topics/gis",
       "github_url": "https://github.com/themustafaomar/libregl",
       "avatar_url": "https://avatars.githubusercontent.com/u/46113191?v=4",
-      "descripcion_es": "Recurso para visualización de datos, información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "score": 34,
       "sources": [
         "GitHub topic:gis"
@@ -2554,7 +2563,7 @@
       "source_url": "https://github.com/topics/data-visualization",
       "github_url": "https://github.com/c-wilkinson/StravaDataAnalysis",
       "avatar_url": "https://avatars.githubusercontent.com/u/25798607?v=4",
-      "descripcion_es": "Recurso para visualización de datos, datos.",
+      "descripcion_es": "Extrae datos de sitios o fuentes públicas mediante recolección automatizada.",
       "score": 30,
       "sources": [
         "GitHub topic:data-visualization"
@@ -2589,7 +2598,7 @@
       "source_url": "https://github.com/topics/remote-sensing",
       "github_url": "https://github.com/InSARdev/S1orbits",
       "avatar_url": "https://avatars.githubusercontent.com/u/266545632?v=4",
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Sirve para trabajar con datos.",
       "score": 30,
       "sources": [
         "GitHub topic:remote-sensing"
@@ -2637,7 +2646,7 @@
       "source_url": "https://github.com/topics/dashboard",
       "github_url": "https://github.com/MerlinStacks/overseek",
       "avatar_url": "https://avatars.githubusercontent.com/u/185445202?v=4",
-      "descripcion_es": "Recurso para herramienta de código abierto, panel de control, datos.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "score": 27,
       "sources": [
         "GitHub topic:dashboard"
@@ -2669,7 +2678,7 @@
       "github_url": "https://github.com/microsoft/TRELLIS",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Modelo abierto de Microsoft para generación 3D a partir de texto o imagen.",
       "sources": [
         "X curado:DeepTechTR"
       ]
@@ -2700,7 +2709,7 @@
       "github_url": "https://github.com/taracodlabs/aiden",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Sistema local-first para operar herramientas de IA en Windows.",
       "sources": [
         "X curado:DeepTechTR"
       ]
@@ -2731,7 +2740,7 @@
       "github_url": "https://github.com/rstudio/rmarkdown",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Paquete R para crear documentos dinámicos y reproducibles.",
       "sources": [
         "X curado:R Markdown"
       ]
@@ -2762,7 +2771,7 @@
       "github_url": "https://github.com/yihui/knitr",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Motor R para integrar código, resultados y texto en documentos reproducibles.",
       "sources": [
         "X curado:R Markdown"
       ]
@@ -2793,7 +2802,7 @@
       "github_url": "https://github.com/rstudio/bookdown",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Herramientas para escribir libros, tesis y documentos largos con R Markdown.",
       "sources": [
         "X curado:R Markdown"
       ]
@@ -2824,7 +2833,7 @@
       "github_url": "https://github.com/rstudio/blogdown",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Publicación de sitios y blogs reproducibles desde R Markdown.",
       "sources": [
         "X curado:R Markdown"
       ]
@@ -2855,7 +2864,7 @@
       "github_url": "https://github.com/rstudio/flexdashboard",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Creación de dashboards con R Markdown.",
       "sources": [
         "X curado:R Markdown"
       ]
@@ -2886,7 +2895,7 @@
       "github_url": "https://github.com/quarto-dev/quarto-cli",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Sistema de publicación científica y técnica para documentos, libros, sitios y presentaciones.",
       "sources": [
         "X curado:R Markdown"
       ]
@@ -2917,7 +2926,7 @@
       "github_url": "https://github.com/jfulponi/istatR",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Paquete R para consultar datos abiertos del instituto estadístico italiano ISTAT.",
       "sources": [
         "X curado:Estación R"
       ]
@@ -2948,7 +2957,7 @@
       "github_url": "https://github.com/googlemaps/google-maps-services-python",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Cliente Python para servicios web de Google Maps Platform.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -2979,7 +2988,7 @@
       "github_url": "https://github.com/googlemaps/google-maps-services-js",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Cliente Node.js/TypeScript para servicios web de Google Maps Platform.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -3010,7 +3019,7 @@
       "github_url": "https://github.com/googlemaps/android-maps-compose",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Componentes Jetpack Compose para integrar Google Maps en Android.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -3041,7 +3050,7 @@
       "github_url": "https://github.com/googlemaps/js-api-loader",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Carga dinámica de la API JavaScript de Google Maps.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -3072,7 +3081,7 @@
       "github_url": "https://github.com/googlemaps/js-markerclusterer",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Agrupamiento de marcadores para mapas con muchos puntos.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -3103,7 +3112,7 @@
       "github_url": "https://github.com/googlemaps/extended-component-library",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Web Components para construir experiencias con Google Maps Platform.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -3134,7 +3143,7 @@
       "github_url": "https://github.com/googlemaps-samples/js-samples",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Muestras oficiales para la API JavaScript de Google Maps.",
       "sources": [
         "X curado:Google Maps Platform"
       ]
@@ -3165,7 +3174,7 @@
       "github_url": "https://github.com/qgis/QGIS",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sistema de información geográfica libre y multiplataforma.",
       "sources": [
         "X curado:MappingGIS"
       ]
@@ -3196,7 +3205,7 @@
       "github_url": "https://github.com/qgis/QGIS-Documentation",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Documentación oficial de QGIS.",
       "sources": [
         "X curado:MappingGIS"
       ]
@@ -3227,7 +3236,7 @@
       "github_url": "https://github.com/nextgis/quickmapservices",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Plugin QGIS para agregar capas base de servicios como Google, ESRI y OpenStreetMap.",
       "sources": [
         "X curado:MappingGIS"
       ]
@@ -3238,7 +3247,7 @@
       "repo": "google/earthengine-api",
       "owner": "google",
       "name": "earthengine-api",
-      "description": "Bindings Python y JavaScript para usar Google Earth Engine.",
+      "description": "Biblioteca cliente en Python y JavaScript para usar Google Earth Engine.",
       "category": "Geospatial",
       "language": "",
       "stars": 0,
@@ -3258,7 +3267,7 @@
       "github_url": "https://github.com/google/earthengine-api",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Biblioteca cliente en Python y JavaScript para usar Google Earth Engine.",
       "sources": [
         "X curado:Google Earth"
       ]
@@ -3289,7 +3298,7 @@
       "github_url": "https://github.com/gee-community/geemap",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Herramienta Python para análisis interactivo con Google Earth Engine.",
       "sources": [
         "X curado:Google Earth"
       ]
@@ -3320,7 +3329,7 @@
       "github_url": "https://github.com/opengeos/Awesome-GEE",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Lista curada de recursos para Google Earth Engine.",
       "sources": [
         "X curado:Google Earth"
       ]
@@ -3347,7 +3356,7 @@
       "github_url": "https://github.com/yeoman/generator",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: scaffolding system for web applications.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3374,7 +3383,7 @@
       "github_url": "https://github.com/xpipe-io/kickstartfx",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3401,7 +3410,7 @@
       "github_url": "https://github.com/ventojs/vento",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: template engine for js runtimes.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3428,7 +3437,7 @@
       "github_url": "https://github.com/undb-io/undb",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Gestiona, indexa o consulta datos en bases de datos y motores de búsqueda.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3455,7 +3464,7 @@
       "github_url": "https://github.com/ulixee/hero",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: headless browser for scraping with tls fingerprinting protection.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3482,7 +3491,7 @@
       "github_url": "https://github.com/turtle-key/TabLift",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: restores windows when switching apps.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3509,7 +3518,7 @@
       "github_url": "https://github.com/trinodb/trino",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Sirve para trabajar con datos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3536,7 +3545,7 @@
       "github_url": "https://github.com/trasta298/keifu",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3563,7 +3572,7 @@
       "github_url": "https://github.com/tom-draper/api-analytics",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: monitoring and analytics for api frameworks.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3590,7 +3599,7 @@
       "github_url": "https://github.com/timb-machine/linux-malware",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a security.",
+      "descripcion_es": "Sirve para auditoría, análisis o protección de sistemas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3617,7 +3626,7 @@
       "github_url": "https://github.com/thu-vu92/local-llms-analyse-finance",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3644,7 +3653,7 @@
       "github_url": "https://github.com/theopfr/somo",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: monitor sockets and ports on linux and macos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3671,7 +3680,7 @@
       "github_url": "https://github.com/the-ora/browser",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: browser for macos built with swiftui and webkit.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3698,7 +3707,7 @@
       "github_url": "https://github.com/staniel359/muffon",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3725,7 +3734,7 @@
       "github_url": "https://github.com/souzatharsis/podcastfy",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: converts multimodal content into audio conversations with genai.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3752,7 +3761,7 @@
       "github_url": "https://github.com/slingdata-io/sling-cli",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3779,7 +3788,7 @@
       "github_url": "https://github.com/showlab/livecc",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa, análisis cualitativo, trabajo con entrevistas y transcripciones.",
+      "descripcion_es": "Sirve para organizar, codificar o analizar materiales cualitativos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3806,7 +3815,7 @@
       "github_url": "https://github.com/scrapinghub/dateparser",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: parses dates from strings in over 200 languages.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3833,7 +3842,7 @@
       "github_url": "https://github.com/samzong/hf-model-downloader",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: gui for downloading hugging face and modelscope models.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3860,7 +3869,7 @@
       "github_url": "https://github.com/saharmor/whisper-playground",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3887,7 +3896,7 @@
       "github_url": "https://github.com/saeloun/miru-web",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: time tracking and invoice management for businesses.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3914,7 +3923,7 @@
       "github_url": "https://github.com/sachinsenal0x64/hifi",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: integrates tidal music into subsonic, jellyfin, and plexamp.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3941,7 +3950,7 @@
       "github_url": "https://github.com/runabol/tork",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: distributed workflow engine for docker containers.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3968,7 +3977,7 @@
       "github_url": "https://github.com/rtCamp/frappe-appointment",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: schedules meetings with calendar and video integrations.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -3995,7 +4004,7 @@
       "github_url": "https://github.com/rshipp/awesome-malware-analysis",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a security.",
+      "descripcion_es": "Sirve para auditoría, análisis o protección de sistemas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4022,7 +4031,7 @@
       "github_url": "https://github.com/ravi-ojha/startuptoolbox",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: collection of tools for makers.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4053,7 +4062,7 @@
       "github_url": "https://github.com/qgis/qwc2",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Permite visualizar, gestionar o analizar datos geoespaciales.",
       "sources": [
         "MAGI//ARCHIVE",
         "X curado:MappingGIS"
@@ -4081,7 +4090,7 @@
       "github_url": "https://github.com/pranavp10/video-compress",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: compresses videos offline using ffmpeg.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4108,7 +4117,7 @@
       "github_url": "https://github.com/pomber/didact",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: guide to build react from scratch.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4135,7 +4144,7 @@
       "github_url": "https://github.com/piitaya/lovelace-mushroom",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4162,7 +4171,7 @@
       "github_url": "https://github.com/parawanderer/OpenTagViewer",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4189,7 +4198,7 @@
       "github_url": "https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa, agentes de IA.",
+      "descripcion_es": "Ayuda a escribir y publicar libros, tesis o documentos académicos extensos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4216,7 +4225,7 @@
       "github_url": "https://github.com/oliverschwendener/ueli",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: keystroke launcher for windows, macos, and linux.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4243,7 +4252,7 @@
       "github_url": "https://github.com/memvid/memvid",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4270,7 +4279,7 @@
       "github_url": "https://github.com/maxdorninger/MediaManager",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: automates media management with docker and oauth.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4297,7 +4306,7 @@
       "github_url": "https://github.com/makerbase-mks/MKS-PI",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: microcomputer board for klipper firmware.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4324,7 +4333,7 @@
       "github_url": "https://github.com/livekit/livekit",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Sirve para trabajar con datos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4351,7 +4360,7 @@
       "github_url": "https://github.com/liam-hq/liam",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Gestiona, indexa o consulta datos en bases de datos y motores de búsqueda.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4378,7 +4387,7 @@
       "github_url": "https://github.com/lbrndnr/nuage-macos",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4405,7 +4414,7 @@
       "github_url": "https://github.com/kuglee/TermiWatch",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4432,7 +4441,7 @@
       "github_url": "https://github.com/keshavashiya/docify",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Ayuda a gestionar citas, bibliografía y escritura académica reproducible.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4459,7 +4468,7 @@
       "github_url": "https://github.com/jaywcjlove/mocker-api",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4486,7 +4495,7 @@
       "github_url": "https://github.com/immich-app/immich",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Gestiona fotos y videos en un servidor propio o en una app especializada.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4513,7 +4522,7 @@
       "github_url": "https://github.com/guillevc/listseerr",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: automates media requests from lists to jellyseerr or overseerr.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4540,7 +4549,7 @@
       "github_url": "https://github.com/google-ai-edge/gallery",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: generative ai models on android and ios devices.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4567,7 +4576,7 @@
       "github_url": "https://github.com/getsieutoc/voi",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: self-hosted customer feedback management system.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4594,7 +4603,7 @@
       "github_url": "https://github.com/g-hano/Claude-Powered-Study-Assistant",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: study assistant with tool use for claude.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4621,7 +4630,7 @@
       "github_url": "https://github.com/frappe/education",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: management system for schools and institutions.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4648,7 +4657,7 @@
       "github_url": "https://github.com/evroon/bracket",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: tournament system for sports and games.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4675,7 +4684,7 @@
       "github_url": "https://github.com/elchead/misou",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: search engine for personal knowledge sources.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4702,7 +4711,7 @@
       "github_url": "https://github.com/dynatrace-oss/unguard",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a security.",
+      "descripcion_es": "Sirve para auditoría, análisis o protección de sistemas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4729,7 +4738,7 @@
       "github_url": "https://github.com/docsifyjs/docsify",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para escritura académica.",
+      "descripcion_es": "Genera sitios de documentación a partir de archivos Markdown.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4756,7 +4765,7 @@
       "github_url": "https://github.com/dockur/casa",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: self-hosting operating system in a docker container.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4783,7 +4792,7 @@
       "github_url": "https://github.com/dimastatz/whisper-flow",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4810,7 +4819,7 @@
       "github_url": "https://github.com/dayanch96/YTLite",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4837,7 +4846,7 @@
       "github_url": "https://github.com/datastack-net/dockerized",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Agrega herramientas de línea de comandos para automatizar tareas de desarrollo.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4864,7 +4873,7 @@
       "github_url": "https://github.com/cugu/awesome-forensics",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a security.",
+      "descripcion_es": "Sirve para auditoría, análisis o protección de sistemas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4891,7 +4900,7 @@
       "github_url": "https://github.com/creativetimofficial/material-dashboard",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para panel de control.",
+      "descripcion_es": "Construye o muestra paneles de control para comparar resultados, métricas o modelos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4918,7 +4927,7 @@
       "github_url": "https://github.com/contribsys/faktory",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4945,7 +4954,7 @@
       "github_url": "https://github.com/codeproject/CodeProject.AI-Server",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Sirve para trabajar con datos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4972,7 +4981,7 @@
       "github_url": "https://github.com/chroma-core/chroma",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -4999,7 +5008,7 @@
       "github_url": "https://github.com/caido/caido",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a security.",
+      "descripcion_es": "Sirve para auditoría, análisis o protección de sistemas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5026,7 +5035,7 @@
       "github_url": "https://github.com/bestxxt/SmartLedger",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: self-hosted expense tracker with voice and image recognition.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5053,7 +5062,7 @@
       "github_url": "https://github.com/awcodes/filament-quick-create",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5080,7 +5089,7 @@
       "github_url": "https://github.com/apache/streampark",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: manages flink and spark applications across environments.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5107,7 +5116,7 @@
       "github_url": "https://github.com/apache/incubator-hugegraph",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para datos.",
+      "descripcion_es": "Gestiona, indexa o consulta datos en bases de datos y motores de búsqueda.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5134,7 +5143,7 @@
       "github_url": "https://github.com/aelassas/wexcommerce",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: marketplace with stripe and paypal integration.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5161,7 +5170,7 @@
       "github_url": "https://github.com/abhimishra91/insight",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: nlp service with fastapi and streamlit.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5188,7 +5197,7 @@
       "github_url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5215,7 +5224,7 @@
       "github_url": "https://github.com/WCY-dt/EasyTransfer",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: transfers files between devices via webrtc.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5242,7 +5251,7 @@
       "github_url": "https://github.com/Upsonic/Upsonic",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5269,7 +5278,7 @@
       "github_url": "https://github.com/Turbo1123/LauncherTurbo",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: launchpad with core animation for macos tahoe.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5296,7 +5305,7 @@
       "github_url": "https://github.com/QmiAI/Qmedia",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5323,7 +5332,7 @@
       "github_url": "https://github.com/Nutlope/roomGPT",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5350,7 +5359,7 @@
       "github_url": "https://github.com/Jstudner/jcorp-nomad",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio vinculado a dev tools.",
+      "descripcion_es": "Agrega herramientas para programar, automatizar o mantener proyectos.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5377,7 +5386,7 @@
       "github_url": "https://github.com/JMS1717/8mb.local",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: compresses video using gpu acceleration to target file sizes.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5404,7 +5413,7 @@
       "github_url": "https://github.com/GuijiAI/duix.ai",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Repositorio potencialmente útil para explorar y clasificar.",
+      "descripcion_es": "Repositorio para revisar: on-device ai avatars for mobile platforms.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5431,7 +5440,7 @@
       "github_url": "https://github.com/CopilotKit/CopilotKit",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para agentes de IA.",
+      "descripcion_es": "Permite crear o ejecutar agentes de IA con herramientas y flujos automatizados.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5458,7 +5467,7 @@
       "github_url": "https://github.com/CloudDefenseAI/falco_extended_rules",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para información geoespacial y mapas.",
+      "descripcion_es": "Sirve para trabajar con información geoespacial y mapas.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
@@ -5485,7 +5494,7 @@
       "github_url": "https://github.com/CherryHQ/cherry-studio-app",
       "avatar_url": "",
       "score": 0,
-      "descripcion_es": "Recurso para modelos de lenguaje e IA generativa.",
+      "descripcion_es": "Trabaja con modelos de lenguaje, recuperación aumentada o flujos de IA generativa.",
       "sources": [
         "MAGI//ARCHIVE"
       ]
