@@ -1,12 +1,12 @@
 # GEOREPOSITORIO
 
-Dashboard personal para explorar repositorios detectados por MAGI//ARCHIVE y
+Dashboard personal para explorar repositorios detectados en varias fuentes y
 organizarlos con una capa propia de curaduria.
 
 ## Uso local
 
 ```powershell
-python scripts/fetch_magi.py
+python scripts/fetch_sources.py
 cd docs
 python -m http.server 8080
 ```
@@ -21,7 +21,9 @@ dias y tambien puede ejecutarse manualmente desde GitHub Actions.
 ## Fuentes
 
 - MAGI//ARCHIVE: https://tom-doerr.github.io/repo_posts/
-- Repositorio fuente: https://github.com/tom-doerr/repo_posts
+- GitHub topics/search y GitHub Trending
+- Hugging Face Spaces
+- Papers with Code
 
-Este proyecto no copia imagenes ni textos extensos de MAGI//ARCHIVE. Usa
-metadatos minimos, enlaces y enriquecimiento desde la API publica de GitHub.
+Este proyecto no copia imagenes ni textos extensos de terceros. Usa metadatos
+minimos, enlaces y enriquecimiento desde APIs o paginas publicas.

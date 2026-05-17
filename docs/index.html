@@ -14,7 +14,7 @@
     </div>
     <nav>
       <a href="data/magi_repos.csv">CSV</a>
-      <a href="data/magi_repos.json">JSON</a>
+      <a href="data/georepositorio.json">JSON</a>
       <a href="https://tom-doerr.github.io/repo_posts/" target="_blank" rel="noreferrer">MAGI//ARCHIVE</a>
     </nav>
   </header>
@@ -22,6 +22,7 @@
   <main>
     <section class="controls" aria-label="Filtros">
       <input id="search" type="search" placeholder="Buscar por repo, descripción, topic o lenguaje" autocomplete="off">
+      <select id="source"></select>
       <select id="category"></select>
       <select id="sort">
         <option value="date">Más recientes</option>
@@ -36,6 +37,7 @@
       <article><span id="total">0</span><small>repos</small></article>
       <article><span id="shown">0</span><small>visibles</small></article>
       <article><span id="savedCount">0</span><small>guardados</small></article>
+      <article><span id="sourcesCount">0</span><small>fuentes</small></article>
       <article><span id="updated">-</span><small>actualizado</small></article>
     </section>
 
@@ -43,6 +45,8 @@
       <aside>
         <h2>Categorías</h2>
         <div id="categoryList"></div>
+        <h2 class="aside-title">Fuentes</h2>
+        <div id="sourceList"></div>
       </aside>
       <section>
         <div id="cards" class="cards"></div>

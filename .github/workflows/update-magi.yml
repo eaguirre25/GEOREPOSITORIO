@@ -1,4 +1,4 @@
-name: Update MAGI data
+name: Update repository radar data
 
 on:
   schedule:
@@ -22,17 +22,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Build MAGI dataset
+      - name: Build multi-source dataset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAGI_LIMIT: "300"
-        run: python scripts/fetch_magi.py
+          GITHUB_TOPIC_LIMIT: "15"
+          HF_SPACES_LIMIT: "100"
+          PWC_LIMIT: "80"
+        run: python scripts/fetch_sources.py
 
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/magi_repos.json docs/data/magi_repos.csv
+          git add docs/data/georepositorio.json docs/data/georepositorio.csv docs/data/magi_repos.json docs/data/magi_repos.csv
           if git diff --cached --quiet; then
             echo "No data changes"
           else

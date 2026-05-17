@@ -2,6 +2,7 @@ const state = {
   rows: [],
   query: "",
   category: "all",
+  source: "all",
   sort: "date",
   savedOnly: false,
   saved: new Set(JSON.parse(localStorage.getItem("georepositorio:saved") || "[]")),
@@ -10,14 +11,17 @@ const state = {
 const els = {
   search: document.querySelector("#search"),
   category: document.querySelector("#category"),
+  source: document.querySelector("#source"),
   sort: document.querySelector("#sort"),
   savedOnly: document.querySelector("#savedOnly"),
   cards: document.querySelector("#cards"),
   total: document.querySelector("#total"),
   shown: document.querySelector("#shown"),
   savedCount: document.querySelector("#savedCount"),
+  sourcesCount: document.querySelector("#sourcesCount"),
   updated: document.querySelector("#updated"),
   categoryList: document.querySelector("#categoryList"),
+  sourceList: document.querySelector("#sourceList"),
   template: document.querySelector("#cardTemplate"),
 };
 
@@ -32,7 +36,7 @@ function fmtDate(value) {
 
 function textFor(row) {
   return [
-    row.repo, row.description, row.category, row.language,
+    row.repo, row.description, row.category, row.source, row.language,
     row.license, ...(row.topics || [])
   ].join(" ").toLowerCase();
 }
@@ -41,6 +45,7 @@ function filteredRows() {
   let rows = state.rows.filter(row => {
     if (state.savedOnly && !state.saved.has(row.repo)) return false;
     if (state.category !== "all" && row.category !== state.category) return false;
+    if (state.source !== "all" && !(row.sources || [row.source]).includes(state.source)) return false;
     if (state.query && !textFor(row).includes(state.query.toLowerCase())) return false;
     return true;
   });
@@ -64,6 +69,20 @@ function renderCategoryOptions() {
   }
 }
 
+function renderSourceOptions() {
+  const sourceSet = new Set();
+  for (const row of state.rows) (row.sources || [row.source]).forEach(source => source && sourceSet.add(source));
+  const sources = ["all", ...[...sourceSet].sort()];
+  els.source.innerHTML = "";
+  for (const source of sources) {
+    const option = document.createElement("option");
+    option.value = source;
+    option.textContent = source === "all" ? "Todas las fuentes" : source;
+    els.source.append(option);
+  }
+  els.sourcesCount.textContent = sources.length - 1;
+}
+
 function renderCategoryList() {
   const counts = new Map();
   for (const row of state.rows) counts.set(row.category, (counts.get(row.category) || 0) + 1);
@@ -73,6 +92,20 @@ function renderCategoryList() {
     div.className = "cat-row";
     div.innerHTML = `<span>${category}</span><b>${count}</b>`;
     els.categoryList.append(div);
+  });
+}
+
+function renderSourceList() {
+  const counts = new Map();
+  for (const row of state.rows) {
+    for (const source of row.sources || [row.source]) counts.set(source, (counts.get(source) || 0) + 1);
+  }
+  els.sourceList.innerHTML = "";
+  [...counts.entries()].sort((a, b) => b[1] - a[1]).forEach(([source, count]) => {
+    const div = document.createElement("div");
+    div.className = "cat-row";
+    div.innerHTML = `<span>${source}</span><b>${count}</b>`;
+    els.sourceList.append(div);
   });
 }
 
@@ -97,6 +130,7 @@ function renderCards() {
     desc.textContent = row.description || "Sin descripción disponible.";
     meta.innerHTML = [
       `<span class="pill category">${row.category}</span>`,
+      `<span class="pill source">${(row.sources || [row.source]).length} fuente${(row.sources || [row.source]).length === 1 ? "" : "s"}</span>`,
       `<span class="pill">${row.language || "n/d"}</span>`,
       `<span class="pill">★ ${row.stars || 0}</span>`,
       `<span class="pill">⑂ ${row.forks || 0}</span>`,
@@ -109,7 +143,8 @@ function renderCards() {
       topics.append(span);
     });
     github.href = row.github_url || "#";
-    magi.href = row.magi_url || "#";
+    magi.href = row.source_url || row.magi_url || "#";
+    magi.textContent = row.source && row.source.includes("MAGI") ? "MAGI" : "Fuente";
     save.classList.toggle("on", state.saved.has(row.repo));
     save.textContent = state.saved.has(row.repo) ? "Guardado" : "Guardar";
     save.addEventListener("click", () => {
@@ -129,18 +164,21 @@ function render() {
 }
 
 async function boot() {
-  const response = await fetch("data/magi_repos.json", { cache: "no-store" });
+  const response = await fetch("data/georepositorio.json", { cache: "no-store" });
   const payload = await response.json();
   state.rows = payload.rows || [];
   els.total.textContent = state.rows.length;
   els.updated.textContent = fmtDate(payload.generated_at);
   renderCategoryOptions();
+  renderSourceOptions();
   renderCategoryList();
+  renderSourceList();
   render();
 }
 
 els.search.addEventListener("input", event => { state.query = event.target.value; render(); });
 els.category.addEventListener("change", event => { state.category = event.target.value; render(); });
+els.source.addEventListener("change", event => { state.source = event.target.value; render(); });
 els.sort.addEventListener("change", event => { state.sort = event.target.value; render(); });
 els.savedOnly.addEventListener("change", event => { state.savedOnly = event.target.checked; render(); });
 

@@ -1,0 +1,405 @@
+#!/usr/bin/env python3
+"""Build GEOREPOSITORIO as a multi-source repository radar."""
+from __future__ import annotations
+
+import csv
+import html
+import json
+import os
+import re
+import ssl
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.parse import quote, urlencode
+from urllib.request import Request, urlopen
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / "docs"
+DATA = DOCS / "data"
+OUT_JSON = DATA / "georepositorio.json"
+OUT_CSV = DATA / "georepositorio.csv"
+MAGI_JSON = DATA / "magi_repos.json"
+MAGI_CSV = DATA / "magi_repos.csv"
+
+MAGI_INDEX_URL = "https://tom-doerr.github.io/repo_posts/assets/search-index.json"
+GITHUB_API = "https://api.github.com"
+HF_SPACES_API = "https://huggingface.co/api/spaces"
+PWC_REPOS_API = "https://paperswithcode.com/api/v1/repositories/"
+
+TOPIC_QUERIES = [
+    "geospatial", "gis", "remote-sensing", "qgis", "leaflet", "deckgl",
+    "dashboard", "data-visualization", "open-data", "scraper",
+    "llm", "rag", "ai-agents", "mcp", "vector-database",
+    "academic-research", "bibliometrics",
+]
+
+CATEGORY_RULES: list[tuple[str, list[str]]] = [
+    ("AI agents", ["agent", "agents", "autonomous", "multi-agent", "mcp", "tool-use"]),
+    ("LLM / GenAI", ["llm", "gpt", "rag", "embedding", "diffusion", "whisper", "transformer", "prompt"]),
+    ("Geospatial", ["geo", "gis", "map", "maps", "satellite", "lidar", "drone", "terrain", "qgis", "leaflet", "deckgl"]),
+    ("Data / ETL", ["data", "database", "warehouse", "etl", "pipeline", "postgres", "vector", "scraper", "crawler"]),
+    ("Research", ["research", "paper", "academic", "benchmark", "modeling", "simulation", "bibliometric"]),
+    ("Security", ["security", "forensic", "pentest", "vulnerability", "malware", "audit"]),
+    ("Dashboard / UI", ["dashboard", "visualiz", "viewer", "web ui", "interface", "frontend", "chart"]),
+    ("Dev tools", ["cli", "editor", "developer", "code", "git", "terminal", "server"]),
+]
+
+
+def insecure_ssl() -> bool:
+    return os.getenv("GEOREPOSITORIO_INSECURE_SSL", "").strip().lower() in {"1", "true", "yes", "si"}
+
+
+def request_text(url: str, token: str = "", accept: str = "*/*") -> str:
+    headers = {"User-Agent": "georepositorio/1.0", "Accept": accept}
+    if token and "api.github.com" in url:
+        headers["Authorization"] = f"Bearer {token}"
+    context = ssl._create_unverified_context() if insecure_ssl() else None
+    with urlopen(Request(url, headers=headers), timeout=35, context=context) as resp:
+        return resp.read().decode("utf-8", errors="replace")
+
+
+def request_json(url: str, token: str = "") -> Any:
+    return json.loads(request_text(url, token=token, accept="application/json"))
+
+
+def clean_title(value: str) -> str:
+    return re.sub(r"^\[([^\]]+)\]\([^)]+\)$", r"\1", value or "").strip()
+
+
+def extract_repo(value: str) -> tuple[str, str]:
+    match = re.search(r"github\.com/([^/\]\)]+)/([^/\]\)#\s]+)", value or "", re.I)
+    if match:
+        return match.group(1), match.group(2).replace(".git", "")
+    plain = clean_title(value)
+    if "/" in plain and not plain.startswith("20"):
+        owner, repo = plain.split("/", 1)
+        return owner.strip(), repo.strip()
+    return "", ""
+
+
+def classify(row: dict[str, Any]) -> str:
+    haystack = " ".join([
+        str(row.get("repo", "")),
+        str(row.get("description", "")),
+        str(row.get("language", "")),
+        " ".join(row.get("topics") or []),
+    ]).casefold()
+    for category, terms in CATEGORY_RULES:
+        if any(term in haystack for term in terms):
+            return category
+    return "Other"
+
+
+def github_repo(owner: str, repo: str, token: str) -> dict[str, Any]:
+    if not owner or not repo:
+        return {}
+    try:
+        data = request_json(f"{GITHUB_API}/repos/{owner}/{repo}", token=token)
+        time.sleep(0.08 if token else 0.5)
+        return data if isinstance(data, dict) else {}
+    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+        return {}
+
+
+def row_from_github(gh: dict[str, Any], source: str, discovered_at: str = "", source_url: str = "") -> dict[str, Any]:
+    owner = gh.get("owner") if isinstance(gh.get("owner"), dict) else {}
+    license_info = gh.get("license") if isinstance(gh.get("license"), dict) else {}
+    row = {
+        "id": f"github:{gh.get('full_name') or gh.get('html_url')}",
+        "source": source,
+        "repo": gh.get("full_name") or "",
+        "owner": owner.get("login") or "",
+        "name": gh.get("name") or "",
+        "description": gh.get("description") or "",
+        "category": "",
+        "language": gh.get("language") or "",
+        "stars": int(gh.get("stargazers_count") or 0),
+        "forks": int(gh.get("forks_count") or 0),
+        "open_issues": int(gh.get("open_issues_count") or 0),
+        "license": license_info.get("spdx_id") or "",
+        "topics": gh.get("topics") or [],
+        "created_at": gh.get("created_at") or "",
+        "updated_at": gh.get("updated_at") or "",
+        "pushed_at": gh.get("pushed_at") or "",
+        "discovered_at": discovered_at,
+        "source_url": source_url,
+        "github_url": gh.get("html_url") or "",
+        "avatar_url": owner.get("avatar_url") or "",
+    }
+    row["category"] = classify(row)
+    row["score"] = int(row["stars"]) + int(row["forks"]) * 3
+    return row
+
+
+def fetch_magi(token: str, limit: int) -> list[dict[str, Any]]:
+    raw = request_json(MAGI_INDEX_URL)
+    if not isinstance(raw, list):
+        return []
+    rows: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for item in raw[-limit:][::-1]:
+        owner, repo = extract_repo(str(item.get("title", "")))
+        key = f"{owner}/{repo}".casefold() if owner and repo else str(item.get("u", ""))
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        gh = github_repo(owner, repo, token)
+        if gh:
+            row = row_from_github(
+                gh,
+                source="MAGI//ARCHIVE",
+                discovered_at=str(item.get("d") or ""),
+                source_url="https://tom-doerr.github.io/repo_posts" + str(item.get("u") or ""),
+            )
+        else:
+            repo_full = f"{owner}/{repo}" if owner and repo else clean_title(str(item.get("title", "")))
+            row = {
+                "id": f"magi:{repo_full}",
+                "source": "MAGI//ARCHIVE",
+                "repo": repo_full,
+                "owner": owner,
+                "name": repo,
+                "description": str(item.get("s") or ""),
+                "category": "Other",
+                "language": "",
+                "stars": 0,
+                "forks": 0,
+                "open_issues": 0,
+                "license": "",
+                "topics": [],
+                "created_at": "",
+                "updated_at": "",
+                "pushed_at": "",
+                "discovered_at": str(item.get("d") or ""),
+                "source_url": "https://tom-doerr.github.io/repo_posts" + str(item.get("u") or ""),
+                "github_url": f"https://github.com/{repo_full}" if "/" in repo_full else "",
+                "avatar_url": "",
+                "score": 0,
+            }
+            row["category"] = classify(row)
+        rows.append(row)
+    return rows
+
+
+def fetch_github_topics(token: str, per_topic: int) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for topic in TOPIC_QUERIES:
+        query = f"topic:{topic} stars:>20 archived:false"
+        params = urlencode({"q": query, "sort": "updated", "order": "desc", "per_page": str(per_topic)})
+        try:
+            data = request_json(f"{GITHUB_API}/search/repositories?{params}", token=token)
+            for item in data.get("items", []) if isinstance(data, dict) else []:
+                if isinstance(item, dict):
+                    rows.append(row_from_github(item, source=f"GitHub topic:{topic}", source_url=f"https://github.com/topics/{topic}"))
+            time.sleep(0.2 if token else 1.0)
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+            continue
+    return rows
+
+
+def fetch_github_trending() -> list[dict[str, Any]]:
+    url = "https://github.com/trending?since=weekly"
+    text = request_text(url, accept="text/html")
+    rows: list[dict[str, Any]] = []
+    for owner, repo in re.findall(r'href="/([^/\s"]+)/([^/\s"]+)"\s+data-hydro-click', text):
+        if owner in {"features", "topics", "collections", "events"}:
+            continue
+        full = f"{html.unescape(owner)}/{html.unescape(repo)}"
+        rows.append({
+            "id": f"trending:{full}",
+            "source": "GitHub Trending",
+            "repo": full,
+            "owner": owner,
+            "name": repo,
+            "description": "",
+            "category": "Other",
+            "language": "",
+            "stars": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "license": "",
+            "topics": [],
+            "created_at": "",
+            "updated_at": "",
+            "pushed_at": "",
+            "discovered_at": datetime.now(timezone.utc).date().isoformat(),
+            "source_url": url,
+            "github_url": f"https://github.com/{full}",
+            "avatar_url": "",
+            "score": 0,
+        })
+    return rows[:50]
+
+
+def fetch_hf_spaces(limit: int) -> list[dict[str, Any]]:
+    params = urlencode({"sort": "likes", "direction": "-1", "limit": str(limit), "full": "true"})
+    data = request_json(f"{HF_SPACES_API}?{params}")
+    rows: list[dict[str, Any]] = []
+    for item in data if isinstance(data, list) else []:
+        if not isinstance(item, dict):
+            continue
+        repo = item.get("id") or item.get("name") or ""
+        likes = int(item.get("likes") or 0)
+        tags = item.get("tags") if isinstance(item.get("tags"), list) else []
+        row = {
+            "id": f"hf:{repo}",
+            "source": "Hugging Face Spaces",
+            "repo": repo,
+            "owner": str(repo).split("/")[0] if "/" in str(repo) else "",
+            "name": str(repo).split("/")[-1],
+            "description": item.get("cardData", {}).get("title") if isinstance(item.get("cardData"), dict) else "",
+            "category": "",
+            "language": item.get("sdk") or "",
+            "stars": likes,
+            "forks": 0,
+            "open_issues": 0,
+            "license": item.get("license") or "",
+            "topics": tags[:12],
+            "created_at": item.get("createdAt") or "",
+            "updated_at": item.get("lastModified") or "",
+            "pushed_at": item.get("lastModified") or "",
+            "discovered_at": datetime.now(timezone.utc).date().isoformat(),
+            "source_url": "https://huggingface.co/spaces",
+            "github_url": f"https://huggingface.co/spaces/{repo}",
+            "avatar_url": "",
+            "score": likes,
+        }
+        row["category"] = classify(row)
+        rows.append(row)
+    return rows
+
+
+def fetch_paperswithcode(limit: int) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    url = f"{PWC_REPOS_API}?page=1"
+    data = request_json(url)
+    for item in data.get("results", [])[:limit] if isinstance(data, dict) else []:
+        if not isinstance(item, dict):
+            continue
+        repo_url = item.get("url") or ""
+        owner, repo = extract_repo(repo_url)
+        full = f"{owner}/{repo}" if owner and repo else repo_url
+        row = {
+            "id": f"pwc:{full}",
+            "source": "Papers with Code",
+            "repo": full,
+            "owner": owner,
+            "name": repo,
+            "description": item.get("description") or item.get("name") or "",
+            "category": "Research",
+            "language": "",
+            "stars": int(item.get("stars") or 0),
+            "forks": 0,
+            "open_issues": 0,
+            "license": "",
+            "topics": ["papers-with-code"],
+            "created_at": "",
+            "updated_at": item.get("updated") or "",
+            "pushed_at": "",
+            "discovered_at": datetime.now(timezone.utc).date().isoformat(),
+            "source_url": "https://paperswithcode.com/",
+            "github_url": repo_url,
+            "avatar_url": "",
+            "score": int(item.get("stars") or 0),
+        }
+        rows.append(row)
+    return rows
+
+
+def merge_rows(groups: list[list[dict[str, Any]]]) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for rows in groups:
+        for row in rows:
+            key = str(row.get("github_url") or row.get("repo") or row.get("id")).casefold()
+            if key not in merged:
+                row["sources"] = [row.get("source", "")]
+                merged[key] = row
+                continue
+            current = merged[key]
+            src = row.get("source", "")
+            if src and src not in current["sources"]:
+                current["sources"].append(src)
+            for field in ["description", "language", "license", "avatar_url", "created_at", "updated_at", "pushed_at"]:
+                if not current.get(field) and row.get(field):
+                    current[field] = row[field]
+            current["stars"] = max(int(current.get("stars") or 0), int(row.get("stars") or 0))
+            current["forks"] = max(int(current.get("forks") or 0), int(row.get("forks") or 0))
+            current["score"] = max(int(current.get("score") or 0), int(row.get("score") or 0))
+            topics = list(dict.fromkeys((current.get("topics") or []) + (row.get("topics") or [])))
+            current["topics"] = topics[:16]
+            current["source"] = " + ".join(current["sources"])
+            current["category"] = classify(current)
+    rows = list(merged.values())
+    rows.sort(key=lambda r: (int(r.get("score") or 0), str(r.get("updated_at") or r.get("discovered_at") or "")), reverse=True)
+    return rows
+
+
+def write_outputs(rows: list[dict[str, Any]], source_counts: dict[str, int], errors: dict[str, str]) -> None:
+    DATA.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(rows),
+        "source_counts": source_counts,
+        "source_errors": errors,
+        "rows": rows,
+    }
+    OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    MAGI_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    fields = [
+        "repo", "source", "description", "category", "language", "stars", "forks",
+        "open_issues", "license", "topics", "created_at", "updated_at", "pushed_at",
+        "discovered_at", "source_url", "github_url", "score",
+    ]
+    for path in [OUT_CSV, MAGI_CSV]:
+        with path.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writeheader()
+            for row in rows:
+                out = dict(row)
+                out["topics"] = "; ".join(out.get("topics") or [])
+                writer.writerow({field: out.get(field, "") for field in fields})
+
+
+def guarded(name: str, fn, errors: dict[str, str]) -> list[dict[str, Any]]:
+    try:
+        rows = fn()
+        print(f"{name}: {len(rows)}")
+        return rows
+    except Exception as exc:
+        errors[name] = str(exc)
+        print(f"{name}: ERROR {exc}")
+        return []
+
+
+def main() -> None:
+    token = os.getenv("GITHUB_TOKEN", "").strip()
+    magi_limit = int(os.getenv("MAGI_LIMIT", "250"))
+    topic_limit = int(os.getenv("GITHUB_TOPIC_LIMIT", "12"))
+    hf_limit = int(os.getenv("HF_SPACES_LIMIT", "80"))
+    pwc_limit = int(os.getenv("PWC_LIMIT", "60"))
+    errors: dict[str, str] = {}
+    groups = [
+        guarded("MAGI//ARCHIVE", lambda: fetch_magi(token, magi_limit), errors),
+        guarded("GitHub topics", lambda: fetch_github_topics(token, topic_limit), errors),
+        guarded("GitHub Trending", fetch_github_trending, errors),
+        guarded("Hugging Face Spaces", lambda: fetch_hf_spaces(hf_limit), errors),
+        guarded("Papers with Code", lambda: fetch_paperswithcode(pwc_limit), errors),
+    ]
+    source_counts = {
+        "MAGI//ARCHIVE": len(groups[0]),
+        "GitHub topics": len(groups[1]),
+        "GitHub Trending": len(groups[2]),
+        "Hugging Face Spaces": len(groups[3]),
+        "Papers with Code": len(groups[4]),
+    }
+    rows = merge_rows(groups)
+    write_outputs(rows, source_counts, errors)
+    print(f"Wrote {OUT_JSON} with {len(rows)} repositories")
+
+
+if __name__ == "__main__":
+    main()
