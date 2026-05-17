@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GEOREPOSITORIO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Radar personal de repositorios</p>
+      <h1>GEOREPOSITORIO</h1>
+    </div>
+    <nav>
+      <a href="data/magi_repos.csv">CSV</a>
+      <a href="data/magi_repos.json">JSON</a>
+      <a href="https://tom-doerr.github.io/repo_posts/" target="_blank" rel="noreferrer">MAGI//ARCHIVE</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Filtros">
+      <input id="search" type="search" placeholder="Buscar por repo, descripción, topic o lenguaje" autocomplete="off">
+      <select id="category"></select>
+      <select id="sort">
+        <option value="date">Más recientes</option>
+        <option value="score">Mayor señal</option>
+        <option value="stars">Más estrellas</option>
+        <option value="name">Nombre</option>
+      </select>
+      <label class="toggle"><input id="savedOnly" type="checkbox"> Guardados</label>
+    </section>
+
+    <section class="metrics" aria-label="Resumen">
+      <article><span id="total">0</span><small>repos</small></article>
+      <article><span id="shown">0</span><small>visibles</small></article>
+      <article><span id="savedCount">0</span><small>guardados</small></article>
+      <article><span id="updated">-</span><small>actualizado</small></article>
+    </section>
+
+    <section class="layout">
+      <aside>
+        <h2>Categorías</h2>
+        <div id="categoryList"></div>
+      </aside>
+      <section>
+        <div id="cards" class="cards"></div>
+      </section>
+    </section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-head">
+        <img alt="" class="avatar">
+        <div>
+          <h3></h3>
+          <p class="desc"></p>
+        </div>
+      </div>
+      <div class="meta"></div>
+      <div class="topics"></div>
+      <div class="actions">
+        <a class="github" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="magi" target="_blank" rel="noreferrer">MAGI</a>
+        <button class="save" type="button">Guardar</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
