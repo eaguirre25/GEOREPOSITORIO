@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar I+D de Repositorios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Radar personal de repositorios</p>
+      <h1>Radar I+D de Repositorios</h1>
+      <p class="subtitle">Geo, IA, escritura académica y análisis cualitativo</p>
+    </div>
+    <nav>
+      <a href="data/magi_repos.csv">CSV</a>
+      <a href="data/georepositorio.json">JSON</a>
+      <a href="https://tom-doerr.github.io/repo_posts/" target="_blank" rel="noreferrer">MAGI//ARCHIVE</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Filtros">
+      <input id="search" type="search" placeholder="Buscar por repo, descripción, escritura académica, cualitativo, topic o lenguaje" autocomplete="off">
+      <select id="source"></select>
+      <select id="category"></select>
+      <select id="sort">
+        <option value="date">Más recientes</option>
+        <option value="score">Más tracción</option>
+        <option value="stars">Más estrellas</option>
+        <option value="name">Nombre</option>
+      </select>
+      <label class="toggle"><input id="savedOnly" type="checkbox"> Guardados</label>
+    </section>
+
+    <section class="metrics" aria-label="Resumen">
+      <article><span id="total">0</span><small>repos</small></article>
+      <article><span id="shown">0</span><small>visibles</small></article>
+      <article><span id="savedCount">0</span><small>guardados</small></article>
+      <article><span id="sourcesCount">0</span><small>fuentes</small></article>
+      <article><span id="updated">-</span><small>actualizado</small></article>
+    </section>
+
+    <section class="dashboard" aria-label="Panel de control">
+      <article class="widget wide">
+        <div class="widget-head">
+          <h2>Distribución por fuente</h2>
+          <small>registros visibles</small>
+        </div>
+        <div id="sourceChart" class="bar-chart"></div>
+      </article>
+      <article class="widget">
+        <div class="widget-head">
+          <h2>Categorías</h2>
+          <small>curaduría automática</small>
+        </div>
+        <div id="categoryChart" class="bar-chart compact"></div>
+      </article>
+      <article class="widget">
+        <div class="widget-head">
+          <h2>Lenguajes</h2>
+          <small>top 8</small>
+        </div>
+        <div id="languageChart" class="bar-chart compact"></div>
+      </article>
+      <article class="widget wide">
+        <div class="widget-head">
+          <h2>Repositorios destacados</h2>
+          <small>estrellas + forks x3</small>
+        </div>
+        <div id="topRepos" class="leaderboard"></div>
+      </article>
+      <article class="widget">
+        <div class="widget-head">
+          <h2>Radar rápido</h2>
+          <small>lectura operativa</small>
+        </div>
+        <div id="radarFacts" class="facts"></div>
+      </article>
+      <article class="widget wide">
+        <div class="widget-head">
+          <h2>Fuentes curadas</h2>
+          <small>X / Twitter</small>
+        </div>
+        <div id="watchSources" class="watch-sources"></div>
+      </article>
+    </section>
+
+    <section class="layout">
+      <aside>
+        <h2>Categorías</h2>
+        <div id="categoryList"></div>
+        <h2 class="aside-title">Fuentes</h2>
+        <div id="sourceList"></div>
+      </aside>
+      <section>
+        <div id="cards" class="cards"></div>
+      </section>
+    </section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-head">
+        <img alt="" class="avatar">
+        <div>
+          <h3></h3>
+          <p class="desc"></p>
+          <p class="brief"></p>
+        </div>
+      </div>
+      <div class="meta"></div>
+      <div class="topics"></div>
+      <div class="actions">
+        <a class="github" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="magi" target="_blank" rel="noreferrer">MAGI</a>
+        <button class="save" type="button">Guardar</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
